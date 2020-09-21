@@ -1,0 +1,8 @@
+#!/bin/bash
+
+clear
+killall spotifyd
+while pgrep -x spotifyd >/dev/null; do sleep 1; done
+spotifyd
+
+spt

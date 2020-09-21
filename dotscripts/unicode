@@ -1,0 +1,10 @@
+#!/bin/sh
+
+[ -n "$1" ] && for i in $( seq 1 "$1" ); do echo $(shuf -n 1 ~/.scripts/unicode-chars.txt | sed "s/;/\ /g" | sed "s/^.* \(.\) .*$/\1/") | tr -d '\n' && echo " " | tr -d '\n'; done && echo && exit
+
+CHOSEN=$(cat ~/.scripts/unicode-chars.txt | sed "s/;/\ /g" | dmenu -i -l 30 -p | sed "s/^.*\ \(.\) .*$/\1/" | tr -d '\n')
+
+[ -z "$CHOSEN" ] && CHOSEN=$(shuf -n 1 ~/.scripts/unicode-chars.txt | sed "s/;/\ /g" | sed "s/^.*\ \(.\) .*$/\1/" | tr -d '\n')
+
+echo "$CHOSEN" | tr -d '\n' | xclip -selection clipboard
+notify-send  "Unicode" "'$CHOSEN' copied to clipboard" &

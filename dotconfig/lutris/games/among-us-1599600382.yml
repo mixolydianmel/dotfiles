@@ -1,0 +1,4 @@
+game: {}
+system: {}
+wine:
+  esync: false
