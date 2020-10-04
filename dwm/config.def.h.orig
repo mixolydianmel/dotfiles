@@ -39,28 +39,28 @@ static const char col_drYellow[]     = "#f1fa8c";
 
 static const char *colors[][3]       = {
 	/*                    fg                bg                border   */
-	[SchemeNorm]      = { col_drForeground, col_drBackground, col_drBackground },
-	[SchemeSel]       = { col_drForeground, col_drComment,    col_drComment    },
-	[SchemeStatus]    = { col_drForeground, col_drBackground, "#000000"        }, // Statusbar right {text,background,not used but cannot be empty}
-	[SchemeTagsSel]   = { col_drForeground, col_drComment,    "#000000"        }, // Tagbar left selected {text,background,not used but cannot be empty}
-        [SchemeTagsNorm]  = { col_drForeground, col_drBackground, "#000000"        }, // Tagbar left unselected {text,background,not used but cannot be empty}
-        [SchemeInfoSel]   = { col_drForeground, col_drBackground, "#000000"        }, // infobar middle  selected {text,background,not used but cannot be empty}
-        [SchemeInfoNorm]  = { col_drForeground, col_drBackground, "#000000"        }, // infobar middle  unselected {text,background,not used but cannot be empty}
+	[SchemeNorm]      = { col_drForeground, col_drBackground,  col_drBackground },
+	[SchemeSel]       = { col_drForeground, col_drBackground,  col_drGreen      },
+	[SchemeStatus]    = { col_drForeground, col_drBackground,  "#000000"        }, // Statusbar right {text,background,not used but cannot be empty}
+	[SchemeTagsSel]   = { col_drForeground, col_drPurple,     "#000000"        }, // Tagbar left selected {text,background,not used but cannot be empty}
+        [SchemeTagsNorm]  = { col_drForeground, col_drBackground,  "#000000"        }, // Tagbar left unselected {text,background,not used but cannot be empty}
+        [SchemeInfoSel]   = { col_drForeground, col_drBackground,  "#000000"        }, // infobar middle  selected {text,background,not used but cannot be empty}
+        [SchemeInfoNorm]  = { col_drForeground, col_drBackground,  "#000000"        }, // infobar middle  unselected {text,background,not used but cannot be empty}
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "⚫", "⚫", "⚫", "⚫", "⚫", "⚫", "⚫", "⚫", "⚫" };
 
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class     instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
-        { "sxiv",    NULL,     NULL,           0,         0,          0,           0,        -1 },
-        { "zathura", NULL,     NULL,           0,         0,          0,           0,        -1 },
-	{ "st",      NULL,     NULL,           0,         0,          1,          -1,        -1 },
-	{ NULL,      NULL,     "Event Tester", 0,         1,          0,           1,        -1 }, /* xev */
+        /* class, instance, title, tags mask, isfloating, isfreesize, isterminal, noswallow, monitor */
+        { "sxiv",    NULL, NULL,           0, 0, 0, 0,  0, -1 },
+        { "zathura", NULL, NULL,           0, 0, 0, 0,  0, -1 },
+	{ "st",      NULL, NULL,           0, 0, 0, 1,  1, -1 },
+	{ NULL,      NULL, "Event Tester", 0, 1, 0, 0,  1, -1 }, /* xev */
 };
 
 /* layout(s) */
@@ -99,8 +99,10 @@ static const char *lfcmd[]       = { "st", "-e", "lf", NULL };
 static const char *bravecmd[]    = { "brave", "--new-window", NULL };
 static const char *amdcmd[]      = { "android-messages-desktop", NULL };
 static const char *discordcmd[]  = { "discord", NULL };
-static const char *spootifycmd[] = { "st", "-e", "/home/nohmayne/.scripts/spootify", NULL };
-static const char *calcursecmd[] = { "st", "-e", "calcurse", NULL };
+static const char *spootifycmd[] = { "st", "-e", "/home/caden/.scripts/spootify", NULL };
+static const char *unicodecmd[]  = { "/home/caden/.scripts/unicode", NULL };
+static const char *shotcmd[]     = { "flameshot", "gui", NULL };
+static const char *leavecmd[]    = { "leave", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -111,7 +113,8 @@ static Key keys[] = {
         { MODKEY,                       XK_a,      spawn,          {.v = amdcmd } },
         { MODKEY,                       XK_d,      spawn,          {.v = discordcmd } },
         { MODKEY,                       XK_s,      spawn,          {.v = spootifycmd } },
-        { MODKEY,                       XK_c,      spawn,          {.v = calcursecmd } },
+        { MODKEY,                       XK_u,      spawn,          {.v = unicodecmd } },
+        { MODKEY,                       XK_p,      spawn,          {.v = shotcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -158,7 +161,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY|ShiftMask,             XK_Escape,      quit,           {0} },
+	{ MODKEY|ShiftMask,             XK_Escape,      spawn,          {.v = leavecmd } },
         { MODKEY|ShiftMask,             XK_r,           quit,           {1} },
 };
 

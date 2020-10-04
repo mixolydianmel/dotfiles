@@ -1,5 +1,16 @@
---- dwm.c
-+++ dwm.c
+From fe22e3d1434be1819fe0c0200d4a20967b02f3f6 Mon Sep 17 00:00:00 2001
+From: Felix Chen <sryvk.pura@protonmail.com>
+Date: Mon, 7 Sep 2020 11:45:01 +0800
+Subject: [PATCH] Place title in the middle of barwin
+
+---
+ dwm.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/dwm.c b/dwm.c
+index 664c527..23e94f5 100644
+--- a/dwm.c
++++ b/dwm.c
 @@ -697,6 +697,7 @@ void
  drawbar(Monitor *m)
  {
@@ -22,3 +33,6 @@
  		} else {
  			drw_setscheme(drw, scheme[SchemeNorm]);
  			drw_rect(drw, x, 0, w, bh, 1, 1);
+-- 
+2.28.0
+
