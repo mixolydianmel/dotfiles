@@ -5,6 +5,16 @@ let mapleader=" "
 " Plugin installation
 call plug#begin(stdpath('data') . '/plugged')
 
+" Code focus
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+let g:limelight_conceal_ctermfg='gray'
+nnoremap <Leader>go :Goyo<CR>
+augroup Goyo
+    autocmd! User GoyoEnter Limelight
+    autocmd! User GoyoLeave Limelight! | hi Normal guibg=NONE ctermbg=NONE
+augroup END
+
 " File browser tree
 Plug 'scrooloose/nerdtree'
 nnoremap <Leader>nt :NERDTreeToggle<CR>
@@ -44,6 +54,7 @@ Plug 'airblade/vim-gitgutter'
 " Indentation guides
 Plug 'yggdroot/indentline'
 let g:indentLine_char='▏'
+let g:indentLine_fileTypeExclude=['markdown', 'vimwiki']
 
 " Language package
 Plug 'sheerun/vim-polyglot'
@@ -81,6 +92,14 @@ let b:table_mode_corner = '|'
 let b:table_mode_corner_corner = '|'
 let b:table_mode_header_fillchar = '-'
 
+" Wiki and Organization
+Plug 'vimwiki/vimwiki'
+let g:vimwiki_list=[{'path': '~/Documents/VimWiki/vimwiki/',
+            \ 'path_html': '~/Documents/VimWiki/vimwiki_html/',
+            \ 'template_path': '~/Documents/VimWiki/vimwiki/templates/',
+            \ 'template_default': 'default',
+            \ 'template_ext': '.html'}]
+
 " Stop loading plugins
 call plug#end()
 
@@ -101,12 +120,26 @@ nnoremap <Leader>wh :wincmd h<CR>
 nnoremap <Leader>wl :wincmd l<CR>
 nnoremap <Leader>wj :wincmd j<CR>
 nnoremap <Leader>wk :wincmd k<CR>
+nnoremap <Leader>w  :wincmd<space>
 
 " Mapping to get rid of highlights from searches
 nnoremap <Leader>hl :let @/=""<CR>
 
 " Mapping to get rid of trailing whitespace
 nnoremap <Leader>fw :FixWhitespace<CR>
+
+" CoC Mappings
+nnoremap <Leader>ct     :CocCommand<space>terminal.Toggle<CR>
+tnoremap <Leader>ct     <C-\><C-n>:CocCommand<space>terminal.Toggle<CR>
+nnoremap <Leader>rcw    :CocCommand<space>document.renameCurrentWord<CR>
+nnoremap <Leader>cso    :CocList<space>outline<CR>
+nnoremap <Leader>y      :<C-u>CocList -A --normal yank<CR>
+nnoremap <leader>col    :CocList<CR>
+
+" Vimwiki
+augroup VimWiki
+    autocmd FileType .wiki BufWritePost Vimwiki2HTML
+augroup END
 
 " Set colorscheme and background transparency
 colorscheme dracula
