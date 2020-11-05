@@ -1,0 +1,15 @@
+#!/bin/sh
+
+FOLDER=$1
+FRAMERATE=$2
+
+while true; do
+    cd $FOLDER
+    FOLDER=$(pwd)
+    for file in *; do
+        if [ -f "$file" ]; then
+            feh --bg-scale "$FOLDER/$file"
+        fi
+        sleep "$((1/$FRAMERATE))s"
+    done
+done
