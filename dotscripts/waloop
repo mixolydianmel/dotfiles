@@ -1,15 +1,47 @@
 #!/bin/sh
 
-FOLDER=$1
-FRAMERATE=$2
+FILE=$1
 
-while true; do
-    cd $FOLDER
-    FOLDER=$(pwd)
-    for file in *; do
-        if [ -f "$file" ]; then
-            feh --bg-scale "$FOLDER/$file"
-        fi
-        sleep "$((1/$FRAMERATE))s"
-    done
-done
+xwinwrap \
+    -g 3840x2160+0+0 \
+    -ni \
+    -st \
+    -sp \
+    -nf \
+    -b \
+    -un \
+    -ov \
+    -- mpv \
+    -wid WID \
+    $1 \
+    --no-osc \
+    --no-osd-bar \
+    --loop-file \
+    --player-operation-mode=cplayer \
+    --no-audio \
+    --panscan=1.0 \
+    --no-input-default-bindings \
+    --hwdec \
+    --geometry=3840x2160+0+0 &
+
+xwinwrap \
+    -g 1920x1080+3840+0 \
+    -ni \
+    -st \
+    -sp \
+    -nf \
+    -b \
+    -un \
+    -ov \
+    -- mpv \
+    -wid WID \
+    $1 \
+    --no-osc \
+    --no-osd-bar \
+    --loop-file \
+    --player-operation-mode=cplayer \
+    --no-audio \
+    --panscan=1.0 \
+    --no-input-default-bindings \
+    --hwdec \
+    --geometry=1920x1080+3840+0 &
