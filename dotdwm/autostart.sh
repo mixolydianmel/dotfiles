@@ -1,11 +1,15 @@
 #!/bin/sh
 
+# Screen
+xset s off
+xset -dpms
+
 # Start Programs
 
 # compositor
 killall picom
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
-picom --backend glx --vsync &
+picom --experimental-backends --blur-background-fixed --blur-method "gaussian" --blur-size 10 --blur-deviation 5 --corner-radius 8 --round-borders 8 --backend glx --vsync &
 
 # bg
 killall feh
@@ -29,3 +33,6 @@ killall pulseaudio
 pulseaudio -k
 pulseaudio &
 pulseaudio --start &
+
+# cursor
+xbanish
