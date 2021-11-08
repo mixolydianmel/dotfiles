@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# Sleep for the given time
-sleep $1
-
-# Notify the user
-echo "Your timer has ended."
-notify-send "Your timer has ended."
-mpv --quiet ~/.scripts/bell.mp3 >/dev/null

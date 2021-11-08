@@ -1,7 +1,0 @@
-#!/bin/sh
-
-SONG=$(playerctl metadata --format "{{ title }}")
-ARTIST=$(playerctl metadata --format "{{ artist }}")
-ALBUM=$(playerctl metadata --format "{{ album }}")
-
-notify-send "$SONG" "$ARTIST - $ALBUM";
