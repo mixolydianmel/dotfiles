@@ -1,0 +1,796 @@
+a7df85c70ef7496dc5ee723117ad4325|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw5/hw5-p6.md|3|9|v|markdown.pandoc
+	 \right)
+8cfd94358c4cf1c6d8f2aebf31cf7ca9|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|220|45|v|scheme
+	(alone-duration E-ALONE-LUNCH
+7e5fc8c8fd2c4116df2cc2029b386309|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|223|1|V|scheme
+	
+	(define )
+cb041948c23a2373633d4904ed1698ca|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|217|7|v|scheme
+	minutes 
+f2b4332cdfae95047e4eadebf41e13a2|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|236|6|V|scheme
+	     ) ...
+57d1570b17cdf6a652ecd43ab5b8438c|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|236|11|v|scheme
+	(alone-description e)
+8591da57dd0c98030a58e74e95f4903e|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|228|11|v|scheme
+	(call-description e) ...
+77d93becc4a9aaef53be94272c16c718|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|229|25|v|scheme
+	 (los-temp (mtg-attendees e)) ...
+41761963086186035e192001a1bcdc34|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|244|1|V|scheme
+	(check-expect (anything-but-phone? ) )
+96a27171e1939092ff4c6f0ee2aa0229|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|245|1|V|scheme
+	(check-expect (anything-but-phone? (list E-TEAMS-OH E-ZOOM-DOC)) #true)
+09f95517e409105b464bfb54f747bb7e|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|246|79|v|scheme
+	#true
+fb85d1d61b72e6145fd587f2ca7ff48a|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|253|19|v|scheme
+	this 
+4dc2123beaf9402132e869e05024aacd|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|244|1|V|scheme
+	(check-expect (anything-but-phone? LOE-1) #false)
+	(check-expect (anything-but-phone? (list E-TEAMS-OH E-ZOOM-DOC)) #true)
+	(check-expect (anything-but-phone? (list E-PHONE-SPAM E-TEAMS-OH E-ZOOM-DOC)) #false)
+	(check-expect (anything-but-phone? (list E-ALONE-LUNCH E-MTG-STUDY)) #true)
+f0e166dc34d14d6c228ffac576c9a43c|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|255|16|v|scheme
+	anything
+9c17208e39e5864ee58149aea9efe0d9|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|255|1|V|scheme
+	(check-expect (phone? E-TEAMS-OH) #true)
+044408fb29dd372a4f03b78e0907f42b|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|259|1|V|scheme
+	(check-expect (anything-but-phone? (list E-TEAMS-OH E-ZOOM-DOC)) #true)
+	(check-expect (anything-but-phone? (list E-PHONE-SPAM E-TEAMS-OH E-ZOOM-DOC)) #false)
+	(check-expect (anything-but-phone? (list E-ALONE-LUNCH E-MTG-STUDY)) #true)
+9082210c2492b582ec74f916ed7df7d5|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|259|1|V|scheme
+	
+	(define)
+05e776c43ee69053ee83f3af451bcaed|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|263|12|v|scheme
+	calltype-temp
+53af969bc9713ed2cf7b91d5d08f8f00|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|264|1|v|scheme
+	          (call-description e) ...
+1a21047b47f8e57fb487327014881b75|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|265|1|v|scheme
+	          (mtg-description e) ...
+30db0a16fbdfe4322634cdb2c5b44d14|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|266|1|v|scheme
+	          (alone-description e) ...)
+07978b057f893e53956c958f0d2a55c5|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|264|20|V|scheme
+	    [(mtg? e) #true]
+a45242d6d6994a8d0e5c68c1a06d195d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|264|6|v|scheme
+	(alone?
+db38663d69a856001aa3894023481212|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|267|42|v|scheme
+	type 
+14f742c21856b327e295004f2c0de615|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|267|42|v|scheme
+	"phone""
+60b646dad8201fedde77b4395a6da0b5|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|255|1|V|scheme
+	(check-expect (phone? E-TEAMS-OH) #true)
+	(check-expect (phone? E-MTG-STUDY) #true)
+	(check-expect (phone? E-PHONE-SPAM) #false)
+	(check-expect (phone? E-ALONE-LUNCH) #true)
+0286b75b6eaefce32be78c67de6f66a9|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|269|1|V|scheme
+	(che)
+064c797085ec6b9f7a157e7666c9af0d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|270|35|V|scheme
+	(check-expect (phone? E-MTG-STUDY) #true)
+27699b5f14f82f6757d397c63b11418b|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|271|35|V|scheme
+	(check-expect (phone? E-ALONE-LUNCH) #true)
+68934a3e9455fa72420237eb05902327|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|270|38|v|scheme
+	false
+b326b5062b2f0e69046810717534cb09|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|269|36|v|scheme
+	true
+7b81594661aed8f6816766a541cef95e|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|34|1|V|scheme
+	(define (calltype-temp ct)
+	  (cond
+	    [(string=? ct CT-ZOOM) ...]
+	    [(string=? ct CT-TEAMS) ...]
+	    [(string=? ct CT-PHONE) ...]))
+bcf616f33b41734a6c0ce2d8ea71dc2c|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|273|1|V|scheme
+	(define (phone?))
+a061a5d150193c011125d4956f079a54|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|285|4|v|scheme
+	"Had a Teams call with Mike and Tajel for 7min:
+	;;  'Office hours with my partner to ask clarifying questions about the Design Recipe!'"
+195f0073ad0495d4e088b8b2380323fa|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|301|22|v|scheme
+	Had a 
+31df86a6df2931947c41832059acddd7|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|301|43|v|scheme
+	and Tajel for 7m
+eb19a9e2e9a2af95a606d2e1f6520db1|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|301|43|v|scheme
+	and Tajel 
+1f626ee277a260b5d45c42a871a9650b|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|63|15|v|scheme
+	Who calls!? I think it was a scam...
+4e459edc63edfa8352c8a6632ea5a96f|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|57|15|v|scheme
+	Doctor appointment about a stomach ache after some bad seafood :(
+7557082924e0474979c63b9a21502927|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|317|1|V|scheme
+	(check-expect (summarize ) )
+c5d954f718c77e99a210e3b2816f685d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|301|9|v|scheme
+	"Teams call with Mike, Tajel for 7min: 
+	        'Office hours with my partner to ask clarifying questions about the Design Recipe!'"
+daa997ee2d13c0e4f7d5541d95cf7338|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|303|9|v|scheme
+	"Meeting with Ali for 28min: 'Meeting with advisor to talk about a combined major'"
+ef57e47f13e89026ce7af51bd36b3265|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|304|10|v|scheme
+	Spent 25min: 'The Three-Body Problem isn't going to read itself!'
+db9e6c9fdc0f2da969b4c576c2c242f2|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|307|8|v|scheme
+	 "Phone call with Unknown for 1min: 'Who calls!? I think it was a scam...'"
+53a06d890ede7e9bb7e8d11ef86041aa|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|308|9|v|scheme
+	"Zoom call with Dr. Zoidberg for 22min: 
+	        'Doctor appointment about a stomach ache after some bad seafood :('"
+4ef0d2452b4e20ac51f62a0e7fa797c2|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|330|1|V|scheme
+	(define (summarize))
+fe14f58feaee820666dd524569dfef35|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|333|21|v|scheme
+	(calltype-temp 
+61f40afe529ab2e8264a76bd25e4e9d6|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|333|34|v|scheme
+	) ...
+f1b3500bec45cb0c68b321876c2c533d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|346|17|v|scheme
+	String 
+7a2fd618edadaed119e91e34de403db4|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|349|1|V|scheme
+	(check-expect (string-list (list "Hello" "World")) "Hello, World")
+7baf1eca89fe29daa380db2f9b2307e5|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|350|34|v|scheme
+	"Hello
+82bb413746aee42f89dea2b59614f9ef|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|350|40|v|scheme
+	Hello, World
+c817329f8dc7755457304dd1362f881a|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|359|1|V|scheme
+	(check-expect (string-itemize "Hello") " Hello,")
+6daa3a94664f8870d1b99aa629129e87|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|343|27|V|scheme
+	       (mtg-duration e) ...
+53f487498e063e9849601ee2ef5c9e55|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|385|60|v|scheme
+	each event
+37d835a19ca9e9420fefb8046a182d04|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|387|46|v|scheme
+	(list 
+514de653ff53ef3287b65c652237d2d8|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|67|22|v|scheme
+	"Rachel" "Ross" "Joey" "Phoebe" "Chandler" "Monica"
+b3adf6f8b013cdb86acfb6ee557504a6|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|391|53|v|scheme
+	"Chandler" 
+4a321e5e9f18d7b0babef2ecfa8c5b2f|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|391|47|v|scheme
+	 "Joey"
+d901c049a73c606fcab06c964df7f78a|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|391|72|v|scheme
+	 "Dr. Zoidberg"
+31970d1e3757194a5731d6d70035f61f|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|391|69|v|scheme
+	 "Phoebe" "Monica"
+d2471a480fbd6a2d966da5568e161828|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|391|47|v|scheme
+	"Phoebe" 
+f7cd9847bcf2604b53ead484ee08c4ec|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|15|v|scheme
+	combined-attendees 
+f44a26d80f8ad1270b639b4865dcda57|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|404|1|V|scheme
+	(define (append-attendees loe los)
+	  )
+ef048e61fd82ce793ac2b6fa8559b8b1|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|404|10|v|scheme
+	e-temp 
+23664e1ffce56a2d71228b33c32305b9|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|405|1|V|scheme
+	  (cond
+	    [(call? e)
+	     (... (calltype-temp (call-type e)) ...
+	          (call-duration e) ...
+	          (los-temp (call-attendees e)) ...
+	          (call-description e) ...)]
+	    [(mtg? e)
+	     (... (mtg-duration e) ...
+	          (los-temp (mtg-attendees e)) ...
+	          (mtg-description e) ...)]
+	    [(alone? e)
+	     (... (alone-duration e) ...
+	          (alone-description e) ...)]))
+68cf0a3bff1e41b907cf955f570c5249|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|407|7|v|scheme
+	... 
+0f44aa4917051b558ff67af1439d1a40|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|47|v|scheme
+	string<?
+1c5f8b3b2864cabdda3b7091d2c29ae9|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|4|v|scheme
+	quicksort 
+44fe37c81291f497eb5f0c39ef4f3c5b|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|10|v|scheme
+	(foldr append-attendee
+bd239f9631fd45ed8fe71d938b5dd7fb|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|10|v|scheme
+	(foldr append-attendees '() loe) 
+61d0f964c970cefce5016f79fc2b2f2e|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|396|1|V|scheme
+	; append-attendees : [List-of Event] [List-of String] -> [List-of String]
+	; Appends the attendees of an event to a string list
+	
+	(check-expect (append-attendees '() '()) '())
+	(check-expect (append-attendees (list E-ALONE-READING) '()) '())
+	(check-expect (append-attendees (list E-PHONE-SPAM E-MTG-ADVISOR) (list E-ALONE-READING))
+	              (list "Unknown" "Ali"))
+	
+	(define (append-attendees loe los)
+	  (map append-event loe los))
+5c888571352c06d4c25a9c932a3d2568|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|408|3|v|scheme
+	Determines if the event is not a 
+85f680ed2dbb227dbba1a94ab5a43c0c|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|410|1|V|scheme
+	(check-expect (not-alone? E-ALONE-READING) #false)
+68b0bb8277f7f192bbc7e3c5e8046db7|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|411|27|v|scheme
+	E-ALONE-READING
+4a22aae2d1812a6da68377048ffd18f3|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|411|44|V|scheme
+	(check-expect (not-alone? E-ZOOM-DOC) #true)
+	(check-expect (not-alone? E-MTG-STUDY) #true)
+f3f1ddef43fc02ef9cf6fc5ea6a5201a|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|412|44|V|scheme
+	(check-expect (not-alone? E-MTG-STUDY) #true)
+6fac3059c382f2a3ed794dce420f266d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|414|1|V|scheme
+	(define (not-alone?)
+	  )
+6674dbd7b8556d57eb9e94e85a806073|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|417|1|V|scheme
+	     (... (calltype-temp (call-type e)) ...
+	          (call-duration e) ...
+	          (los-temp (call-attendees e)) ...
+	          (call-description e) ...)]
+52db3da67ef2a59e3d8b682a67acce87|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|419|1|V|scheme
+	     (... (mtg-duration e) ...
+	          (los-temp (mtg-attendees e)) ...
+	          (mtg-description e) ...)]
+fbc47a96f06e6cb38e1b1b91880e34ec|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|415|8|V|scheme
+	  (cond
+	    [(call? e)
+	     #true
+	    [(mtg? e)
+	     #true
+	    [(alone? e)
+	     (... (alone-duration e) ...
+	          (alone-description e) ...)]))
+38c5b1d15d0ab074a45895e41136a3a6|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|50|v|scheme
+	not-alone?
+a6c806041ea7d90be96d183a298c8aab|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|399|32|V|scheme
+	; (check-expect (append-attendees '() '()) '())
+	; (check-expect (append-attendees (list E-ALONE-READING) '()) '())
+	; (check-expect (append-attendees (list E-PHONE-SPAM E-MTG-ADVISOR) (list E-ALONE-READING))
+	              ; (list "Unknown" "Ali"))
+	
+	; (define (append-attendees loe los)
+	  ; (map append-event loe los))
+fef4a545b118d4d3576e2bb1ca22494d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|404|1|V|scheme
+	(define (append-attendees loe los)
+	  (map append-event loe los))
+833e61390e86b1b7772eb31cb363916b|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|396|22|v|scheme
+	[List-of 
+57fec7937ec531b160846775413f289c|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|404|1|V|scheme
+	(define (append-attendees e los)
+	  )
+30f7bb1d81b35f1daac59202a9dd1eff|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|407|8|V|scheme
+	     ( (calltype-temp (call-type e)) ...
+fef350013c38d00da3ab36461853897d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|407|19|v|scheme
+	call-attendees
+060a6254f33ef286d977e30ef0376a72|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|410|11|v|scheme
+	(mtg-description e) ...)
+5a68ee60e4643809a76a5364f361051a|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|410|5|v|scheme
+	[(alone? e)
+	     (... (alone-duration e) ...
+	          (alone-description e) ...)]
+091d7b156810e4b65e1e85d752541c43|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|42|v|scheme
+	lter not-a
+a71631a6e33de2b83af769011605f35c|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|394|42|v|scheme
+	lone? 
+52281299ae1ebe09011ed62a4aba7a38|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|411|11|v|scheme
+	(alone-description e
+94937aadd8e4a9534696f46d80200d0c|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|409|1|V|scheme
+	
+	; not-alone? : Event -> Boolean
+	; Is the event not of type "alone"?
+	
+	(check-expect (not-alone? E-ALONE-READING) #false)
+	(check-expect (not-alone? E-MTG-STUDY) #true)
+	(check-expect (not-alone? E-ZOOM-DOC) #true)
+	
+	(define (not-alone? e)
+	  (alone? e))
+08a493fb7c4d2e710cb565775e2159dc|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|316|1|v|scheme
+	(string-append "teams call with Mike, Tajel, for 7min: "
+	"'Office hours with my partner to ask clarifying questions about the Design Recipe!'")
+13ea55c325cfac6def978495a9fb86bb|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|301|7|v|scheme
+	"teams call with Mike, Tajel, for 7min: 'Office hours with my partner to ask clarifying questions about the Design Recipe!'"
+6172e8af1d187d6ce1d30318b86ca03d|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|326|1|v|scheme
+	(string-append "zoom call with Dr. Zoidberg, for 22min: "
+	"'Doctor appointment about a stomach ache after some bad seafood :('")
+917c2b2b20dd2c99e160774588509af7|file:///home/caden/Documents/school/21-22/cs-2500/homeworks/hw7/hw7-all-problems-2.rkt|308|5|v|scheme
+	"zoom call with Dr. Zoidberg, for 22min: 'Doctor appointment about a stomach ache after some bad seafood :('"
+a14a0d59e04ace6d67bbf7923f8e785c|file:///home/caden/Documents/go/example/main.go|1|1|V|go
+	package main
+	
+	import (
+	    "fmt"
+	    "errors"
+	    "math"
+	)
+3ccf786e99dffd37cb7b029cdaba1099|file:///home/caden/Documents/go/thing/main.go|5|1|V|go
+	    "errors"
+	    "math"
+286d5f7fdc9dd8eec8701f84bdb2cf6f|file:///home/caden/Documents/dnd/nu-campaign/notes.md|7|7|v|markdown.pandoc
+	we are fol
+6a22aacddf74e53a821fc8055cd66e76|file:///home/caden/Documents/dnd/nu-campaign/notes.md|7|3|v|markdown.pandoc
+	Map seems to lead to one location no matter where we go
+6ce286d924a598d30ef185e9f1bff1a1|file:///home/caden/Documents/dnd/nu-campaign/notes.md|7|14|v|markdown.pandoc
+	end 
+c48eeed8d65b42ef3ebaa7f10e27bab9|file:///home/caden/Documents/dnd/nu-campaign/notes.md|11|6|V|markdown.pandoc
+	+ In the middle is a
+954023968447f2602c2e85de64edb4ad|file:///home/caden/Documents/dnd/nu-campaign/notes.md|22|7|v|markdown.pandoc
+	My parents and 
+2841bcb5972c290a414d04cfbde83c0c|file:///home/caden/.config/nvim/init.vim|71|1|V|vim
+	nnoremap <F5> <cmd>silent lua require("nabla").action()<CR>
+9a700c3e7e4472b00d9bc32be3ccac24|file:///home/caden/.config/nvim/init.vim|188|1|V|vim
+	lua <<EOF
+	    require("nabla").popup({border = "rounded"})
+	EOF
+882d3e90cd02220deffda1e6d168bc7e|file:///home/caden/Documents/dnd/home-campaign/home-campaign-notes.md|5|8|V|markdown.pandoc
+	+ Path from Yaiden to Tranton
+	+ Get to
+2395dd7eb0f8e9d743966f68f81bcf6c|file:///home/caden/Documents/other/thing.md|9|37|V|markdown.pandoc
+	$$x=\frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$
+2104145ecb3c6ad25a43926cf31830a4|file:///home/caden/Documents/other/thing.md|12|1|V|markdown.pandoc
+	2x+3y=14\\
+	14-2x=3y\\
+	\frac{14-2x}{3}=y\\
+	\frac{14}{3}-\frac{2}{3}x=y$$
+2fed73cf0cd1f4af8b535877281b9911|file:///home/caden/.config/nvim/markdown.css|68|16|v|css
+	"Computer Modern Serif", 
+0c4b04b0e0b2adc00c8881764a7e30ab|file:///home/caden/Documents/other/thing.md|44|1|V|markdown.pandoc
+	
+	$$x=\frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$
+091e1669be06d6aef2e3cfd8b90b53bb|file:///home/caden/Documents/other/thing.md|45|14|V|markdown.pandoc
+	$${5 \choose 3}$$
+ec2791e339dd7ea06755027020592836|file:///home/caden/Documents/other/thing.md|45|1|V|markdown.pandoc
+	$$\begin{aligned} 3y+2x&=4\\
+	3y&=4-2x\\
+	y&=\frac{4}{3}-\frac{2}{3}x
+	\end{aligned}$$
+	
+232674aa4cb3449ccdf287c2a4c51c64|file:///home/caden/Documents/other/thing.md|45|1|V|markdown.pandoc
+	$$beg$$
+efb8c919bad07d8af85583136d02fe8c|file:///home/caden/Documents/other/thing.md|7|29|V|markdown.pandoc
+	font: JetBrainsMono Nerd Font
+5bca58dc5ba602d2a0debacf9379df0e|file:///home/caden/Documents/other/thing.md|13|1|V|markdown.pandoc
+	`thing`
+	
+0e12e59821259b67c4c8a5ae6f38df68|file:///home/caden/Documents/other/thing.md|10|1|V|markdown.pandoc
+	
+	`thing`
+eb65f0af6314f365043b7aba6b7bd152|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|10|13|v|markdown.pandoc
+	(1/8)
+9f3360535ca36b94d095009fe40e5124|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|10|14|v|markdown.pandoc
+	1 / 8
+48fc5e776a3988089630fed4bcc761c4|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|11|13|v|markdown.pandoc
+	1 - 5 * (0.125)
+b41e658f9992a0cda504fe11c91936d8|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|9|14|v|markdown.pandoc
+	5a+b=1\\
+	b=3a\\
+	8a=1\\
+	\frac{1}{8}= 0.125\\
+	1-5(0.125)= 0.375\\
+	Pr(4)=0.375
+031ef478c988a822d720b3489bfdd0df|file:///home/caden/Documents/lancer/gm-screen.md|43|1|V|markdown.pandoc
+	+ it'
+5b63b4fb966b68ff7be63fce9f9d3a85|file:///home/caden/Documents/lancer/gm-screen.md|32|34|V|markdown.pandoc
+	## Narrative Play and Mech Combat
+	
+	+ Distinct forms of play
+	
+	### Narrative Play
+	
+	+ Time is flexible
+	+ Story takes place here
+	
+	### Mech Combat
+	
+	+ It's Combat
+	
+f5f8b76e08bf09dc314b0e1991cd8e28|file:///home/caden/Documents/lancer/gm-screen.md|38|3|v|markdown.pandoc
+	State the objectiv
+74af29db4c516126ae604e5624c8b02f|file:///home/caden/Documents/lancer/gm-screen.md|49|38|v|markdown.pandoc
+	exceed
+15c2c2d231463cced791bcc5adeef6c9|file:///home/caden/Documents/lancer/gm-screen.md|70|12|v|markdown.pandoc
+	narrative 
+28aed249f7ec6368bfbdc92cc50d78c0|file:///home/caden/Documents/lancer/gm-screen.md|43|1|V|markdown.pandoc
+	
+	### Attacks
+	
+ae1d2449cf76059ec24cf7b9280ef4dd|file:///home/caden/Documents/lancer/gm-screen.md|57|5|v|markdown.pandoc
+	Attacks
+0be194d85becc8ec9751966ee6b798d6|file:///home/caden/Documents/lancer/gm-screen.md|114|11|v|markdown.pandoc
+	 attack bonuses
+307cad7aaa991b4b1202e43040055655|file:///home/caden/Documents/lancer/gm-screen.md|1|10|v|markdown.pandoc
+	GM Screen
+bfb9f5bfc2bf0b554a73c8d0d281a02d|file:///home/caden/Documents/school/21-22/cs-2500/labs/lab7-starter.rkt|94|1|V|scheme
+	(define (all-name))
+d1613ad31d4579ea88135e1e08eb8ef3|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|25|48|v|markdown.pandoc
+	\frac{3}{8}^{5}
+9552e9cab88e4d5bd6e5a5a9ae1afe09|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|25|51|v|markdown.pandoc
+	^{5} \right)
+a9cd4be913326e37a5ffc04fed69fc7c|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|25|51|v|markdown.pandoc
+	^{5} 
+21c52d957c47ceb8dba5daba69d921cf|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|26|1|v|markdown.pandoc
+	5*(1/8)^5+(3/8)^5
+0c064a8c60ce435a897406ca237d5733|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|26|8|v|markdown.pandoc
+	 +(3/8)^5
+acaf51d69059b1c35cf95ada35ea3827|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|26|1|V|markdown.pandoc
+	5*(1/8)**5+(3/8)**5
+1b7cf1706c248c556cb2926ed8d2a8ee|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|32|19|v|markdown.pandoc
+	9/8**5
+79eb815aff7e66c4b4193d1b49d25b10|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|33|10|V|markdown.pandoc
+	0.000274658203125
+a24a0b1b17c80a3fff14d46a7c88a671|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|33|1|V|markdown.pandoc
+	27/8**5
+ff50f316af4bc4fae5b47913a57b3a80|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|32|19|v|markdown.pandoc
+	=0.000823974609375
+8912a5996f48da7d72488cfa1fd39408|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|33|33|v|markdown.pandoc
+	10*(27/8**5)
+5e89578e8f7a67ffe6d468b3fd37ab08|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|1|V|markdown.pandoc
+	$$\left( \frac{1}{8} \right)^{5}+5\left( \left( \frac{1}{8} \right)^{4}
+	\cdot\frac{3}{8} \right)$$
+64ba33ed7c7c437c0bc6b921b626a7bc|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|21|9|^v|markdown.pandoc
+	1
+	1
+	1
+50daf31e4736c1858e633867242ae600|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|21|9|^v|markdown.pandoc
+	\cdot
+	\cdot
+	\cdot
+571ca3d7c7a5d375a429ff5a90bc5099|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|10|v|markdown.pandoc
+	\cdot
+1b3a394edaf1cbd38cf881a967e1030c|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|1|V|markdown.pandoc
+	$$1^{6}\cdot\left( \frac{7}{8}
+	\cdot\frac{6}{8}\cdot\frac{5}{8}\cdot\frac{4}{8} \right)
+	+\left( \frac{5}{8}\cdot\frac{4}{8}\cdot\frac{3}{8}\cdot\frac{2}{8} \right)
+	+\left( \frac{7}{8}\cdot\frac{4}{8}\cdot\frac{3}{8}\cdot\frac{2}{8} \right)\\
+	+\left( \frac{7}{8}\cdot\frac{6}{8}\cdot\frac{3}{8}\cdot\frac{2}{8} \right)
+	+\left( \frac{7}{8}\cdot\frac{6}{8}\cdot\frac{5}{8}\cdot\frac{2}{8} \right)
+	+\left( \frac{7}{8}\cdot\frac{6}{8}\cdot\frac{5}{8}\cdot\frac{3}{8} \right)=\\
+	0.593$$
+7c4f29407893c334a6cb7a87bf045c0d|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|65|v|markdown.pandoc
+	right
+fa0c8a684423434d8a87cb8430f2fd34|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|64|v|markdown.pandoc
+	\left(
+155fb0c484fc06aa78242a64a62ac1d8|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|11|13|v|markdown.pandoc
+	+4(k-1)
+5e1bdd331803f90c3703353cd00c080e|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|7|14|v|markdown.pandoc
+	a_k = a_{k-1} + 6
+54108d46631d40fadeadcd723972b6c8|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|15|32|v|markdown.pandoc
+	\cdot a_{k-1}
+500ead32b61c3f94ba092f60be3e9c30|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|11|1|V|markdown.pandoc
+	$a_k=a_{k-1}+2+4(k-1)$
+471804d5a7d2eef3c725a292f0f21fd4|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|16|1|v|markdown.pandoc
+	a+b+c=-3\\
+	4a+2b+c=3
+8e035972a3906fdd9b35bd5587a0ef19|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|46|4|v|markdown.pandoc
+	Question 
+1e9f48497cfa46c09e949968a322e103|untitled:2|2|3|v|
+	xxxxx  
+6b509d00a300b7d815240daedcafd3b8|untitled:2|3|11|V|
+	fro swish'd
+a3091f8e8113358b9ae2858070ad0451|untitled:2|2|3|v|
+	xx x   
+7ed9abff4dafd78d08e616c899412e92|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|48|17|v|markdown.pandoc
+	\infty
+0ec30273d927cbba660c92ac542a74af|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|48|1|V|markdown.pandoc
+	$$\sum_{k = 1}^{n}[(k-1)\cdot6-28]=V$$
+3ee4fb8db3c421b7a50b6eed87f5bb52|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|50|14|v|markdown.pandoc
+	\sum_{k = 1}^{20}a_k=\frac{a_{20}(a_{20}+1)}{2}$$
+fed1a0b32c6e10e89175bb3c673b5a97|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|54|3|v|markdown.pandoc
+	7482/2
+7a09a984f058c9cc594da8a32354a206|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|54|3|v|markdown.pandoc
+	(7482/2)
+816c76ae2c89b5e2574904d75bf689ba|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|61|3|v|markdown.pandoc
+	\sum_{k = 1}^{20}(2k-5)=
+298fe05e81beba67d65ac6e620570596|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|12|14|V|markdown.pandoc
+	$$ak^2+bk+c\\
+	\begin{aligned}
+	a+b+c&=-3\\
+	4a+2b+c&=3\\
+	9a+3b+c&=13\\
+	\end{aligned}\\
+	$$
+	$$
+	\begin{aligned}
+	9a+3b+c&=13\\
+	-4a-2b-c&=-3\\
+	\hline
+	5a+b&=10
+	\end{aligned}
+	$$
+	$$\begin{aligned}
+	4a+2b+c&=3\\
+	-a-b-c&=3\\
+	\hline
+	3a+b&=0
+	\end{aligned}$$
+	$$\begin{aligned}
+	5a+b&=10\\
+	3a+b&=0\\
+	\hline
+	2a&=10\\
+	\end{aligned}\\
+	a=5; b=-15; c=7$$
+	$$a_k=5k^2-15k+7$$
+7617b8e65d9c78dba85861db4d1a1ee1|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|33|30|V|markdown.pandoc
+	\sum_{k = 1}^{20}(2k^2-5)&=\\
+	\sum_{k = 1}^{20}2(k^2-\frac{5}{2})&=\\
+	2\cdot\sum_{k = 1}^{20}k^2-\frac{5}{2}&=\\
+	2\cdot\sum_{k = 1}^{20}k^2 - 20(\frac{5}{2})&=
+53b333bccea10efc7678d0a74bb63f34|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|35|28|v|markdown.pandoc
+	\sum_{k = 1}^{20}
+6ec774edc503f59657b3366c95455a25|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|39|3|v|markdown.pandoc
+	17220/6
+80caf40cda539311f8b99acb1738153c|file:///home/caden/Documents/school/21-22/cs-1800/recitations/r7.md|40|1|V|markdown.pandoc
+	2*2870
+d37c616cb957f1be94d92737cfae6a79|file:///home/caden/Documents/lancer/1110-campaign/story.md|29|8|v|markdown.pandoc
+	other mech pilots
+1b41d44cc9126abd0f95415a4e5502cf|file:///home/caden/Documents/lancer/1110-campaign/environment.md|11|7|v|markdown.pandoc
+	Generally not supe
+8805365bd823eff0c8c361bf75358760|file:///home/caden/Documents/lancer/1110-campaign/environment.md|22|55|v|markdown.pandoc
+	gound
+1d8d28b98e3b6a1ea3b95ebd4fb27b74|file:///home/caden/Documents/lancer/1110-campaign/environment.md|13|1|V|markdown.pandoc
+	+ The planet of Traxis III
+	    + Aka "The Pit" (home to the pit resistance)
+	    + Penal colony the party is sent to overtake
+	    + Generally holds the worst of the worst criminals
+	        + Planets in the Traxis System generally hold prisoners
+	        + Worsen as #s increase
+dcc983230e54b58db6222fd9265b6f10|file:///home/caden/Documents/lancer/1110-campaign/story.md|23|14|v|markdown.pandoc
+	another nearby colony
+2fb5da6e347dd1c48b64a38d2a64089e|file:///home/caden/Documents/lancer/1110-campaign/story.md|24|65|V|markdown.pandoc
+	+ Go to the other colony and attempt to break in and destroy their stuff
+688092538cb7406db9d4741e73f3d1a3|file:///home/caden/Documents/lancer/1110-campaign/environment.md|36|35|v|markdown.pandoc
+	SUS 
+3db2376c44fdc97ccd72eb261cf76776|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|51|v|markdown.pandoc
+	Wazowsky
+e0d1bfde0c2da91753f73c54bb4b74c5|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|46|v|markdown.pandoc
+	Jeremiah
+b6b0a0c468b75b4fe18ecd6e18e7d374|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|47|v|markdown.pandoc
+	Lewis
+9d4eabc4f060f4c6b9cf4821cde4e693|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|46|v|markdown.pandoc
+	`` Slotton
+74d2adc1e7c8f3c1b155cb7ef8836865|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|46|v|markdown.pandoc
+	Nathaniel 
+14102cc7ddf5898be535eec6095c19c4|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|46|v|markdown.pandoc
+	Lenwood 
+23c50ee88336a509ae5f65394a41b990|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|46|v|markdown.pandoc
+	Philbrick 
+ffef209fb839c94c0f817d1d5279bc4c|file:///home/caden/Documents/lancer/1110-campaign/environment.md|37|59|v|markdown.pandoc
+	 The Third (not III but literally "The Third" are two more last names)
+d46b3bcb6c594eabcfdae717dab97347|file:///home/caden/Documents/lancer/1110-campaign/environment.md|38|37|v|markdown.pandoc
+	, part of a detatched
+7dfd1cef584799b0e698bbcc81041c05|file:///home/caden/Documents/lancer/1110-campaign/story.md|30|8|v|markdown.pandoc
+	pilot prisoners who have managed to re-engineer some very basic
+690a187902bf5c9fb2a78344ec2f163d|file:///home/caden/Documents/lancer/1110-campaign/story.md|31|7|V|markdown.pandoc
+	  mechs
+228bf6c7846ebc0a97786c43506ccc37|file:///home/caden/Documents/lancer/1110-campaign/characters.md|15|27|V|markdown.pandoc
+	+ Lowly prisoner at the penal colony
+	+ One of the first people t
+4142b70bf0691cb0233c588175d77720|file:///home/caden/Documents/lancer/1110-campaign/characters.md|24|23|V|markdown.pandoc
+	+ Similar to Jason Maro
+c449be980f0826b9cb47fb192d37722e|file:///home/caden/Documents/lancer/1110-campaign/characters.md|17|1|V|markdown.pandoc
+	+ Not too high up on the food chain
+	+ One of the lower grunts of the operation
+	+ Has some combat experience
+	+ Red hair, greenish eyes, scrawny, rough
+6a989e8cc321949ae03c391c87e1bd8c|file:///home/caden/Documents/lancer/1110-campaign/characters.md|26|7|v|markdown.pandoc
+	some 
+8fd53b771ef22554e19a6187e224b599|file:///home/caden/Documents/lancer/1110-campaign/characters.md|27|3|v|markdown.pandoc
+	Red hair, greenish eyes, scrawny, rough
+6bd74ebcef456b39d36b216da79a67f9|file:///home/caden/Documents/lancer/1110-campaign/characters.md|27|3|v|markdown.pandoc
+	Blonde hair, blue eyes, 
+4dc4ec7091509ce4cb8d0265922bbe2e|file:///home/caden/Documents/lancer/1110-campaign/characters.md|50|9|v|markdown.pandoc
+	and 
+59f91e889513cc41ca176ec5fecaad1f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|39|1|V|markdown.pandoc
+	
+	## Problem 2
+1e40c122335ca0fab5068ea0949a2fff|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|3|1|V|markdown.pandoc
+	$$E[x]=\sum Pr(X=x)\cdot x$$
+430ead32891d4c1b0e44f85c1e70d2a2|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|3|10|v|markdown.pandoc
+	\sum_{n = 1}^{\infty}
+ab78ccfbcd04b1ba22eb9427251cb20d|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|3|16|v|markdown.pandoc
+	n = 1
+244348510f5abdefbce1d215d931a696|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|6|1|v|markdown.pandoc
+	8**4
+67b5afcf8032f05b72e3b47bf44b3975|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|7|1|v|markdown.pandoc
+	9**4
+118bd558033a1016fcc82560c65cca5f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|6|14|v|markdown.pandoc
+	6561
+c47d46faebdf9fffad55951eefbc6a14|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|7|1|v|markdown.pandoc
+	4096/6561
+a7abd39a753494e8277daf2a2d4e01e1|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|10|1|v|markdown.pandoc
+	4*((1/9)*(8/9)**3)
+33b260f4cbe1c45b5e6089c90d6f9651|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|14|1|v|markdown.pandoc
+	12*(((1/8)**2)*((8/9)**2))
+6246ad51a3616c4e2030946326987a3f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|14|1|v|markdown.pandoc
+	12*(((1/9)**2)*((8/9)**2))
+4777a04836656e08153e45edced850ea|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|11|1|V|markdown.pandoc
+	
+	$$
+	0.31214753848498694
+	$$
+90447486e9979ca29e43b82ab55a56dd|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|18|1|v|markdown.pandoc
+	24*(((1/9)**3)*(8/9))
+ef42933e71e2235edfbdc349997483b5|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|21|1|v|markdown.pandoc
+	24*(1/9)**4
+f1fd19f04d53a15bbc21f4179282c5d5|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|23|1|V|markdown.pandoc
+	$$$$
+52d53a3fb99168b4a24d3c35eda3eef5|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|3|37|v|markdown.pandoc
+	, \text{RV: } X
+4232ff3eea21b060719e9d84d82bc5fc|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|6|21|v|markdown.pandoc
+	sums 
+a974b62384031afedfc9377050e7fe19|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|32|14|v|markdown.pandoc
+	E[S]=\sum_{x = 0}^{4}P(S=x)\cdot x
+aabb6b94ac0bbbec92a89b09eea872ed|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|32|3|v|markdown.pandoc
+	200\cdot0.624+300\cdot0.312+350\cdot0.117+
+	500\cdot0.0293+1000\cdot0.00366
+5c713318b86ad6a6f18086eb62d6da40|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|34|3|v|markdown.pandoc
+	200 * 0.624 + 300 * 0.312 + 350 * 0.117 +5
+	
+b4dc87bbe92410d44f0e95d8ef3ef919|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|34|3|v|markdown.pandoc
+	200*0.624+300*0.312+350*0.117+500*0.0293+1000*0.00366
+66189f4c5551f62bb4f5508630d6e692|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|34|8|v|markdown.pandoc
+	5999999999997
+bfe98a9752dfb2793fa13af1d1d7583f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|40|12|v|markdown.pandoc
+	x = 9
+7d785920c6d1724009c60fad0b1ea062|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|41|3|v|markdown.pandoc
+	0+50 \cdot 0.312 + 200 \cdot 0.117 + 1000 \cdot 0.0293 + 2000 \cdot 0.00366
+91991185ed3ef13d787e4ed668ee7ff0|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|43|1|v|markdown.pandoc
+	0+50 * 0.312 + 200 * 0.117 + 1000 * 0.0293 + 2000 * 0.00366
+820da4c08c4f7899dd338ba834024d98|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|46|16|V|markdown.pandoc
+	Retrieving the e
+df0f20d62dc4ba9c471fdeef6751ec5f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|49|18|v|markdown.pandoc
+	Problem
+d8a6f7c67480cd91b7a8dfc8f0c4b66c|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|49|24|v|markdown.pandoc
+	127.66
+5f8563782cb91db613afe8e978f4f2f8|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|50|1|v|markdown.pandoc
+	75.62-150
+f591953d76330d5e0bb4357eb55d04be|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|49|1|v|markdown.pandoc
+	277.66-150
+bfc9687ee2ff86051cef907b8f79a9cb|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|48|37|v|markdown.pandoc
+	000000000003
+8aaad5f6e6b1893a7a9b68600d8fb0e1|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|3|v|markdown.pandoc
+	\left( \frac{1}{8} \right)^{5}+5\left(\left( \frac{1}{8} \right)^{4}\frac{3}{8}\right)=0.0004882812
+353db6d52e5e13d8ad7ac70c36be2a02|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|36|v|markdown.pandoc
+	P(6,5)
+c8377b9633d8667202287b74da70c81a|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|22|1|v|markdown.pandoc
+	120*(1/8)**5+600*(((1/8)**4)*(3/8))
+dcfc8c0f26a280219a7859ba066157fc|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|10|1|v|markdown.pandoc
+	(9/10)**4
+dae231b7f50ec3580128c01b5f864c10|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|12|1|v|markdown.pandoc
+	0.31214753848498694
+8000156160fd4d5b7bbc5fe8b692dd16|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|12|1|v|markdown.pandoc
+	4*((1/10)*((9/10)**3))
+99f5168860b716e9b8201f02ce1ec459|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|16|1|v|markdown.pandoc
+	0.11705532693187012
+7cf87724680dccacbf2b05e107e706da|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|16|1|v|markdown.pandoc
+	12*(((1/10)**2)*((9/10)**2))
+b46682635d0fee9296ca5e65892364a9|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|16|7|v|markdown.pandoc
+	0000000000001
+cccb23b7bd06d32548e43975396de90a|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|20|1|v|markdown.pandoc
+	0.029263831732967524
+e7230946294b3707de083a337603b591|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|20|1|v|markdown.pandoc
+	24*(((1/10)**3)*(9/10))
+a6b927400fbb9996f105a3cc7fd21a0e|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|20|7|v|markdown.pandoc
+	00000000000005
+50b3df133258d8e7af6e9dc0a2a6f995|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|21|1|v|markdown.pandoc
+	0.0036579789666209414
+90e9907862fd0185d52def37337e6fdc|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|21|1|v|markdown.pandoc
+	24*((1/10)**4)
+b8363e9f1b884aa4a878d776bef2870d|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|21|7|v|markdown.pandoc
+	000000000000002
+d0a0cd03aa7add0a59fb973060cafbc6|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|28|9|v|markdown.pandoc
+	0.0293
+3855508a1be330e49bc3eb6683149282|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|29|9|v|markdown.pandoc
+	277.66
+27e3156622ef8d182d9344265fe9a4af|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|30|1|v|markdown.pandoc
+	200*0.6561+300*0.2916+350*0.0972+500*0.0216+1000*0.0024
+c9d5fef6fc8b8d81779b5cb10e8718ab|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|30|7|v|markdown.pandoc
+	999999999996
+a3363a6147d5ccb2bbd06d1fa3c7f276|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|37|15|v|markdown.pandoc
+	0293
+8130fe9abc022ead8dc8a80087e98d11|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|37|35|v|markdown.pandoc
+	00366
+a636a06c98293967f35b6af25a683fe8|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|36|3|v|markdown.pandoc
+	0\cdot0.6561+50 \cdot 0.2916 + 200 \cdot 0.0972
+	+1000 \cdot 0.0216 + 2000 \cdot 0.0024
+bb51b06090a8384cc7ae68116810b336|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|38|3|v|markdown.pandoc
+	75.62
+425f066e24d2e00ad2ac42539599dd18|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|39|1|V|markdown.pandoc
+	0*0.6561+50 * 0.2916 + 200 * 0.0972+1000 * 0.0216 + 2000 * 0.0024
+c74a7fbbfe288292f06012630ae6fe43|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|38|8|v|markdown.pandoc
+	9999999999995
+9e8077d114277341dd23636c4a87854b|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|44|28|v|markdown.pandoc
+	-74.38
+71ed4b34c1495181763252f1f30bbf23|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|44|1|v|markdown.pandoc
+	265.92-150
+855816ffe149aba178f98abb44171578|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|43|37|v|markdown.pandoc
+	000000000002
+1da4cd122c86697d148331e6d90e7aa9|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p2.md|44|18|v|markdown.pandoc
+	60.42-150
+80fc0786f833d7dbb283cb81db231bea|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|20|3|v|markdown.pandoc
+	5!\left( \frac{1}{8} \right)^{5}+\left( P(6,5)-5! \right)
+	\left( \left( \frac{1}{8} \right)^{4}\cdot\frac{3}{8} \right)=
+	0.05859375
+16cd714b6a05c4ddc128c4c01993ff2c|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p1.md|22|1|v|markdown.pandoc
+	(1/8)**5+5*((3/8)*((1/8)**4))
+791751979cecfe132a186aa7c6321d42|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|12|1|v|markdown.pandoc
+	0.3*0.15
+45dffd51f588ff739831dcb23ab6e35f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|17|1|v|markdown.pandoc
+	0.5*0.8
+2e4787b484953ee254bcc4baab64f882|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|18|1|v|markdown.pandoc
+	0.2*0.3
+67b1d90785ce7d217e9a894adf3dc276|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|17|1|v|markdown.pandoc
+	0.4+0.06+0.045
+a1e1a1a441e0994bf0ec61ab7d396680|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|23|1|v|markdown.pandoc
+	Pr(P|N)
+5c948c8d11caa55787e2cdefba37cb2c|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|25|8|v|markdown.pandoc
+	 0.5\cdot0.2+0.2\cdot0.7+0.3\cdot0.85
+ac30e4f7defe8fdc507a470e37cf89f5|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|26|1|v|markdown.pandoc
+	0.5*0.2+0.2*0.7+0.3*0.85
+1f2ca95f68afecbde1957d1313d7592d|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|27|1|v|markdown.pandoc
+	0.1/0.495
+872a158e51dc64bb520aec911e7fb2c6|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p3.md|26|24|v|markdown.pandoc
+	02020202020204
+16a15e376febda36c73b0886e31aabc8|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|15|6|v|markdown.pandoc
+	1\rightarrow6
+6ea2ac3f36a93f1dcc5849d2bec75d49|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|15|6|v|markdown.pandoc
+	\{x | x \in 1,2,3,4,5,6\}
+2249564750a18a512bbcd8235e9911bc|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|25|1|v|markdown.pandoc
+	5+10+15+20+30+7+8+9+10+11+12+13+14+15+16+17+18+19+20
+34e9bf631bd23bb81d7f9b77462a1f57|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|26|1|v|markdown.pandoc
+	269/36
+4d18e2c96bb0f39c6d6dc690542b0bdc|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|25|21|v|markdown.pandoc
+	222222222222
+6cd0c55d5b89d5ceb8c914307fd77945|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|18|21|V|markdown.pandoc
+	Given these values, we can now calculate the expected value as follows:
+	$$E[D]=\sum_{x = 1}^{20}Pr(D=x) \cdot x =\\
+	\frac{5}{36}+\frac{10}{36}+\frac{15}{36}+\frac{20}{36}+\frac{25}{36}
+	+\frac{30}{36}
+	+\frac{7}{36}+\frac{8}{36}+\frac{9}{36}+\frac{10}{36}+\frac{11}{36}+\frac{12}{36}
+	+\frac{13}{36}\\+\frac{14}{36}+\frac{15}{36}
+	+\frac{16}{36}+\frac{17}{36}+\frac{18}{36}+\frac{19}{36}+\frac{20}{36}=
+	\frac{269}{36}=7.472$$
+7c8447746a6af226763795e9c42fc7ea|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|16|33|v|markdown.pandoc
+	\left( \frac{1}{6} \right)^{2}
+f156f82188298fa86726c54cc16eaccd|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|31|1|v|markdown.pandoc
+	5+10+15+20+25+30
+84aa264bac2eef9181c934cf0d61ecc4|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|30|7|v|markdown.pandoc
+	7+8+9+10+11+12+13+14+15+16+17+18+19+20
+c1b252feb376cdc3fc3691beb386a94e|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|32|1|v|markdown.pandoc
+	(105/36)+(189/84)
+bc177a7a9c7df69c248647b4dfc6fd84|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|31|36|v|markdown.pandoc
+	666666666666
+d78b6a8ad3711f2ae7caff6112016a28|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|37|1|v|markdown.pandoc
+	1/20**5
+88ca7f71b2876d8af0e73647bc879f4d|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|0|0|V|markdown.pandoc
+	3.125e-07
+16b514bf06114a9717121b064d1e3f29|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|40|1|v|markdown.pandoc
+	(5/36)**5
+c0f5978665e410b2fccb0061fe891773|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|39|40|v|markdown.pandoc
+	1786524750645
+c2ea47aa6a55f8fb0b4f94e740bf159f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|39|40|v|markdown.pandoc
+	e-05
+9be67a2745b20cf31cad284e11acb6f1|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|3|5|v|markdown.pandoc
+	 \rightarrow \text{}
+363c6cc214b3ffff14e2a59e2d4207ac|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|3|11|v|markdown.pandoc
+	Probability the thief is in the database
+c2b609e7a91a35ea6e554780b64b972b|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|6|3|v|markdown.pandoc
+	Pr(A|B) = \frac{Pr(A \land B)}{Pr(B)}\\
+4430ddf452e82d8b65b50cdffd14e793|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|6|6|V|markdown.pandoc
+	$$Pr(A)=0.1\\
+	Pr(B)=$$
+	
+2530385e54ebbf9816ad8ec7bd11d4cb|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|7|12|v|markdown.pandoc
+	\frac{Pr(A \land B)}{Pr(B)}\\
+d8d416ff3792a90cf77ad2b23a296046|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|8|11|V|markdown.pandoc
+	&=\frac{Pr(A)\cdot Pr(B)}{Pr(B)}
+2a185d7704aa3e18e2e942d3a6a38c12|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|6|18|V|markdown.pandoc
+	$$\begin{aligned}
+	Pr(A|B) &= Pr(B|A)
+	\end{aligned}$$
+	
+3396253ac622d18fca32d1a9cba7ba7f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|3|1|V|markdown.pandoc
+	+ $A$ → The thief is in the database
+	+ $B$ → A DNA match has been found
+	
+4119639092e62c55ea8be348e4d9260d|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|4|64|v|markdown.pandoc
+	event
+8b940b7caf7a41952f0255f81bff626b|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|8|8|v|markdown.pandoc
+	\text{
+659440ec142171fde1a3ab0094ab86ce|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|8|7|v|markdown.pandoc
+	is the probability 
+7db0900cb849b52da8a8fd30f26acb33|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|8|15|v|markdown.pandoc
+	thief is 
+963d8dd8f73baa70904488dbd77046f3|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|8|6|v|markdown.pandoc
+	 → The DNA match is correct
+d7ec6a2911b6751cba9bd576f2684198|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|11|3|v|markdown.pandoc
+	1-Pr(\lnot A \land \lnot B)=
+76073b872e49884176c9bd7ed84f6573|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|16|1|v|markdown.pandoc
+	100000-9
+f41b6044104bd1c72e426f6f7a5b4c6f|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p5.md|17|1|v|markdown.pandoc
+	99991/100000
+9c4e5dd4df8e9799a1532148ae1249a1|file:///home/caden/.config/nvim/init.vim|158|26|v|vim
+	「${name}」
+ae7a54b5def68a91cb8db7d039f04baf|file:///home/caden/Documents/school/21-22/cs-1800/homework/hw6/hw6-p4.md|1|1|V|markdown.pandoc
+	---
+	title: 
+	author: 
+	geometry: margin=0.5in
+	papersize: a4
+	fontsize: 12pt
+	...
+	

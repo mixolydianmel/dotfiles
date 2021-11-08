@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+[[ $1 == "--help" || $1 == "-h" ]] && echo -e "
+This tool converts video files into scripts that display ascii image sequences.
+
+NOTE: This tool requires \`ascii-image-converter\` to function.
+
+Usage:
+  ascii-artify <video path> <output path>
+" && exit
+
+echo "=> Creating image sequence..."
+ffmpeg -i $1 -vsync 0 %04d.png >/dev/null 2>&1
+
+echo "=> Generating ascii images..."
+IMAGES=(*.png)
+for i in "${IMAGES[@]}"; do
+    ascii-image-converter $i -Cc > $i.asc
+    rm $i
+done
+
+echo "=> Generating script..."
+
+echo "  -> Getting framerate..."
+FPS=$(printf %.3f "$((10**3*1/$(($(ffprobe -v 0 -of compact=p=0 -select_streams \
+    0 -show_entries stream=r_frame_rate $1 | sed 's/.*=\(.*\)$/\1/g')))))e-3")
+
+echo "  -> Setting up script environment..."
+echo "#!/usr/bin/env bash" > $2
+echo "while true; do" >> $2
+
+echo "  -> Starting script body..."
+shopt -s nullglob
+TEXT=(*.asc)
+for a in "${TEXT[@]}"; do
+    echo "      --> Found $a, adding to animation..."
+    echo 'echo "' >> $2
+    cat $a | sed -e 's/`/\\`/g' -e 's/"/\\"/g' >> $2
+    echo '"' >> $2
+    echo "sleep $FPS" >> $2
+    rm $a
+done
+
+echo "  -> Ending script body..."
+echo "done" >> $2
+
+echo "  -> Finished generating script."
+
+echo "  -> Making script executable..."
+chmod +x $2
+
+echo "=> Cleaning up..."
+
+echo "=> Done!"

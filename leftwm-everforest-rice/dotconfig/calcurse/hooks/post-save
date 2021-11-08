@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd ~/.local/share/calcurse
+git add *
+git commit -m "Automatic commit via post-save"
+git push

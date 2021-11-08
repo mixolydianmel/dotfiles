@@ -1,0 +1,25 @@
+#!/bin/sh
+
+FILE=$1
+NAME="${FILE%.*}"
+EXTENSION="${FILE##*.}"
+
+case $EXTENSION in
+    ms)
+        # groff -GRept -ms $FILE -Tps -U | ps2pdfwr - $NAME.pdf
+        groff -GRept -ms $FILE -Tdvi -U > $NAME.dvi;
+        dvipdf $NAME.dvi;
+        rm $NAME.dvi;
+        ;;
+    cc)
+        g++ -Wall -g -o a.out $FILE && gdb a.out
+        ;;
+    md)
+        pandoc -f markdown $FILE -o $NAME.pdf;
+        ;;
+    rmd)
+        echo "require(rmarkdown); render('$FILE', 'pdf_document')" | R --vanilla
+        ;;
+    *)
+        ;;
+esac

@@ -1,0 +1,26 @@
+{
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "filetypes": [
+                "c",
+                "cc",
+                "cxx",
+                "cpp",
+                "objc",
+                "objcpp"
+            ],
+            "rootPatterns": [
+                "compile_commands.json",
+                ".vim/",
+                ".git/"
+            ],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/clangd"
+                }
+            }
+        }
+    },
+    "yank.list.maxsize": 100
+}

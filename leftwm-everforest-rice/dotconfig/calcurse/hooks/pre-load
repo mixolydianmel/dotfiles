@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+export CALCURSE_EDITOR=nvim
+
+cd ~/.local/share/calcurse/
+(git fetch && git pull) >/dev/null 2>&1

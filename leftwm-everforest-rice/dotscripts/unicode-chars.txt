@@ -1,0 +1,2200 @@
+U+00A1;¡;Inverted exclamation mark
+U+00A2;¢;Cent sign
+U+00A3;£;Pound sign
+U+00A4;¤;Currency sign
+U+00A5;¥;Yen sign
+U+00A6;¦;Broken bar
+U+00A7;§;Section sign
+U+00A8;¨;Diaeresis
+U+00A9;©;Copyright sign
+U+00AA;ª;Feminine Ordinal Indicator
+U+00AB;«;Left-pointing double angle quotation mark
+U+00AC;¬;Not sign
+U+00AE;®;Registered sign
+U+00AF;¯;Macron
+U+00B0;°;Degree symbol
+U+00B1;±;Plus-minus sign
+U+00B2;²;Superscript two
+U+00B3;³;Superscript three
+U+00B4;´;Acute accent
+U+00B5;µ;Greek Small Letter Mu
+U+00B6;¶;Pilcrow sign
+U+00B7;·;Middle dot
+U+00B8;¸;Cedilla
+U+00B9;¹;Superscript one
+U+00BA;º;Masculine ordinal indicator
+U+00BB;»;Right-pointing double-angle quotation mark
+U+00BC;¼;Vulgar fraction one quarter
+U+00BD;½;Vulgar fraction one half
+U+00BE;¾;Vulgar fraction three quarters
+U+00BF;¿;Inverted question mark
+U+2013;–;En dash
+U+2014;—;Em dash
+U+2015;―;Horizontal bar
+U+2017;‗;Double low line
+U+2018;‘;Left single quotation mark
+U+2019;’;Right single quotation mark
+U+201A;‚;Single low-9 quotation mark
+U+201B;‛;Single high-reversed-9 quotation mark
+U+201C;“;Left double quotation mark
+U+201D;”;Right double quotation mark
+U+201E;„;Double low-9 quotation mark
+U+2020;†;Dagger
+U+2021;‡;Double dagger
+U+2022;•;Bullet
+U+2026;…;Horizontal ellipsis
+U+2030;‰;Per mille sign
+U+2032;′;Prime
+U+2033;″;Double prime
+U+2039;‹;Single left-pointing angle quotation mark
+U+203A;›;Single right-pointing angle quotation mark
+U+203C;‼;Double exclamation mark
+U+203E;‾;Overline
+U+2044;⁄;Fraction slash
+U+204A;⁊;Tironian et sign
+U+2100;℀;Account of
+U+2101;℁;Addressed to the subject
+U+2102;ℂ;Double-struck capital C
+U+2103;℃;Degree Celcius
+U+2104;℄;Centre line symbol
+U+2105;℅;Care of
+U+2106;℆;Cada una
+U+2107;ℇ;Euler constant
+U+2108;℈;Scruple
+U+2109;℉;Degree Fahrenheit
+U+210A;ℊ;Script small G
+U+210B;ℋ;Script capital H
+U+210C;ℌ;Black-letter capital H
+U+210D;ℍ;Double-struck capital H
+U+210E;ℎ;Planck constant
+U+210F;ℏ;Planck constant over two pi
+U+2110;ℐ;Script Capital I
+U+2111;ℑ;Black-Letter Capital I
+U+2112;ℒ;Script Capital L
+U+2113;ℓ;Script Small L (LaTeX: \ell)
+U+2114;℔;L B Bar Symbol
+U+2115;ℕ;Double-Struck Capital N
+U+2116;№;Numero sign
+U+2117;℗;Sound recording copyright symbol
+U+2118;℘;Script Capital P
+U+2119;ℙ;Double-Struck Capital P
+U+211A;ℚ;Double-Struck Capital Q
+U+211B;ℛ;Script Capital R
+U+211C;ℜ;Black-Letter Capital R
+U+211D;ℝ;Double-Struck Capital R
+U+211E;℞;Prescription Take
+U+211F;℟;Response
+U+2120;℠;Service mark
+U+2121;℡;Telephone Sign
+U+2122;™;Trademark Sign
+U+2123;℣;Versicle
+U+2124;ℤ;Double-Struck Capital Z
+U+2125;℥;Ounce Sign
+U+2126;Ω;Ohm Sign
+U+2127;℧;Inverted Ohm Sign
+U+2128;ℨ;Black-Letter Capital Z
+U+2129;℩;Turned Greek Small Letter Iota
+U+212A;K;Kelvin Sign
+U+212B;Å;Ångström Sign
+U+212C;ℬ;Script Capital B
+U+212D;ℭ;Black-Letter Capital C
+U+212E;℮;Estimated symbol
+U+212F;ℯ;Script Small E
+U+2130;ℰ;Script Capital E
+U+2131;ℱ;Script Capital F
+U+2132;Ⅎ;Turned Capital F
+U+2133;ℳ;Script Capital M
+U+2134;ℴ;Script Small O
+U+2135;ℵ;Alef Symbol
+U+2136;ℶ;Bet Symbol
+U+2137;ℷ;Gimel Symbol
+U+2138;ℸ;Dalet Symbol
+U+2139;ℹ;Information Source
+U+213A;℺;Rotated Capital Q
+U+213B;℻;Fax Sign
+U+213C;ℼ;Double-Struck Small Pi
+U+213D;ℽ;Double-Struck Small Gamma
+U+213E;ℾ;Double-Struck Capital Gamma
+U+213F;ℿ;Double-Struck Capital Pi
+U+2140;⅀;Double–Struck N–Ary Summation
+U+2141;⅁;Turned Sans-Serif Capital G
+U+2142;⅂;Turned Sans-Serif Capital L
+U+2143;⅃;Reversed Sans-Serif Capital L
+U+2144;⅄;Turned Sans-Serif Capital Y
+U+2145;ⅅ;Double-Struck Italic Capital D
+U+2146;ⅆ;Double-Struck Italic Small D
+U+2147;ⅇ;Double-Struck Italic Small E
+U+2148;ⅈ;Double-Struck Italic Small I
+U+2149;ⅉ;Double-Struck Italic Small J
+U+214A;⅊;Property line
+U+214B;⅋;Turned Ampersand
+U+214C;⅌;Per Sign
+U+214D;⅍;Aktieselskab
+U+214E;ⅎ;Turned Small F
+U+214F;⅏;Symbol for Samaritan Source
+U+2150;⅐;Vulgar Fraction One Seventh
+U+2151;⅑;Vulgar Fraction One Ninth
+U+2152;⅒;Vulgar Fraction One Tenth
+U+2153;⅓;Vulgar Fraction One Third
+U+2154;⅔;Vulgar Fraction Two Thirds
+U+2155;⅕;Vulgar Fraction One Fifth
+U+2156;⅖;Vulgar Fraction Two Fifths
+U+2157;⅗;Vulgar Fraction Three Fifths
+U+2158;⅘;Vulgar Fraction Four Fifths
+U+2159;⅙;Vulgar Fraction One Sixth
+U+215A;⅚;Vulgar Fraction Five Sixths
+U+215B;⅛;Vulgar Fraction One Eighth
+U+215C;⅜;Vulgar Fraction Three Eighths
+U+215D;⅝;Vulgar Fraction Five Eighths
+U+215E;⅞;Vulgar Fraction Seven Eighths
+U+215F;⅟;Fraction Numerator One
+U+2160;Ⅰ;Roman Numeral One
+U+2161;Ⅱ;Roman Numeral Two
+U+2162;Ⅲ;Roman Numeral Three
+U+2163;Ⅳ;Roman Numeral Four
+U+2164;Ⅴ;Roman Numeral Five
+U+2165;Ⅵ;Roman Numeral Six
+U+2166;Ⅶ;Roman Numeral Seven
+U+2167;Ⅷ;Roman Numeral Eight
+U+2168;Ⅸ;Roman Numeral Nine
+U+2169;Ⅹ;Roman Numeral Ten
+U+216A;Ⅺ;Roman Numeral Eleven
+U+216B;Ⅻ;Roman Numeral Twelve
+U+216C;Ⅼ;Roman Numeral Fifty
+U+216D;Ⅽ;Roman Numeral One Hundred
+U+216E;Ⅾ;Roman Numeral Five Hundred
+U+216F;Ⅿ;Roman Numeral One Thousand
+U+2170;ⅰ;Small Roman Numeral One
+U+2171;ⅱ;Small Roman Numeral Two
+U+2172;ⅲ;Small Roman Numeral Three
+U+2173;ⅳ;Small Roman Numeral Four
+U+2174;ⅴ;Small Roman Numeral Five
+U+2175;ⅵ;Small Roman Numeral Six
+U+2176;ⅶ;Small Roman Numeral Seven
+U+2177;ⅷ;Small Roman Numeral Eight
+U+2178;ⅸ;Small Roman Numeral Nine
+U+2179;ⅹ;Small Roman Numeral Ten
+U+217A;ⅺ;Small Roman Numeral Eleven
+U+217B;ⅻ;Small Roman Numeral Twelve
+U+217C;ⅼ;Small Roman Numeral Fifty
+U+217D;ⅽ;Small Roman Numeral One Hundred
+U+217E;ⅾ;Small Roman Numeral Five Hundred
+U+217F;ⅿ;Small Roman Numeral One Thousand
+U+2180;ↀ;Roman Numeral One Thousand C D
+U+2181;ↁ;Roman Numeral Five Thousand
+U+2182;ↂ;Roman Numeral Ten Thousand
+U+2183;Ↄ;Roman Numeral Reversed One Hundred
+U+2184;ↄ;Latin Small Letter Reversed C
+U+2185;ↅ;Roman Numeral Six Late Form
+U+2186;ↆ;Roman Numeral Fifty Early Form
+U+2187;ↇ;Roman Numeral Fifty Thousand
+U+2188;ↈ;Roman Numeral One Hundred Thousand
+U+2189;↉;Vulgar Fraction Zero Thirds (used in baseball scoring)
+U+218A;↊;Turned Digit Two (used in duodecimal)
+U+218B;↋;Turned Digit Three (used in duodecimal)
+U+2190;←;Leftwards Arrow
+U+21AC;↬;Rightwards Arrow With Loop
+U+21C8;⇈;Upwards Paired Arrows
+U+21E4;⇤;Leftwards Arrow To Bar
+U+2191;↑;Upwards Arrow
+U+21AD;↭;Left Right Wave Arrow
+U+21C9;⇉;Rightwards Paired Arrows
+U+21E5;⇥;Rightwards Arrow To Bar
+U+2192;→;Rightwards Arrow
+U+21AE;↮;Left Right Arrow With Stroke
+U+21CA;⇊;Downwards Paired Arrows
+U+21E6;⇦;Leftwards Thick Arrow
+U+2193;↓;Downwards Arrow
+U+21AF;↯;Downwards Zigzag Arrow
+U+21CB;⇋;Leftwards Harpoon Over Rightwards Harpoon
+U+21E7;⇧;Upwards Thick Arrow
+U+2194;↔;Left Right Arrow
+U+21B0;↰;Upwards Arrow With Tip Leftwards
+U+21CC;⇌;Rightwards Harpoon Over Leftwards Harpoon
+U+21E8;⇨;Rightwards Thick Arrow
+U+2195;↕;Up Down Arrow
+U+21B1;↱;Upwards Arrow With Tip Rightwards
+U+21CD;⇍;Leftwards Double Arrow With Stroke
+U+21E9;⇩;Downwards Thick Arrow
+U+2196;↖;North West Arrow
+U+21B2;↲;Downwards Arrow With Tip Leftwards
+U+21CE;⇎;Left Right Double Arrow With Stroke
+U+21EA;⇪;Upwards Thick Arrow From Bar
+U+2197;↗;North East Arrow
+U+21B3;↳;Downwards Arrow With Tip Rightwards
+U+21CF;⇏;Rightwards Double Arrow With Stroke
+U+21EB;⇫;Upwards Thick Arrow On Pedestal
+U+2198;↘;South East Arrow
+U+21B4;↴;Rightwards Arrow With Corner Downwards
+U+21D0;⇐;Leftwards Double Arrow
+U+21EC;⇬;Upwards Thick Arrow On Pedestal With Horizontal Bar
+U+2199;↙;South West Arrow
+U+21B5;↵;Downwards Arrow With Corner Leftwards
+U+21D1;⇑;Upwards Double Arrow
+U+21ED;⇭;Upwards Thick Arrow On Pedestal With Vertical Bar
+U+219A;↚;Leftwards Arrow With Stroke
+U+21B6;↶;Anticlockwise Top Semicircle Arrow
+U+21D2;⇒;Rightwards Double Arrow
+U+21EE;⇮;Upwards Thick Double Arrow
+U+219B;↛;Rightwards Arrow With Stroke
+U+21B7;↷;Clockwise Top Semicircle Arrow
+U+21D3;⇓;Downwards Double Arrow
+U+21EF;⇯;Upwards Thick Double Arrow On Pedestal
+U+219C;↜;Leftwards Wave Arrow
+U+21B8;↸;North West Arrow To Long Bar
+U+21D4;⇔;Left Right Double Arrow
+U+21F0;⇰;Rightwards Thick Arrow From Wall
+U+219D;↝;Rightwards Wave Arrow
+U+21B9;↹;Leftwards Arrow To Bar Over Rightwards Arrow To Bar
+U+21D5;⇕;Up Down Double Arrow
+U+21F1;⇱;North West Arrow To Corner
+U+219E;↞;Leftwards Two Headed Arrow
+U+21BA;↺;Anticlockwise Open Circle Arrow
+U+21D6;⇖;North West Double Arrow
+U+21F2;⇲;South East Arrow To Corner
+U+219F;↟;Upwards Two Headed Arrow
+U+21BB;↻;Clockwise Open Circle Arrow
+U+21D7;⇗;North East Double Arrow
+U+21F3;⇳;Up Down Thick Arrow
+U+21A0;↠;Rightwards Two Headed Arrow
+U+21BC;↼;Leftwards Harpoon With Barb Upwards
+U+21D8;⇘;South East Double Arrow
+U+21F4;⇴;Right Arrow With Small Circle
+U+21A1;↡;Downwards Two Headed Arrow
+U+21BD;↽;Leftwards Harpoon With Barb Downwards
+U+21D9;⇙;South West Double Arrow
+U+21F5;⇵;Downwards Arrow Leftwards Of Upwards Arrow
+U+21A2;↢;Leftwards Arrow With Tail
+U+21BE;↾;Upwards Harpoon With Barb Rightwards
+U+21DA;⇚;Leftwards Triple Arrow
+U+21F6;⇶;Three Rightwards Arrows
+U+21A3;↣;Rightwards Arrow With Tail
+U+21BF;↿;Upwards Harpoon With Barb Leftwards
+U+21DB;⇛;Rightwards Triple Arrow
+U+21F7;⇷;Leftwards Arrow With Vertical Stroke
+U+21A4;↤;Leftwards Arrow From Bar
+U+21C0;⇀;Rightwards Harpoon With Barb Upwards
+U+21DC;⇜;Leftwards Squiggle Arrow
+U+21F8;⇸;Rightwards Arrow With Vertical Stroke
+U+21A5;↥;Upwards Arrow From Bar
+U+21C1;⇁;Rightwards Harpoon With Barb Downwards
+U+21DD;⇝;Rightwards Squiggle Arrow
+U+21F9;⇹;Left Right Arrow With Vertical Stroke
+U+21A6;↦;Rightwards Arrow From Bar
+U+21C2;⇂;Downwards Harpoon With Barb Rightwards
+U+21DE;⇞;Upwards Arrow With Double Stroke
+U+21FA;⇺;Leftwards Arrow With Double Vertical Stroke
+U+21A7;↧;Downwards Arrow From Bar
+U+21C3;⇃;Downwards Harpoon With Barb Leftwards
+U+21DF;⇟;Downwards Arrow With Double Stroke
+U+21FB;⇻;Rightwards Arrow With Double Vertical Stroke
+U+21A8;↨;Up Down Arrow With Base
+U+21C4;⇄;Rightwards Arrow Over Leftwards Arrow
+U+21E0;⇠;Leftwards Dashed Arrow
+U+21FC;⇼;Left Right Arrow With Double Vertical Stroke
+U+21A9;↩;Leftwards Arrow With Hook
+U+21C5;⇅;Upwards Arrow Leftwards Of Downwards Arrow
+U+21E1;⇡;Upwards Dashed Arrow
+U+21FD;⇽;Leftwards Open-Headed Arrow
+U+21AA;↪;Rightwards Arrow With Hook
+U+21C6;⇆;Leftwards Arrow Over Rightwards Arrow
+U+21E2;⇢;Rightwards Dashed Arrow
+U+21FE;⇾;Rightwards Open-Headed Arrow
+U+21AB;↫;Leftwards Arrow With Loop
+U+21C7;⇇;Leftwards Paired Arrows
+U+21E3;⇣;Downwards Dashed Arrow
+U+21FF;⇿;Left Right Open-Headed Arrow
+U+27F0;⟰;Upwards Quadruple Arrow
+U+27F1;⟱;Downwards Quadruple Arrow
+U+27F2;⟲;Anticlockwise Gapped Circle Arrow
+U+27F3;⟳;Clockwise Gapped Circle Arrow
+U+27F4;⟴;Right Arrow with Circled Plus
+U+27F5;⟵;Long Leftwards Arrow
+U+27F6;⟶;Long Rightwards Arrow
+U+27F7;⟷;Long Left Right Arrow
+U+27F8;⟸;Long Leftwards Double Arrow
+U+27F9;⟹;Long Rightwards Double Arrow
+U+27FA;⟺;Long Left Right Double Arrow
+U+27FB;⟻;Long Leftwards Arrow from Bar
+U+27FC;⟼;Long Rightwards Arrow from Bar
+U+27FD;⟽;Long Leftwards Double Arrow from Bar
+U+27FE;⟾;Long Rightwards Double Arrow from Bar
+U+27FF;⟿;Long Rightwards Squiggle Arrow
+U+2700;✀;Black safety scissors
+U+2701;✁;Upper blade scissors
+U+2702;✂;Black scissors
+U+2703;✃;Lower blade scissors
+U+2704;✄;White scissors
+U+2706;✆;Telephone location sign
+U+2707;✇;Tape drive
+U+2708;✈;Airplane
+U+2709;✉;Envelope
+U+270C;✌;Victory hand
+U+270D;✍;Writing hand
+U+270E;✎;Lower right pencil
+U+270F;✏;Pencil
+U+2710;✐;Upper right pencil
+U+2711;✑;White nib
+U+2712;✒;Black nib
+U+2713;✓;Check mark
+U+2714;✔;Heavy check mark
+U+2715;✕;Multiplication X
+U+2716;✖;Heavy multiplication X
+U+2717;✗;Ballot X
+U+2718;✘;Heavy ballot X
+U+2719;✙;Outlined Greek cross
+U+271A;✚;Heavy Greek cross
+U+271B;✛;Open center cross
+U+271C;✜;Heavy open center cross
+U+271D;✝;Latin cross
+U+271E;✞;Shadowed white Latin cross
+U+271F;✟;Outlined Latin cross
+U+2720;✠;Maltese cross
+U+2721;✡;Star of David
+U+2722;✢;Four teardrop-spoked asterisk
+U+2723;✣;Four balloon-spoked asterisk
+U+2724;✤;Heavy four balloon-spoked asterisk
+U+2725;✥;Four club-spoked asterisk
+U+2726;✦;Black four-pointed star
+U+2727;✧;White four-pointed star
+U+2729;✩;Stress outlined white star
+U+272A;✪;Circled white star
+U+272B;✫;Open center black star
+U+272C;✬;Black center white star
+U+272D;✭;Outlined black star
+U+272E;✮;Heavy outlined black star
+U+272F;✯;Pinwheel star
+U+2730;✰;Shadowed white star
+U+2731;✱;Heavy asterisk
+U+2732;✲;Open center asterisk
+U+2733;✳;Eight spoked asterisk
+U+2734;✴;Eight pointed black star
+U+2735;✵;Eight pointed pinwheel star
+U+2736;✶;Six pointed black star
+U+2737;✷;Eight pointed rectilinear black star
+U+2738;✸;Heavy eight pointed rectilinear black star
+U+2739;✹;Twelve pointed black star
+U+273A;✺;Sixteen pointed asterisk
+U+273B;✻;Teardrop spoked asterisk
+U+273C;✼;Open center teardrop spoked asterisk
+U+273D;✽;Heavy teardrop spoked asterisk
+U+273E;✾;Six petalled black and white florette
+U+273F;✿;Black florette
+U+2740;❀;White florette
+U+2741;❁;Eight petalled outlined black florette
+U+2742;❂;Circled open center eight pointed star
+U+2743;❃;Heavy teardrop spoked pinwheel asterisk
+U+2744;❄;Snowflake
+U+2745;❅;Tight trifoliate snowflake
+U+2746;❆;Heavy chevron snowflake
+U+2747;❇;Sparkle
+U+2748;❈;Heavy sparkle
+U+2749;❉;Balloon spoked asterisk
+U+274A;❊;Eight teardrop spoked propeller asterisk
+U+274B;❋;Heavy eight teardrop spoked propeller asterisk
+U+274D;❍;Shadowed white circle
+U+274F;❏;Lower right drop-shadowed white square
+U+2750;❐;Upper right drop-shadowed white square
+U+2751;❑;Lower right shadowed white square
+U+2752;❒;Upper right shadowed white square
+U+2756;❖;Black diamond minus white X
+U+2758;❘;Light vertical bar
+U+2759;❙;Medium vertical bar
+U+275A;❚;Heavy vertical bar
+U+275B;❛;Heavy single turned comma quotation mark ornament
+U+275C;❜;Heavy single comma quotation mark ornament
+U+275D;❝;Heavy double turned comma quotation mark ornament
+U+275E;❞;Heavy double comma quotation mark ornament
+U+275F;❜;Heavy low single comma quotation mark ornament
+U+2760;❞;Heavy low double comma quotation mark ornament
+U+2761;❡;Curved stem paragraph sign ornament
+U+2762;❢;Heavy exclamation mark ornament
+U+2763;❣;Heavy heart exclamation mark ornament
+U+2764;❤;Heavy black heart
+U+2765;❥;Rotated heavy black heart bullet
+U+2766;❦;Floral heart
+U+2767;❧;Rotated floral heart bullet
+U+2768;❨;Medium left parenthesis ornament
+U+2769;❩;Medium right parenthesis ornament
+U+276A;❪;Medium flattened left parenthesis ornament
+U+276B;❫;Medium flattened right parenthesis ornament
+U+276C;❬;Medium left-pointing angle bracket ornament
+U+276D;❭;Medium right-pointing angle bracket ornament
+U+276E;❮;Heavy left-pointing angle quotation mark ornament
+U+276F;❯;Heavy right-pointing angle quotation mark ornament
+U+2770;❰;Heavy left-pointing angle bracket ornament
+U+2771;❱;Heavy right-pointing angle bracket ornament
+U+2772;❲;Light left tortoise shell bracket ornament
+U+2773;❳;Light right tortoise shell bracket ornament
+U+2774;❴;Medium left curly bracket ornament
+U+2775;❵;Medium left curly bracket ornament
+U+2776;❶;Dingbat negative circled digit one
+U+2777;❷;Dingbat negative circled digit two
+U+2778;❸;Dingbat negative circled digit three
+U+2779;❹;Dingbat negative circled digit four
+U+277A;❺;Dingbat negative circled digit five
+U+277B;❻;Dingbat negative circled digit six
+U+277C;❼;Dingbat negative circled digit seven
+U+277D;❽;Dingbat negative circled digit eight
+U+277E;❾;Dingbat negative circled digit nine
+U+277F;❿;Dingbat negative circled digit ten
+U+2780;➀;Dingbat circled sans-serif digit one
+U+2781;➁;Dingbat circled sans-serif digit two
+U+2782;➂;Dingbat circled sans-serif digit three
+U+2783;➃;Dingbat circled sans-serif digit four
+U+2784;➄;Dingbat circled sans-serif digit five
+U+2785;➅;Dingbat circled sans-serif digit six
+U+2786;➆;Dingbat circled sans-serif digit seven
+U+2787;➇;Dingbat circled sans-serif digit eight
+U+2788;➈;Dingbat circled sans-serif digit nine
+U+2789;➉;Dingbat circled sans-serif digit ten
+U+278A;➊;Dingbat negative circled sans-serif digit one
+U+278B;➋;Dingbat negative circled sans-serif digit two
+U+278C;➌;Dingbat negative circled sans-serif digit three
+U+278D;➍;Dingbat negative circled sans-serif digit four
+U+278E;➎;Dingbat negative circled sans-serif digit five
+U+278F;➏;Dingbat negative circled sans-serif digit six
+U+2790;➐;Dingbat negative circled sans-serif digit seven
+U+2791;➑;Dingbat negative circled sans-serif digit eight
+U+2792;➒;Dingbat negative circled sans-serif digit nine
+U+2793;➓;Dingbat negative circled sans-serif digit ten
+U+2794;➔;Heavy wide-headed rightward arrow
+U+2798;➘;Heavy south east arrow
+U+2799;➙;Heavy rightward arrow
+U+279A;➚;Heavy north east arrow
+U+279B;➛;Drafting point rightward arrow
+U+279C;➜;Heavy round-tipped rightward arrow
+U+279D;➝;Triangle-headed rightward arrow
+U+279E;➞;Heavy triangle-headed rightward arrow
+U+279F;➟;Dashed triangle-headed rightward arrow
+U+27A0;➠;Heavy dashed triangle-headed rightward arrow
+U+27A1;➡;Black rightward arrow
+U+27A2;➢;Three-D top-lighted rightward arrowhead
+U+27A3;➣;Three-D bottom-lighted rightward arrowhead
+U+27A4;➤;Black rightward arrowhead
+U+27A5;➥;Heavy black curved downward and rightward arrow
+U+27A6;➦;Heavy black curved upward and rightward arrow
+U+27A7;➧;Squat black rightward arrow
+U+27A8;➨;Heavy concave-pointed black rightward arrow
+U+27A9;➩;Right-shaded white rightward arrow
+U+27AA;➪;Left-shaded white rightward arrow
+U+27AB;➫;Back-tilted shadowed white rightward arrow
+U+27AC;➬;Front-tilted shadowed white rightward arrow
+U+27AD;➭;Heavy lower right-shadowed white rightward arrow
+U+27AE;➮;Heavy upper right-shadowed white rightward arrow
+U+27AF;➯;Notched lower right-shadowed white rightward arrow
+U+27B1;➱;Notched upper right-shadowed white rightward arrow
+U+27B2;➲;Circled heavy white rightward arrow
+U+27B3;➳;White-feathered rightward arrow
+U+27B4;➴;Black-feathered south east arrow
+U+27B5;➵;Black-feathered rightward arrow
+U+27B6;➶;Black-feathered north east arrow
+U+27B7;➷;Heavy black-feathered south east arrow
+U+27B8;➸;Heavy black-feathered rightward arrow
+U+27B9;➹;Heavy black-feathered north east arrow
+U+27BA;➺;Teardrop-barbed rightward arrow
+U+27BB;➻;Heavy teardrop-shanked rightward arrow
+U+27BC;➼;Wedge-tailed rightward arrow
+U+27BD;➽;Heavy wedge-tailed rightward arrow
+U+27BE;➾;Open-outlined rightward arrow
+U+2200;∀;For All
+U+2201;∁;Complement
+U+2202;∂;Partial Differential
+U+2203;∃;There Exists
+U+2204;∄;There Does Not Exist
+U+2205;∅;Empty Set
+U+2206;∆;Increment
+U+2207;∇;Nabla
+U+2208;∈;Element Of
+U+2209;∉;Not An Element Of
+U+220A;∊;Small Element Of
+U+220B;∋;Contains As Member
+U+220C;∌;Does Not Contain As Member
+U+220D;∍;Small Contains As Member
+U+220E;∎;End Of Proof
+U+220F;∏;N-ary Product
+U+2210;∐;N-ary Coproduct
+U+2211;∑;N-ary Summation
+U+2212;−;Minus Sign
+U+2213;∓;Minus-or-plus Sign
+U+2214;∔;Dot Plus
+U+2215;∕;Division Slash
+U+2216;∖;Set Minus
+U+2217;∗;Asterisk Operator
+U+2218;∘;Ring Operator
+U+2219;∙;Bullet Operator
+U+221A;√;Square Root
+U+221B;∛;Cube Root
+U+221C;∜;Fourth Root
+U+221D;∝;Proportional To
+U+221E;∞;Infinity
+U+221F;∟;Right Angle
+U+2220;∠;Angle
+U+2221;∡;Measured Angle
+U+2222;∢;Spherical Angle
+U+2223;∣;Divides
+U+2224;∤;Does Not Divide
+U+2225;∥;Parallel To
+U+2226;∦;Not Parallel To
+U+2227;∧;Logical And
+U+2228;∨;Logical Or
+U+2229;∩;Intersection
+U+222A;∪;Union
+U+222B;∫;Integral
+U+222C;∬;Double Integral
+U+222D;∭;Triple Integral
+U+222E;∮;Contour Integral
+U+222F;∯;Surface Integral
+U+2230;∰;Volume Integral
+U+2231;∱;Clockwise Integral
+U+2232;∲;Clockwise Contour Integral
+U+2233;∳;Anticlockwise Contour Integral
+U+2234;∴;Therefore
+U+2235;∵;Because
+U+2236;∶;Ratio
+U+2237;∷;Proportion
+U+2238;∸;Dot Minus
+U+2239;∹;Excess
+U+223A;∺;Geometric Proportion
+U+223B;∻;Homothetic
+U+223C;∼;Tilde Operator
+U+223D;∽;Reversed Tilde
+U+223E;∾;Inverted Lazy S
+U+223F;∿;Sine Wave
+U+2240;≀;Wreath Product
+U+2241;≁;Not Tilde
+U+2242;≂;Minus Tilde
+U+2243;≃;Asymptotically Equal To
+U+2244;≄;Not Asymptotically Equal To
+U+2245;≅;Approximately Equal To
+U+2246;≆;Approximately But Not Actually Equal To
+U+2247;≇;Neither Approximately Nor Actually Equal To
+U+2248;≈;Almost Equal To
+U+2249;≉;Not Almost Equal To
+U+224A;≊;Almost Equal Or Equal To
+U+224B;≋;Triple Tilde
+U+224C;≌;All Equal To
+U+224D;≍;Equivalent To
+U+224E;≎;Geometrically Equivalent To
+U+224F;≏;Difference Between
+U+2250;≐;Approaches The Limit
+U+2251;≑;Geometrically Equal To
+U+2252;≒;Approximately Equal To Or The Image Of
+U+2253;≓;Image Of Or Approximately Equal To
+U+2254;≔;Colon Equals
+U+2255;≕;Equals Colon
+U+2256;≖;Ring In Equal To
+U+2257;≗;Ring Equal To
+U+2258;≘;Corresponds To
+U+2259;≙;Estimates
+U+225A;≚;Equiangular To
+U+225B;≛;Star Equals
+U+225C;≜;Delta Equal To
+U+225D;≝;Equal To By Definition
+U+225E;≞;Measured By
+U+225F;≟;Questioned Equal To
+U+2260;≠;Not Equal To
+U+2261;≡;Identical To
+U+2262;≢;Not Identical To
+U+2263;≣;Strictly Equivalent To
+U+2264;≤;Less-than Or Equal To
+U+2265;≥;Greater-than Or Equal To
+U+2266;≦;Less-than Over Equal To
+U+2267;≧;Greater-than Over Equal To
+U+2268;≨;Less-than But Not Equal To
+U+2269;≩;Greater-than But Not Equal To
+U+226A;≪;Much Less-than
+U+226B;≫;Much Greater-than
+U+226C;≬;Between
+U+226D;≭;Not Equivalent To
+U+226E;≮;Not Less-than
+U+226F;≯;Not Greater-than
+U+2270;≰;Neither Less-than Nor Equal To
+U+2271;≱;Neither Greater-than Nor Equal To
+U+2272;≲;Less-than Or Equivalent To
+U+2273;≳;Greater-than Or Equivalent To
+U+2274;≴;Neither Less-than Nor Equivalent To
+U+2275;≵;Neither Greater-than Nor Equivalent To
+U+2276;≶;Less-than Or Greater-than
+U+2277;≷;Greater-than Or Less-than
+U+2278;≸;Neither Less-than Nor Greater-than
+U+2279;≹;Neither Greater-than Nor Less-than
+U+227A;≺;Precedes
+U+227B;≻;Succeeds
+U+227C;≼;Precedes Or Equal To
+U+227D;≽;Succeeds Or Equal To
+U+227E;≾;Precedes Or Equivalent To
+U+227F;≿;Succeeds Or Equivalent To
+U+2280;⊀;Does Not Precede
+U+2281;⊁;Does Not Succeed
+U+2282;⊂;Subset Of
+U+2283;⊃;Superset Of
+U+2284;⊄;Not A Subset Of
+U+2285;⊅;Not A Superset Of
+U+2286;⊆;Subset Of Or Equal To
+U+2287;⊇;Superset Of Or Equal To
+U+2288;⊈;Neither A Subset Of Nor Equal To
+U+2289;⊉;Neither A Superset Of Nor Equal To
+U+228A;⊊;Subset Of With Not Equal To
+U+228B;⊋;Superset Of With Not Equal To
+U+228C;⊌;Multiset
+U+228D;⊍;Multiset Multiplication
+U+228E;⊎;Multiset Union
+U+228F;⊏;Square Image Of
+U+2290;⊐;Square Original Of
+U+2291;⊑;Square Image Of Or Equal To
+U+2292;⊒;Square Original Of Or Equal To
+U+2293;⊓;Square Cap
+U+2294;⊔;Square Cup
+U+2295;⊕;Circled Plus
+U+2296;⊖;Circled Minus
+U+2297;⊗;Circled Times
+U+2298;⊘;Circled Division Slash
+U+2299;⊙;Circled Dot Operator
+U+229A;⊚;Circled Ring Operator
+U+229B;⊛;Circled Asterisk Operator
+U+229C;⊜;Circled Equals
+U+229D;⊝;Circled Dash
+U+229E;⊞;Squared Plus
+U+229F;⊟;Squared Minus
+U+22A0;⊠;Squared Times
+U+22A1;⊡;Squared Dot Operator
+U+22A2;⊢;Right Tack
+U+22A3;⊣;Left Tack
+U+22A4;⊤;Down Tack
+U+22A5;⊥;Up Tack
+U+22A6;⊦;Assertion
+U+22A7;⊧;Models
+U+22A8;⊨;True
+U+22A9;⊩;Forces
+U+22AA;⊪;Triple Vertical Bar Right Turnstile
+U+22AB;⊫;Double Vertical Bar Double Right Turnstile
+U+22AC;⊬;Does Not Prove
+U+22AD;⊭;Not True
+U+22AE;⊮;Does Not Force
+U+22AF;⊯;Negated Double Vertical Bar Double Right Turnstile
+U+22B0;⊰;Precedes Under Relation
+U+22B1;⊱;Succeeds Under Relation
+U+22B2;⊲;Normal Subgroup Of
+U+22B3;⊳;Contains As Normal Subgroup
+U+22B4;⊴;Normal Subgroup Of Or Equal To
+U+22B5;⊵;Contains As Normal Subgroup Or Equal To
+U+22B6;⊶;Original Of
+U+22B7;⊷;Image Of
+U+22B8;⊸;Multimap
+U+22B9;⊹;Hermitian Conjugate Matrix
+U+22BA;⊺;Intercalate
+U+22BB;⊻;Xor
+U+22BC;⊼;Nand
+U+22BD;⊽;Nor
+U+22BE;⊾;Right Angle With Arc
+U+22BF;⊿;Right Triangle
+U+22C0;⋀;N-ary Logical And
+U+22C1;⋁;N-ary Logical Or
+U+22C2;⋂;N-ary Intersection
+U+22C3;⋃;N-ary Union
+U+22C4;⋄;Diamond Operator
+U+22C5;⋅;Dot Operator
+U+22C6;⋆;Star Operator
+U+22C7;⋇;Division Times
+U+22C8;⋈;Bowtie
+U+22C9;⋉;Left Normal Factor Semidirect Product
+U+22CA;⋊;Right Normal Factor Semidirect Product
+U+22CB;⋋;Left Semidirect Product
+U+22CC;⋌;Right Semidirect Product
+U+22CD;⋍;Reversed Tilde Equals
+U+22CE;⋎;Curly Logical Or
+U+22CF;⋏;Curly Logical And
+U+22D0;⋐;Double Subset
+U+22D1;⋑;Double Superset
+U+22D2;⋒;Double Intersection
+U+22D3;⋓;Double Union
+U+22D4;⋔;Pitchfork
+U+22D5;⋕;Equal And Parallel To
+U+22D6;⋖;Less-than With Dot
+U+22D7;⋗;Greater-than With Dot
+U+22D8;⋘;Very Much Less-than
+U+22D9;⋙;Very Much Greater-than
+U+22DA;⋚;Less-than Equal To Or Greater-than
+U+22DB;⋛;Greater-than Equal To Or Less-than
+U+22DC;⋜;Equal To Or Less-than
+U+22DD;⋝;Equal To Or Greater-than
+U+22DE;⋞;Equal To Or Precedes
+U+22DF;⋟;Equal To Or Succeeds
+U+22E0;⋠;Does Not Precede Or Equal
+U+22E1;⋡;Does Not Succeed Or Equal
+U+22E2;⋢;Not Square Image Of Or Equal To
+U+22E3;⋣;Not Square Original Of Or Equal To
+U+22E4;⋤;Square Image Of Or Not Equal To
+U+22E5;⋥;Square Original Of Or Not Equal To
+U+22E6;⋦;Less-than But Not Equivalent To
+U+22E7;⋧;Greater-than But Not Equivalent To
+U+22E8;⋨;Precedes But Not Equivalent To
+U+22E9;⋩;Succeeds But Not Equivalent To
+U+22EA;⋪;Not Normal Subgroup Of
+U+22EB;⋫;Does Not Contain As Normal Subgroup
+U+22EC;⋬;Not Normal Subgroup Of Or Equal To
+U+22ED;⋭;Does Not Contain As Normal Subgroup Or Equal
+U+22EE;⋮;Vertical Ellipsis
+U+22EF;⋯;Midline Horizontal Ellipsis
+U+22F0;⋰;Up Right Diagonal Ellipsis
+U+22F1;⋱;Down Right Diagonal Ellipsis
+U+22F2;⋲;Element Of With Long Horizontal Stroke
+U+22F3;⋳;Element Of With Vertical Bar At End Of Horizontal Stroke
+U+22F4;⋴;Small Element Of With Vertical Bar At End Of Horizontal Stroke
+U+22F5;⋵;Element Of With Dot Above
+U+22F6;⋶;Element Of With Overbar
+U+22F7;⋷;Small Element Of With Overbar
+U+22F8;⋸;Element Of With Underbar
+U+22F9;⋹;Element Of With Two Horizontal Strokes
+U+22FA;⋺;Contains With Long Horizontal Stroke
+U+22FB;⋻;Contains With Vertical Bar At End Of Horizontal Stroke
+U+22FC;⋼;Small Contains With Vertical Bar At End Of Horizontal Stroke
+U+22FD;⋽;Contains With Overbar
+U;22FE;⋾;Small Contains With Overbar
+U;22FF;⋿;Z Notation Bag Membership
+U+2600;☀;Black Sun With Rays
+U+2601;☁;Cloud
+U+2602;☂;Umbrella
+U+2603;☃;Snowman
+U+2604;☄;Comet
+U+2605;★;Black Star
+U+2606;☆;White Star
+U+2607;☇;Lightning
+U+2608;☈;Thunderstorm
+U+2609;☉;Sun
+U+260A;☊;Ascending Node
+U+260B;☋;Descending Node
+U+260C;☌;Conjunction
+U+260D;☍;Opposition
+U+260E;☎;Black Telephone
+U+260F;☏;White Telephone
+U+2610;☐;Ballot Box
+U+2611;☑;Ballot Box With Check
+U+2612;☒;Ballot Box With X
+U+2613;☓;Saltire
+U+2614;☔;Umbrella With Rain Drops
+U+2615;☕;Hot Beverage
+U+2616;☖;White Shogi Piece
+U+2617;☗;Black Shogi Piece
+U+2618;☘;Shamrock
+U+2619;☙;Reversed Rotated Floral Heart Bullet
+U+261A;☚;Black Left Pointing Index
+U+261B;☛;Black Right Pointing Index
+U+261C;☜;White Left Pointing Index
+U+261D;☝;White Up Pointing Index
+U+261E;☞;White Right Pointing Index
+U+261F;☟;White Down Pointing Index
+U+2620;☠;Skull And Crossbones
+U+2621;☡;Caution Sign
+U+2622;☢;Radioactive Sign
+U+2623;☣;Biohazard Sign
+U+2624;☤;Caduceus
+U+2625;☥;Ankh
+U+2626;☦;Orthodox Cross
+U+2627;☧;Chi Rho
+U+2628;☨;Cross Of Lorraine
+U+2629;☩;Cross Of Jerusalem
+U+262A;☪;Star And Crescent
+U+262B;☫;Farsi Symbol
+U+262C;☬;Adi Shakti
+U+262D;☭;Hammer And Sickle
+U+262E;☮;Peace Symbol
+U+262F;☯;Yin Yang
+U+2630;☰;Trigram For Heaven
+U+2631;☱;Trigram For Lake
+U+2632;☲;Trigram For Fire
+U+2633;☳;Trigram For Thunder
+U+2634;☴;Trigram For Wind
+U+2635;☵;Trigram For Water
+U+2636;☶;Trigram For Mountain
+U+2637;☷;Trigram For Earth
+U+2638;☸;Wheel Of Dharma
+U+2639;☹;White Frowning Face
+U+263A;☺;White Smiling Face
+U+263B;☻;Black Smiling Face
+U+263C;☼;White Sun With Rays
+U+263D;☽;First Quarter Moon
+U+263E;☾;Last Quarter Moon
+U+263F;☿;Mercury
+U+2640;♀;Female Sign
+U+2641;♁;Earth
+U+2642;♂;Male Sign
+U+2643;♃;Jupiter
+U+2644;♄;Saturn
+U+2645;♅;Uranus
+U+2646;♆;Neptune
+U+2647;♇;Pluto
+U+2648;♈;Aries
+U+2649;♉;Taurus
+U+264A;♊;Gemini
+U+264B;♋;Cancer
+U+264C;♌;Leo
+U+264D;♍;Virgo
+U+264E;♎;Libra
+U+264F;♏;Scorpius
+U+2650;♐;Sagittarius
+U+2651;♑;Capricorn
+U+2652;♒;Aquarius
+U+2653;♓;Pisces
+U+2654;♔;White Chess King
+U+2655;♕;White Chess Queen
+U+2656;♖;White Chess Rook
+U+2657;♗;White Chess Bishop
+U+2658;♘;White Chess Knight
+U+2659;♙;White Chess Pawn
+U+265A;♚;Black Chess King
+U+265B;♛;Black Chess Queen
+U+265C;♜;Black Chess Rook
+U+265D;♝;Black Chess Bishop
+U+265E;♞;Black Chess Knight
+U+265F;♟;Black Chess Pawn
+U+2660;♠;Black Spade Suit
+U+2661;♡;White Heart Suit
+U+2662;♢;White Diamond Suit
+U+2663;♣;Black Club Suit
+U+2664;♤;White Spade Suit
+U+2665;♥;Black Heart Suit
+U+2666;♦;Black Diamond Suit
+U+2667;♧;White Club Suit
+U+2668;♨;Hot Springs
+U+2669;♩;Quarter Note
+U+266A;♪;Eighth Note
+U+266B;♫;Beamed Eighth Notes
+U+266C;♬;Beamed Sixteenth Notes
+U+266D;♭;Music Flat Sign
+U+266E;♮;Music Natural Sign
+U+266F;♯;Music Sharp Sign
+U+2670;♰;West Syriac Cross
+U+2671;♱;East Syriac Cross
+U+2672;♲;Universal Recycling Symbol
+U+2673;♳;Recycling Symbol For Type-1 Plastics
+U+2674;♴;Recycling Symbol For Type-2 Plastics
+U+2675;♵;Recycling Symbol For Type-3 Plastics
+U+2676;♶;Recycling Symbol For Type-4 Plastics
+U+2677;♷;Recycling Symbol For Type-5 Plastics
+U+2678;♸;Recycling Symbol For Type-6 Plastics
+U+2679;♹;Recycling Symbol For Type-7 Plastics
+U+267A;♺;Recycling Symbol For Generic Materials
+U+267B;♻;Black Universal Recycling Symbol
+U+267C;♼;Recycled Paper Symbol
+U+267D;♽;Partially-recycled Paper Symbol
+U+267E;♾;Permanent Paper Sign
+U+267F;♿;Wheelchair Symbol
+U+2680;⚀;Die Face-1
+U+2681;⚁;Die Face-2
+U+2682;⚂;Die Face-3
+U+2683;⚃;Die Face-4
+U+2684;⚄;Die Face-5
+U+2685;⚅;Die Face-6
+U+2686;⚆;White Circle With Dot Right
+U+2687;⚇;White Circle With Two Dots
+U+2688;⚈;Black Circle With White Dot Right
+U+2689;⚉;Black Circle With Two White Dots
+U+268A;⚊;Monogram For Yang
+U+268B;⚋;Monogram For Yin
+U+268C;⚌;Digram For Greater Yang
+U+268D;⚍;Digram For Lesser Yin
+U+268E;⚎;Digram For Lesser Yang
+U+268F;⚏;Digram For Greater Yin
+U+2690;⚐;White Flag
+U+2691;⚑;Black Flag
+U+2692;⚒;Hammer And Pick
+U+2693;⚓;Anchor
+U+2694;⚔;Crossed Swords
+U+2695;⚕;Staff Of Aesculapius
+U+2696;⚖;Scales
+U+2697;⚗;Alembic
+U+2698;⚘;Flower
+U+2699;⚙;Gear
+U+269A;⚚;Staff Of Hermes
+U+269B;⚛;Atom Symbol
+U+269C;⚜;Fleur-de-lis
+U+269D;⚝;Outlined White Star
+U+269E;⚞;Three Lines Converging Right
+U+269F;⚟;Three Lines Converging Left
+U+26A0;⚠;Warning Sign
+U+26A1;⚡;High Voltage Sign
+U+26A2;⚢;Doubled Female Sign
+U+26A3;⚣;Doubled Male Sign
+U+26A4;⚤;Interlocked Female And Male Sign
+U+26A5;⚥;Male And Female Sign
+U+26A6;⚦;Male With Stroke Sign
+U+26A7;⚧;Male With Stroke And Male And Female Sign
+U+26A8;⚨;Vertical Male With Stroke Sign
+U+26A9;⚩;Horizontal Male With Stroke Sign
+U+26AA;⚪;Medium White Circle
+U+26AB;⚫;Medium Black Circle
+U+26AC;⚬;Medium Small White Circle
+U+26AD;⚭;Marriage Symbol
+U+26AE;⚮;Divorce Symbol
+U+26AF;⚯;Unmarried Partnership Symbol
+U+26B0;⚰;Coffin
+U+26B1;⚱;Funeral Urn
+U+26B2;⚲;Neuter
+U+26B3;⚳;Ceres
+U+26B4;⚴;Pallas
+U+26B5;⚵;Juno
+U+26B6;⚶;Vesta
+U+26B7;⚷;Chiron
+U+26B8;⚸;Black Moon Lilith
+U+26B9;⚹;Sextile
+U+26BA;⚺;Semisextile
+U+26BB;⚻;Quincunx
+U+26BC;⚼;Sesquiquadrate
+U+26BD;⚽;Soccer Ball
+U+26BE;⚾;Baseball
+U+26BF;⚿;Squared Key
+U+26C0;⛀;White Draughts Man
+U+26C1;⛁;White Draughts King
+U+26C2;⛂;Black Draughts Man
+U+26C3;⛃;Black Draughts King
+U+26C4;⛄;Snowman Without Snow
+U+26C5;⛅;Sun Behind Cloud
+U+26C6;⛆;Rain
+U+26C7;⛇;Black Snowman
+U+26C8;⛈;Thunder Cloud And Rain
+U+26C9;⛉;Turned White Shogi Piece
+U+26CA;⛊;Turned Black Shogi Piece
+U+26CB;⛋;White Diamond In Square
+U+26CC;⛌;Crossing Lanes
+U+26CD;⛍;Disabled Car
+U+26CE;⛎;Ophiuchus
+U+26CF;⛏;Pick
+U+26D0;⛐;Car Sliding
+U+26D1;⛑;Helmet With White Cross
+U+26D2;⛒;Circled Crossing Lanes
+U+26D3;⛓;Chains
+U+26D4;⛔;No Entry
+U+26D5;⛕;Alternate One-way Left Way Traffic
+U+26D6;⛖;Black Two-way Left Way Traffic
+U+26D7;⛗;White Two-way Left Way Traffic
+U+26D8;⛘;Black Left Lane Merge
+U+26D9;⛙;White Left Lane Merge
+U+26DA;⛚;Drive Slow Sign
+U+26DB;⛛;Heavy White Down-pointing Triangle
+U+26DC;⛜;Left Closed Entry
+U+26DD;⛝;Squared Saltire
+U+26DE;⛞;Falling Diagonal In White Circle In Black Square
+U+26DF;⛟;Black Truck
+U+26E0;⛠;Restricted Left Entry-1
+U+26E1;⛡;Restricted Left Entry-2
+U+26E2;⛢;Astronomical Symbol For Uranus
+U+26E3;⛣;Heavy Circle With Stroke And Two Dots Above
+U+26E4;⛤;Pentagram
+U+26E5;⛥;Right-handed Interlaced Pentagram
+U+26E6;⛦;Left-handed Interlaced Pentagram
+U+26E7;⛧;Inverted Pentagram
+U+26E8;⛨;Black Cross On Shield
+U+26E9;⛩;Shinto Shrine
+U+26EA;⛪;Church
+U+26EB;⛫;Castle
+U+26EC;⛬;Historic Site
+U+26ED;⛭;Gear Without Hub
+U+26EE;⛮;Gear With Handles
+U+26EF;⛯;Map Symbol For Lighthouse
+U+26F0;⛰;Mountain
+U+26F1;⛱;Umbrella On Ground
+U+26F2;⛲;Fountain
+U+26F3;⛳;Flag In Hole
+U+26F4;⛴;Ferry
+U+26F5;⛵;Sailboat
+U+26F6;⛶;Square Four Corners
+U+26F7;⛷;Skier
+U+26F8;⛸;Ice Skate
+U+26F9;⛹;Person With Ball
+U+26FA;⛺;Tent
+U+26FB;⛻;Japanese Bank Symbol
+U+26FC;⛼;Headstone Graveyard Symbol
+U+26FD;⛽;Fuel Pump
+U+26FE;⛾;Cup On Black Square
+U+26FF;⛿;White Flag With Horizontal Middle Black Stripe
+U+25A0;■;Black square
+U+25A1;□;White square
+U+25A2;▢;White square with rounded corners
+U+25A3;▣;White square containing small black square
+U+25A4;▤;Square with horizontal fill
+U+25A5;▥;Square with vertical fill
+U+25A6;▦;Square with orthogonal crosshatch fill
+U+25A7;▧;Square with upper left to lower right fill
+U+25A8;▨;Square with upper right to lower left fill
+U+25A9;▩;Square with diagonal crosshatch fill
+U+25AA;▪;Black small square
+U+25AB;▫;White small square
+U+25AC;▬;Black rectangle
+U+25AD;▭;White rectangle
+U+25AE;▮;Black vertical rectangle
+U+25AF;▯;White vertical rectangle
+U+25B0;▰;Black parallelogram
+U+25B1;▱;White parallelogram
+U+25B2;▲;Black up-pointing triangle
+U+25B3;△;White up-pointing triangle
+U+25B4;▴;Black up-pointing small triangle
+U+25B5;▵;White up-pointing small triangle
+U+25B6;▶;Black right-pointing triangle
+U+25B7;▷;White right-pointing triangle
+U+25B8;▸;Black right-pointing small triangle
+U+25B9;▹;White right-pointing small triangle
+U+25BA;►;Black right-pointing pointer
+U+25BB;▻;White right-pointing pointer
+U+25BC;▼;Black down-pointing triangle
+U+25BD;▽;White down-pointing triangle
+U+25BE;▾;Black down-pointing small triangle
+U+25BF;▿;White down-pointing small triangle
+U+25C0;◀;Black left-pointing triangle
+U+25C1;◁;White left-pointing triangle
+U+25C2;◂;Black left-pointing small triangle
+U+25C3;◃;White left-pointing small triangle
+U+25C4;◄;Black left-pointing pointer
+U+25C5;◅;White left-pointing pointer
+U+25C6;◆;Black diamond
+U+25C7;◇;White diamond
+U+25C8;◈;White diamond containing small black diamond
+U+25C9;◉;Fisheye
+U+25CA;◊;Lozenge
+U+25CB;○;White circle
+U+25CC;◌;Dotted circle
+U+25CD;◍;Circle with vertical fill
+U+25CE;◎;Bullseye
+U+25CF;●;Black circle
+U+25D0;◐;Circle with left half black
+U+25D1;◑;Circle with right half black
+U+25D2;◒;Circle with lower half black
+U+25D3;◓;Circle with upper half black
+U+25D4;◔;Circle with upper right quadrant black
+U+25D5;◕;Circle with all but upper left quadrant black
+U+25D6;◖;Left half circle black
+U+25D7;◗;Right half black circle
+U+25D8;◘;Inverse bullet
+U+25D9;◙;Inverse white circle
+U+25DA;◚;Upper half inverse white circle
+U+25DB;◛;Lower half inverse white circle
+U+25DC;◜;Upper left quadrant circular arc
+U+25DD;◝;Upper right quadrant circular arc
+U+25DE;◞;Lower right quadrant circular arc
+U+25DF;◟;Lower left quadrant circular arc
+U+25E0;◠;Upper half circle
+U+25E1;◡;Lower half circle
+U+25E2;◢;Black lower right triangle
+U+25E3;◣;Black lower left triangle
+U+25E4;◤;Black upper left triangle
+U+25E5;◥;Black upper right triangle
+U+25E6;◦;White bullet
+U+25E7;◧;Square with left half black
+U+25E8;◨;Square with right half black
+U+25E9;◩;Square with upper left diagonal half black
+U+25EA;◪;Square with lower right diagonal half black
+U+25EB;◫;White square with vertical bisecting line
+U+25EC;◬;White up-pointing triangle with dot
+U+25ED;◭;Up-pointing triangle with left half black
+U+25EE;◮;Up-pointing triangle with right half black
+U+25EF;◯;Large circle
+U+25F0;◰;White square with upper left quadrant
+U+25F1;◱;White square with lower left quadrant
+U+25F2;◲;White square with lower right quadrant
+U+25F3;◳;White square with upper right quadrant
+U+25F4;◴;White circle with upper left quadrant
+U+25F5;◵;White circle with lower left quadrant
+U+25F6;◶;White circle with lower right quadrant
+U+25F7;◷;White circle with upper right quadrant
+U+25F8;◸;Upper left triangle
+U+25F9;◹;Upper right triangle
+U+25FA;◺;Lower-left triangle
+U+25FB;◻;White medium square
+U+25FC;◼;Black medium square
+U+25FD;◽;White medium small square
+U+25FE;◾;Black medium small square
+U+25FF;◿;Lower right triangle
+U+2580;▀;Upper half block
+U+2581;▁;Lower one eighth block
+U+2582;▂;Lower one quarter block
+U+2583;▃;Lower three eighths block
+U+2584;▄;Lower half block
+U+2585;▅;Lower five eighths block
+U+2586;▆;Lower three quarters block
+U+2587;▇;Lower seven eighths block
+U+2588;█;Full block
+U+2589;▉;Left seven eighths block
+U+258A;▊;Left three quarters block
+U+258B;▋;Left five eighths block
+U+258C;▌;Left half block
+U+258D;▍;Left three eighths block
+U+258E;▎;Left one quarter block
+U+258F;▏;Left one eighth block
+U+2590;▐;Right half block
+U+2591;░;Light shade
+U+2592;▒;Medium shade
+U+2593;▓;Dark shade
+U+2594;▔;Upper one eighth block
+U+2595;▕;Right one eighth block
+U+2596;▖;Quadrant lower left
+U+2597;▗;Quadrant lower right
+U+2598;▘;Quadrant upper left
+U+2599;▙;Quadrant upper left and lower left and lower right
+U+259A;▚;Quadrant upper left and lower right
+U+259B;▛;Quadrant upper left and upper right and lower left
+U+259C;▜;Quadrant upper left and upper right and lower right
+U+259D;▝;Quadrant upper right
+U+259E;▞;Quadrant upper right and lower left
+U+259F;▟;Quadrant upper right and lower left and lower right
+U+1D741;𝝁;Mathematical Bold Italic Small Mu
+U+1F30D;🌍;Earth Globe Europe-africa
+U+1F30E;🌎;Earth Globe Americas
+U+1F30F;🌏;Earth Globe Asia-australia
+U+1F315;🌕;Full Moon Symbol
+U+1F31C;🌜;Last Quarter Moon With Face
+U+1F378;🍸;Cocktail Glass
+U+1F393;🎓;Graduation Cap
+U+1F3A7;🎧;Headphone
+U+1F3AC;🎬;Clapper Board
+U+1F3AD;🎭;Performing Arts
+U+1F3AE;🎮;Video Game
+U+1F3B5;🎵;Musical Note
+U+1F3B6;🎶;Multiple Musical Notes
+U+1F3C2;🏂;Snowboarder
+U+1F3C4;🏄;Surfer
+U+1F3C6;🏆;Trophy
+U+1F3CA;🏊;Swimmer
+U+1F3E0;🏠;House Building
+U+1F3ED;🏭;Factory
+U+1F408;🐈;Cat
+U+1F415;🐕;Dog
+U+1F41F;🐟;Fish
+U+1F426;🐦;Bird
+U+1F442;👂;Ear
+U+1F446;👆;White Up Pointing Backhand Index
+U+1F447;👇;White Down Pointing Backhand Index
+U+1F448;👈;White Left Pointing Backhand Index
+U+1F449;👉;White Right Pointing Backhand Index
+U+1F44C;👌;Ok Hand Sign
+U+1F44D;👍;Thumbs Up Sign
+U+1F44E;👎;Thumbs Down Sign
+U+1F453;👓;Eyeglasses
+U+1F46A;👪;Family
+U+1F47D;👽;Extraterrestrial Alien
+U+1F4A3;💣;Bomb
+U+1F4A9;💩;Pile Of Poo
+U+1F4B0;💰;Money Bag
+U+1F4B3;💳;Credit Card
+U+1F4B9;💹;Chart With Upwards Trend And Yen Sign
+U+1F4BB;💻;Personal Computer
+U+1F4BF;💿;Optical Disc
+U+1F4C8;📈;Chart With Upwards Trend
+U+1F4C9;📉;Chart With Downwards Trend
+U+1F4CA;📊;Bar Chart
+U+1F4CB;📋;Clipboard
+U+1F4DA;📚;Books
+U+1F4DF;📟;Pager
+U+1F4E4;📤;Outbox Tray
+U+1F4E5;📥;Inbox Tray
+U+1F4E6;📦;Package
+U+1F4EA;📪;Closed Mailbox With Lowered Flag
+U+1F4EB;📫;Closed Mailbox With Raised Flag
+U+1F4EC;📬;Open Mailbox With Raised Flag
+U+1F4ED;📭;Open Mailbox With Lowered Flag
+U+1F4F7;📷;Camera
+U+1F4F9;📹;Video Camera
+U+1F4FA;📺;Television
+U+1F4FB;📻;Radio
+U+1F507;🔇;Speaker With Cancellation Stroke
+U+1F508;🔈;Speaker
+U+1F509;🔉;Speaker With One Sound Wave
+U+1F50A;🔊;Speaker With Three Sound Waves
+U+1F50D;🔍;Left-pointing Magnifying Glass
+U+1F512;🔒;Lock
+U+1F513;🔓;Open Lock
+U+1F540;🕀;Circled Cross Pommee
+U+1F541;🕁;Cross Pommee With Half-circle Below
+U+1F542;🕂;Cross Pommee
+U+1F543;🕃;Notched Left Semicircle With Three Dots
+U+1F550;🕐;Clock Face One Oclock
+U+1F551;🕑;Clock Face Two Oclock
+U+1F552;🕒;Clock Face Three Oclock
+U+1F553;🕓;Clock Face Four Oclock
+U+1F554;🕔;Clock Face Five Oclock
+U+1F555;🕕;Clock Face Six Oclock
+U+1F556;🕖;Clock Face Seven Oclock
+U+1F557;🕗;Clock Face Eight Oclock
+U+1F558;🕘;Clock Face Nine Oclock
+U+1F559;🕙;Clock Face Ten Oclock
+U+1F55A;🕚;Clock Face Eleven Oclock
+U+1F55B;🕛;Clock Face Twelve Oclock
+U+1F55C;🕜;Clock Face One-thirty
+U+1F55D;🕝;Clock Face Two-thirty
+U+1F55E;🕞;Clock Face Three-thirty
+U+1F55F;🕟;Clock Face Four-thirty
+U+1F560;🕠;Clock Face Five-thirty
+U+1F561;🕡;Clock Face Six-thirty
+U+1F562;🕢;Clock Face Seven-thirty
+U+1F563;🕣;Clock Face Eight-thirty
+U+1F564;🕤;Clock Face Nine-thirty
+U+1F565;🕥;Clock Face Ten-thirty
+U+1F566;🕦;Clock Face Eleven-thirty
+U;1F567;🕧;Clock Face Twelve-thirty
+U+1F0A0;🂠;Playing Card Back
+U+1F0A1;🂡;Playing Card Ace Of Spades
+U+1F0A2;🂢;Playing Card Two Of Spades
+U+1F0A3;🂣;Playing Card Three Of Spades
+U+1F0A4;🂤;Playing Card Four Of Spades
+U+1F0A5;🂥;Playing Card Five Of Spades
+U+1F0A6;🂦;Playing Card Six Of Spades
+U+1F0A7;🂧;Playing Card Seven Of Spades
+U+1F0A8;🂨;Playing Card Eight Of Spades
+U+1F0A9;🂩;Playing Card Nine Of Spades
+U+1F0AA;🂪;Playing Card Ten Of Spades
+U+1F0AB;🂫;Playing Card Jack Of Spades
+U+1F0AC;🂬;Playing Card Knight Of Spades
+U+1F0AD;🂭;Playing Card Queen Of Spades
+U+1F0AE;🂮;Playing Card King Of Spades
+U+1F0B1;🂱;Playing Card Ace Of Hearts
+U+1F0B2;🂲;Playing Card Two Of Hearts
+U+1F0B3;🂳;Playing Card Three Of Hearts
+U+1F0B4;🂴;Playing Card Four Of Hearts
+U+1F0B5;🂵;Playing Card Five Of Hearts
+U+1F0B6;🂶;Playing Card Six Of Hearts
+U+1F0B7;🂷;Playing Card Seven Of Hearts
+U+1F0B8;🂸;Playing Card Eight Of Hearts
+U+1F0B9;🂹;Playing Card Nine Of Hearts
+U+1F0BA;🂺;Playing Card Ten Of Hearts
+U+1F0BB;🂻;Playing Card Jack Of Hearts
+U+1F0BC;🂼;Playing Card Knight Of Hearts
+U+1F0BD;🂽;Playing Card Queen Of Hearts
+U+1F0BE;🂾;Playing Card King Of Hearts
+U+1F0C1;🃁;Playing Card Ace Of Diamonds
+U+1F0C2;🃂;Playing Card Two Of Diamonds
+U+1F0C3;🃃;Playing Card Three Of Diamonds
+U+1F0C4;🃄;Playing Card Four Of Diamonds
+U+1F0C5;🃅;Playing Card Five Of Diamonds
+U+1F0C6;🃆;Playing Card Six Of Diamonds
+U+1F0C7;🃇;Playing Card Seven Of Diamonds
+U+1F0C8;🃈;Playing Card Eight Of Diamonds
+U+1F0C9;🃉;Playing Card Nine Of Diamonds
+U+1F0CA;🃊;Playing Card Ten Of Diamonds
+U+1F0CB;🃋;Playing Card Jack Of Diamonds
+U+1F0CC;🃌;Playing Card Knight Of Diamonds
+U+1F0CD;🃍;Playing Card Queen Of Diamonds
+U+1F0CE;🃎;Playing Card King Of Diamonds
+U+1F0CF;🃏;Playing Card Black Joker
+U+1F0D1;🃑;Playing Card Ace Of Clubs
+U+1F0D2;🃒;Playing Card Two Of Clubs
+U+1F0D3;🃓;Playing Card Three Of Clubs
+U+1F0D4;🃔;Playing Card Four Of Clubs
+U+1F0D5;🃕;Playing Card Five Of Clubs
+U+1F0D6;🃖;Playing Card Six Of Clubs
+U+1F0D7;🃗;Playing Card Seven Of Clubs
+U+1F0D8;🃘;Playing Card Eight Of Clubs
+U+1F0D9;🃙;Playing Card Nine Of Clubs
+U+1F0DA;🃚;Playing Card Ten Of Clubs
+U+1F0DB;🃛;Playing Card Jack Of Clubs
+U+1F0DC;🃜;Playing Card Knight Of Clubs
+U+1F0DD;🃝;Playing Card Queen Of Clubs
+U+1F0DE;🃞;Playing Card King Of Clubs
+U+1F0DF;🃟;Playing Card White Joker
+U+2300;⌀;Diameter Sign
+U+2301;⌁;Electric Arrow
+U+2302;⌂;House
+U+2303;⌃;Up Arrowhead
+U+2304;⌄;Down Arrowhead
+U+2305;⌅;Projective
+U+2306;⌆;Perspective
+U+2307;⌇;Wavy Line
+U+2308;⌈;Left Ceiling
+U+2309;⌉;Right Ceiling
+U+230A;⌊;Left Floor
+U+230B;⌋;Right Floor
+U+230C;⌌;Bottom Right Crop
+U+230D;⌍;Bottom Left Crop
+U+230E;⌎;Top Right Crop
+U+230F;⌏;Top Left Crop
+U+2310;⌐;Reversed Not Sign
+U+2311;⌑;Square Lozenge
+U+2312;⌒;Arc
+U+2313;⌓;Segment
+U+2314;⌔;Sector
+U+2315;⌕;Telephone Recorder
+U+2316;⌖;Position Indicator
+U+2317;⌗;Viewdata Square
+U+2318;⌘;Place Of Interest Sign
+U+2319;⌙;Turned Not Sign
+U+231a;⌚;Watch
+U+231b;⌛;Hourglass
+U+231c;⌜;Top Left Corner
+U+231d;⌝;Top Right Corner
+U+231e;⌞;Bottom Left Corner
+U+231f;⌟;Bottom Right Corner
+U+2320;⌠;Top Half Integral
+U+2321;⌡;Bottom Half Integral
+U+2322;⌢;Frown
+U+2323;⌣;Smile
+U+2324;⌤;Up Arrowhead Between Two Horizontal Bars
+U+2325;⌥;Option Key
+U+2326;⌦;Erase To The Right
+U+2327;⌧;X In A Rectangle Box
+U+2328;⌨;Keyboard
+U+2329;〈;Left-pointing Angle Bracket
+U+232A;〉;Right-pointing Angle Bracket
+U+232B;⌫;Erase To The Left
+U+232C;⌬;Benzene Ring
+U+232D;⌭;Cylindricity
+U+232E;⌮;All Around-profile
+U+232F;⌯;Symmetry
+U+2330;⌰;Total Runout
+U+2331;⌱;Dimension Origin
+U+2332;⌲;Conical Taper
+U+2333;⌳;Slope
+U+2334;⌴;Counterbore
+U+2335;⌵;Countersink
+U+2336;⌶;Apl Functional Symbol I-Beam
+U+2337;⌷;Apl Functional Symbol Squish Quad
+U+2338;⌸;Apl Functional Symbol Quad Equal
+U+2339;⌹;Apl Functional Symbol Quad Divide
+U+233A;⌺;Apl Functional Symbol Quad Diamond
+U+233B;⌻;Apl Functional Symbol Quad Jot
+U+233C;⌼;Apl Functional Symbol Quad Circle
+U+233D;⌽;Apl Functional Symbol Circle Stile
+U+233E;⌾;Apl Functional Symbol Circle Jot
+U+233F;⌿;Apl Functional Symbol Slash Bar
+U+2340;⍀;Apl Functional Symbol Backslash Bar
+U+2341;⍁;Apl Functional Symbol Quad Slash
+U+2342;⍂;Apl Functional Symbol Quad Backslash
+U+2343;⍃;Apl Functional Symbol Quad Less-than
+U+2344;⍄;Apl Functional Symbol Quad Greater-than
+U+2345;⍅;Apl Functional Symbol Leftwards Vane
+U+2346;⍆;Apl Functional Symbol Rightwards Vane
+U+2347;⍇;Apl Functional Symbol Quad Leftwards Arrow
+U+2348;⍈;Apl Functional Symbol Quad Rightwards Arrow
+U+2349;⍉;Apl Functional Symbol Circle Backslash
+U+234A;⍊;Apl Functional Symbol Down Tack Underbar
+U+234B;⍋;Apl Functional Symbol Delta Stile
+U+234C;⍌;Apl Functional Symbol Quad Down Caret
+U+234D;⍍;Apl Functional Symbol Quad Delta
+U+234E;⍎;Apl Functional Symbol Down Tack Jot
+U+234F;⍏;Apl Functional Symbol Upwards Vane
+U+2350;⍐;Apl Functional Symbol Quad Upwards Arrow
+U+2351;⍑;Apl Functional Symbol Up Tack Overbar
+U+2352;⍒;Apl Functional Symbol Del Stile
+U+2353;⍓;Apl Functional Symbol Quad Up Caret
+U+2354;⍔;Apl Functional Symbol Quad Del
+U+2355;⍕;Apl Functional Symbol Up Tack Jot
+U+2356;⍖;Apl Functional Symbol Downwards Vane
+U+2357;⍗;Apl Functional Symbol Quad Downwards Arrow
+U+2358;⍘;Apl Functional Symbol Quote Underbar
+U+2359;⍙;Apl Functional Symbol Delta Underbar
+U+235A;⍚;Apl Functional Symbol Diamond Underbar
+U+235B;⍛;Apl Functional Symbol Jot Underbar
+U+235C;⍜;Apl Functional Symbol Circle Underbar
+U+235D;⍝;Apl Functional Symbol Up Shoe Jot
+U+235E;⍞;Apl Functional Symbol Quote Quad
+U+235F;⍟;Apl Functional Symbol Circle Star
+U+2360;⍠;Apl Functional Symbol Quad Colon
+U+2361;⍡;Apl Functional Symbol Up Tack Diaeresis
+U+2362;⍢;Apl Functional Symbol Del Diaeresis
+U+2363;⍣;Apl Functional Symbol Star Diaeresis
+U+2364;⍤;Apl Functional Symbol Jot Diaeresis
+U+2365;⍥;Apl Functional Symbol Circle Diaeresis
+U+2366;⍦;Apl Functional Symbol Down Shoe Stile
+U+2367;⍧;Apl Functional Symbol Left Shoe Stile
+U+2368;⍨;Apl Functional Symbol Tilde Diaeresis
+U+2369;⍩;Apl Functional Symbol Greater-than Diaeresis
+U+236A;⍪;Apl Functional Symbol Comma Bar
+U+236B;⍫;Apl Functional Symbol Del Tilde
+U+236C;⍬;Apl Functional Symbol Zilde
+U+236D;⍭;Apl Functional Symbol Stile Tilde
+U+236E;⍮;Apl Functional Symbol Semicolon Underbar
+U+236F;⍯;Apl Functional Symbol Quad Not Equal
+U+2370;⍰;Apl Functional Symbol Quad Question
+U+2371;⍱;Apl Functional Symbol Down Caret Tilde
+U+2372;⍲;Apl Functional Symbol Up Caret Tilde
+U+2373;⍳;Apl Functional Symbol Iota
+U+2374;⍴;Apl Functional Symbol Rho
+U+2375;⍵;Apl Functional Symbol Omega
+U+2376;⍶;Apl Functional Symbol Alpha Underbar
+U+2377;⍷;Apl Functional Symbol Epsilon Underbar
+U+2378;⍸;Apl Functional Symbol Iota Underbar
+U+2379;⍹;Apl Functional Symbol Omega Underbar
+U+237A;⍺;Apl Functional Symbol Alpha
+U+237B;⍻;Not Check Mark
+U+237C;⍼;Right Angle With Downwards Zigzag Arrow
+U+237D;⍽;Shouldered Open Box
+U+237E;⍾;Bell Symbol
+U+237F;⍿;Vertical Line With Middle Dot
+U+2380;⎀;Insertion Symbol
+U+2381;⎁;Continuous Underline Symbol
+U+2382;⎂;Discontinuous Underline Symbol
+U+2383;⎃;Emphasis Symbol
+U+2384;⎄;Composition Symbol
+U+2385;⎅;White Square With Centre Vertical Line
+U+2386;⎆;Enter Symbol
+U+2387;⎇;Alternative Key Symbol
+U+2388;⎈;Helm Symbol
+U+2389;⎉;Circled Horizontal Bar With Notch
+U+238A;⎊;Circled Triangle Down
+U+238B;⎋;Broken Circle With Northwest Arrow
+U+238C;⎌;Undo Symbol
+U+238D;⎍;Monostable Symbol
+U+238E;⎎;Hysteresis Symbol
+U+238F;⎏;Open-circuit-output H-Type Symbol
+U+2390;⎐;Open-circuit-output L-Type Symbol
+U+2391;⎑;Passive-pull-down-output Symbol
+U+2392;⎒;Passive-pull-up-output Symbol
+U+2393;⎓;Direct Current Symbol Form Two
+U+2394;⎔;Software-function Symbol
+U+2395;⎕;Apl Functional Symbol Quad
+U+2396;⎖;Decimal Separator Key Symbol
+U+2397;⎗;Previous Page
+U+2398;⎘;Next Page
+U+2399;⎙;Print Screen Symbol
+U+239A;⎚;Clear Screen Symbol
+U+239B;⎛;Left Parenthesis Upper Hook
+U+239C;⎜;Left Parenthesis Extension
+U+239D;⎝;Left Parenthesis Lower Hook
+U+239E;⎞;Right Parenthesis Upper Hook
+U+239F;⎟;Right Parenthesis Extension
+U+23A0;⎠;Right Parenthesis Lower Hook
+U+23A1;⎡;Left Square Bracket Upper Corner
+U+23A2;⎢;Left Square Bracket Extension
+U+23A3;⎣;Left Square Bracket Lower Corner
+U+23A4;⎤;Right Square Bracket Upper Corner
+U+23A5;⎥;Right Square Bracket Extension
+U+23A6;⎦;Right Square Bracket Lower Corner
+U+23A7;⎧;Left Curly Bracket Upper Hook
+U+23A8;⎨;Left Curly Bracket Middle Piece
+U+23A9;⎩;Left Curly Bracket Lower Hook
+U+23AA;⎪;Curly Bracket Extension
+U+23AB;⎫;Right Curly Bracket Upper Hook
+U+23AC;⎬;Right Curly Bracket Middle Piece
+U+23AD;⎭;Right Curly Bracket Lower Hook
+U+23AE;⎮;Integral Extension
+U+23AF;⎯;Horizontal Line Extension
+U+23B0;⎰;Upper Left Or Lower Right Curly Bracket Section
+U+23B1;⎱;Upper Right Or Lower Left Curly Bracket Section
+U+23B2;⎲;Summation Top
+U+23B3;⎳;Summation Bottom
+U+23B4;⎴;Top Square Bracket
+U+23B5;⎵;Bottom Square Bracket
+U+23B6;⎶;Bottom Square Bracket Over Top Square Bracket
+U+23B7;⎷;Radical Symbol Bottom
+U+23B8;⎸;Left Vertical Box Line
+U+23B9;⎹;Right Vertical Box Line
+U+23BA;⎺;Horizontal Scan Line-1
+U+23BB;⎻;Horizontal Scan Line-3
+U+23BC;⎼;Horizontal Scan Line-7
+U+23BD;⎽;Horizontal Scan Line-9
+U+23BE;⎾;Dentistry Symbol Light Vertical And Top Right
+U+23BF;⎿;Dentistry Symbol Light Vertical And Bottom Right
+U+23C0;⏀;Dentistry Symbol Light Vertical With Circle
+U+23C1;⏁;Dentistry Symbol Light Down And Horizontal With Circle
+U+23C2;⏂;Dentistry Symbol Light Up And Horizontal With Circle
+U+23C3;⏃;Dentistry Symbol Light Vertical With Triangle
+U+23C4;⏄;Dentistry Symbol Light Down And Horizontal With Triangle
+U+23C5;⏅;Dentistry Symbol Light Up And Horizontal With Triangle
+U+23C6;⏆;Dentistry Symbol Light Vertical And Wave
+U+23C7;⏇;Dentistry Symbol Light Down And Horizontal With Wave
+U+23C8;⏈;Dentistry Symbol Light Up And Horizontal With Wave
+U+23C9;⏉;Dentistry Symbol Light Down And Horizontal
+U+23CA;⏊;Dentistry Symbol Light Up And Horizontal
+U+23CB;⏋;Dentistry Symbol Light Vertical And Top Left
+U+23CC;⏌;Dentistry Symbol Light Vertical And Bottom Left
+U+23CD;⏍;Square Foot
+U+23CE;⏎;Return Symbol
+U+23CF;⏏;Eject Symbol
+U+23D0;⏐;Vertical Line Extension
+U+23D1;⏑;Metrical Breve
+U+23D2;⏒;Metrical Long Over Short
+U+23D3;⏓;Metrical Short Over Long
+U+23D4;⏔;Metrical Long Over Two Shorts
+U+23D5;⏕;Metrical Two Shorts Over Long
+U+23D6;⏖;Metrical Two Shorts Joined
+U+23D7;⏗;Metrical Triseme
+U+23D8;⏘;Metrical Tetraseme
+U+23D9;⏙;Metrical Pentaseme
+U+23DA;⏚;Earth Ground
+U+23DB;⏛;Fuse
+U+23DC;⏜;Top Parenthesis
+U+23DD;⏝;Bottom Parenthesis
+U+23DE;⏞;Top Curly Bracket
+U+23DF;⏟;Bottom Curly Bracket
+U+23E0;⏠;Top Tortoise Shell Bracket
+U+23E1;⏡;Bottom Tortoise Shell Bracket
+U+23E2;⏢;White Trapezium
+U+23E3;⏣;Benzene Ring With Circle
+U+23E4;⏤;Straightness
+U+23E5;⏥;Flatness
+U+23E6;⏦;Ac Current
+U+23E7;⏧;Electrical Intersection
+U+23E8;⏨;Decimal Exponent Symbol
+U+23E9;⏩;Black Right-pointing Double Triangle
+U+23EA;⏪;Black Left-pointing Double Triangle
+U+23ED;⏭;Black Right-pointing Double Triangle With Vertical Bar
+U+23EE;⏮;Black Left-pointing Double Triangle With Vertical Bar
+U+23EF;⏯;Black Right-pointing Triangle With Double Vertical Bar
+U+23F1;⏱;Stopwatch
+U+23F2;⏲;Timer Clock
+U+23F3;⏳;Hourglass With Flowing Sand
+U+23F4;⏴;Black Medium Left-pointing Triangle
+U+23F5;⏵;Black Medium Right-pointing Triangle
+U+23F6;⏶;Black Medium Up-pointing Triangle
+U+23F7;⏷;Black Medium Down-pointing Triangle
+U+23F8;⏸;Double Vertical Bar
+U+23F9;⏹;Black Square For Stop
+U+23FA;⏺;Black Circle For Record
+U+23FB;⏻;Power Symbol
+U+23FC;⏼;Power On-off Symbol
+U+23FD;⏽;Power On Symbol
+U+23FE;⏾;Power Sleep Symbol
+U+00C0;À;Latin Capital Letter A with grave
+U+00C1;Á;Latin Capital letter A with acute
+U+00C2;Â;Latin Capital letter A with circumflex
+U+00C3;Ã;Latin Capital letter A with tilde
+U+00C4;Ä;Latin Capital letter A with diaeresis
+U+00C5;Å;Latin Capital letter A with ring above
+U+00C6;Æ;Latin Capital letter AE
+U+00C7;Ç;Latin Capital letter C with cedilla
+U+00C8;È;Latin Capital letter E with grave
+U+00C9;É;Latin Capital letter E with acute
+U+00CA;Ê;Latin Capital letter E with circumflex
+U+00CB;Ë;Latin Capital letter E with diaeresis
+U+00CC;Ì;Latin Capital letter I with grave
+U+00CD;Í;Latin Capital letter I with acute
+U+00CE;Î;Latin Capital letter I with circumflex
+U+00CF;Ï;Latin Capital letter I with diaeresis
+U+00D0;Ð;Latin Capital letter Eth
+U+00D1;Ñ;Latin Capital letter N with tilde
+U+00D2;Ò;Latin Capital letter O with grave
+U+00D3;Ó;Latin Capital letter O with acute
+U+00D4;Ô;Latin Capital letter O with circumflex
+U+00D5;Õ;Latin Capital letter O with tilde
+U+00D6;Ö;Latin Capital letter O with diaeresis
+U+00D7;×;Multiplication sign
+U+00D8;Ø;Latin Capital letter O with stroke
+U+00D9;Ù;Latin Capital letter U with grave
+U+00DA;Ú;Latin Capital letter U with acute
+U+00DB;Û;Latin Capital Letter U with circumflex
+U+00DC;Ü;Latin Capital Letter U with diaeresis
+U+00DD;Ý;Latin Capital Letter Y with acute
+U+00DE;Þ;Latin Capital Letter Thorn
+U+00DF;ß;Latin Small Letter sharp S
+U+00E0;à;Latin Small Letter A with grave
+U+00E1;á;Latin Small Letter A with acute
+U+00E2;â;Latin Small Letter A with circumflex
+U+00E3;ã;Latin Small Letter A with tilde
+U+00E4;ä;Latin Small Letter A with diaeresis
+U+00E5;å;Latin Small Letter A with ring above
+U+00E6;æ;Latin Small Letter AE
+U+00E7;ç;Latin Small Letter C with cedilla
+U+00E8;è;Latin Small Letter E with grave
+U+00E9;é;Latin Small Letter E with acute
+U+00EA;ê;Latin Small Letter E with circumflex
+U+00EB;ë;Latin Small Letter E with diaeresis
+U+00EC;ì;Latin Small Letter I with grave
+U+00ED;í;Latin Small Letter I with acute
+U+00EE;î;Latin Small Letter I with circumflex
+U+00EF;ï;Latin Small Letter I with diaeresis
+U+00F0;ð;Latin Small Letter Eth
+U+00F1;ñ;Latin Small Letter N with tilde
+U+00F2;ò;Latin Small Letter O with grave
+U+00F3;ó;Latin Small Letter O with acute
+U+00F4;ô;Latin Small Letter O with circumflex
+U+00F5;õ;Latin Small Letter O with tilde
+U+00F6;ö;Latin Small Letter O with diaeresis
+U+00F7;÷;Division sign
+U+00F8;ø;Latin Small Letter O with stroke
+U+00F9;ù;Latin Small Letter U with grave
+U+00FA;ú;Latin Small Letter U with acute
+U+00FB;û;Latin Small Letter U with circumflex
+U+00FC;ü;Latin Small Letter U with diaeresis
+U+00FD;ý;Latin Small Letter Y with acute
+U+00FE;þ;Latin Small Letter Thorn
+U+00FF;ÿ;Latin Small Letter Y with diaeresis
+U+0100;Ā;Latin Capital letter A with macron
+U+0101;ā;Latin Small letter A with macron
+U+0102;Ă;Latin Capital letter A with breve
+U+0103;ă;Latin Small letter A with breve
+U+0104;Ą;Latin Capital letter A with ogonek
+U+0105;ą;Latin Small letter A with ogonek
+U+0106;Ć;Latin Capital letter C with acute
+U+0107;ć;Latin Small letter C with acute
+U+0108;Ĉ;Latin Capital letter C with circumflex
+U+0109;ĉ;Latin Small letter C with circumflex
+U+010A;Ċ;Latin Capital letter C with dot above
+U+010B;ċ;Latin Small letter C with dot above
+U+010C;Č;Latin Capital letter C with caron
+U+010D;č;Latin Small letter C with caron
+U+010E;Ď;Latin Capital letter D with caron
+U+010F;ď;Latin Small letter D with caron
+U+0110;Đ;Latin Capital letter D with stroke
+U+0111;đ;Latin Small letter D with stroke
+U+0112;Ē;Latin Capital letter E with macron
+U+0113;ē;Latin Small letter E with macron
+U+0114;Ĕ;Latin Capital letter E with breve
+U+0115;ĕ;Latin Small letter E with breve
+U+0116;Ė;Latin Capital letter E with dot above
+U+0117;ė;Latin Small letter E with dot above
+U+0118;Ę;Latin Capital letter E with ogonek
+U+0119;ę;Latin Small letter E with ogonek
+U+011A;Ě;Latin Capital letter E with caron
+U+011B;ě;Latin Small letter E with caron
+U+011C;Ĝ;Latin Capital letter G with circumflex
+U+011D;ĝ;Latin Small letter G with circumflex
+U+011E;Ğ;Latin Capital letter G with breve
+U+011F;ğ;Latin Small letter G with breve
+U+0120;Ġ;Latin Capital letter G with dot above
+U+0121;ġ;Latin Small letter G with dot above
+U+0122;Ģ;Latin Capital letter G with cedilla
+U+0123;ģ;Latin Small letter G with cedilla
+U+0124;Ĥ;Latin Capital letter H with circumflex
+U+0125;ĥ;Latin Small letter H with circumflex
+U+0126;Ħ;Latin Capital letter H with stroke
+U+0127;ħ;Latin Small letter H with stroke
+U+0128;Ĩ;Latin Capital letter I with tilde
+U+0129;ĩ;Latin Small letter I with tilde
+U+012A;Ī;Latin Capital letter I with macron
+U+012B;ī;Latin Small letter I with macron
+U+012C;Ĭ;Latin Capital letter I with breve
+U+012D;ĭ;Latin Small letter I with breve
+U+012E;Į;Latin Capital letter I with ogonek
+U+012F;į;Latin Small letter I with ogonek
+U+0130;İ;Latin Capital letter I with dot above
+U+0131;ı;Latin Small letter dotless I
+U+0132;Ĳ;Latin Capital Ligature IJ
+U+0133;ĳ;Latin Small Ligature IJ
+U+0134;Ĵ;Latin Capital letter J with circumflex
+U+0135;ĵ;Latin Small letter J with circumflex
+U+0136;Ķ;Latin Capital letter K with cedilla
+U+0137;ķ;Latin Small letter K with cedilla
+U+0138;ĸ;Latin Small letter Kra
+U+0139;Ĺ;Latin Capital letter L with acute
+U+013A;ĺ;Latin Small letter L with acute
+U+013B;Ļ;Latin Capital letter L with cedilla
+U+013C;ļ;Latin Small letter L with cedilla
+U+013D;Ľ;Latin Capital letter L with caron
+U+013E;ľ;Latin Small letter L with caron
+U+013F;Ŀ;Latin Capital letter L with middle dot
+U+0140;ŀ;Latin Small letter L with middle dot
+U+0141;Ł;Latin Capital letter L with stroke
+U+0142;ł;Latin Small letter L with stroke
+U+0143;Ń;Latin Capital letter N with acute
+U+0144;ń;Latin Small letter N with acute
+U+0145;Ņ;Latin Capital letter N with cedilla
+U+0146;ņ;Latin Small letter N with cedilla
+U+0147;Ň;Latin Capital letter N with caron
+U+0148;ň;Latin Small letter N with caron
+U+0149;ŉ;Latin Small letter N preceded by apostrophe
+U+014A;Ŋ;Latin Capital letter Eng
+U+014B;ŋ;Latin Small letter Eng
+U+014C;Ō;Latin Capital letter O with macron
+U+014D;ō;Latin Small letter O with macron
+U+014E;Ŏ;Latin Capital letter O with breve
+U+014F;ŏ;Latin Small letter O with breve
+U+0150;Ő;Latin Capital Letter O with double acute
+U+0151;ő;Latin Small Letter O with double acute
+U+0152;Œ;Latin Capital Ligature OE
+U+0153;œ;Latin Small Ligature OE
+U+0154;Ŕ;Latin Capital letter R with acute
+U+0155;ŕ;Latin Small letter R with acute
+U+0156;Ŗ;Latin Capital letter R with cedilla
+U+0157;ŗ;Latin Small letter R with cedilla
+U+0158;Ř;Latin Capital letter R with caron
+U+0159;ř;Latin Small letter R with caron
+U+015A;Ś;Latin Capital letter S with acute
+U+015B;ś;Latin Small letter S with acute
+U+015C;Ŝ;Latin Capital letter S with circumflex
+U+015D;ŝ;Latin Small letter S with circumflex
+U+015E;Ş;Latin Capital letter S with cedilla
+U+015F;ş;Latin Small letter S with cedilla
+U+0160;Š;Latin Capital letter S with caron
+U+0161;š;Latin Small letter S with caron
+U+0162;Ţ;Latin Capital letter T with cedilla
+U+0163;ţ;Latin Small letter T with cedilla
+U+0164;Ť;Latin Capital letter T with caron
+U+0165;ť;Latin Small letter T with caron
+U+0166;Ŧ;Latin Capital letter T with stroke
+U+0167;ŧ;Latin Small letter T with stroke
+U+0168;Ũ;Latin Capital letter U with tilde
+U+0169;ũ;Latin Small letter U with tilde
+U+016A;Ū;Latin Capital letter U with macron
+U+016B;ū;Latin Small letter U with macron
+U+016C;Ŭ;Latin Capital letter U with breve
+U+016D;ŭ;Latin Small letter U with breve
+U+016E;Ů;Latin Capital letter U with ring above
+U+016F;ů;Latin Small letter U with ring above
+U+0170;Ű;Latin Capital Letter U with double acute
+U+0171;ű;Latin Small Letter U with double acute
+U+0172;Ų;Latin Capital letter U with ogonek
+U+0173;ų;Latin Small letter U with ogonek
+U+0174;Ŵ;Latin Capital letter W with circumflex
+U+0175;ŵ;Latin Small letter W with circumflex
+U+0176;Ŷ;Latin Capital letter Y with circumflex
+U+0177;ŷ;Latin Small letter Y with circumflex
+U+0178;Ÿ;Latin Capital letter Y with diaeresis
+U+0179;Ź;Latin Capital letter Z with acute
+U+017A;ź;Latin Small letter Z with acute
+U+017B;Ż;Latin Capital letter Z with dot above
+U+017C;ż;Latin Small letter Z with dot above
+U+017D;Ž;Latin Capital letter Z with caron
+U+017E;ž;Latin Small letter Z with caron
+U+017F;ſ;Latin Small letter long S
+U+0180;ƀ;Latin Small Letter B with Stroke
+U+0181;Ɓ;Latin Capital Letter B with Hook
+U+0182;Ƃ;Latin Capital Letter B with Top Bar
+U+0183;ƃ;Latin Small Letter B with Top Bar
+U+0184;Ƅ;Latin Capital Letter Tone Six
+U+0185;ƅ;Latin Small Letter Tone Six
+U+0186;Ɔ;Latin Capital Letter Open O
+U+0187;Ƈ;Latin Capital Letter C with Hook
+U+0188;ƈ;Latin Small Letter C with Hook
+U+0189;Ɖ;Latin Capital Letter African D
+U+018A;Ɗ;Latin Capital Letter D with Hook
+U+018B;Ƌ;Latin Capital Letter D with Top Bar
+U+018C;ƌ;Latin Small Letter D with Top Bar
+U+018D;ƍ;Latin Small Letter Turned Delta
+U+018E;Ǝ;Latin Capital Letter Reversed E
+U+018F;Ə;Latin Capital Letter Schwa
+U+0190;Ɛ;Latin Capital Letter Open E
+U+0191;Ƒ;Latin Capital Letter F with Hook
+U+0192;ƒ;Latin Small Letter F with Hook
+U+0193;Ɠ;Latin Capital Letter G with Hook
+U+0194;Ɣ;Latin Capital Letter Gamma
+U+0195;ƕ;Latin Small Letter HV
+U+0196;Ɩ;Latin Capital Letter Iota
+U+0197;Ɨ;Latin Capital Letter I with Stroke
+U+0198;Ƙ;Latin Capital Letter K with Hook
+U+0199;ƙ;Latin Small Letter K with Hook
+U+019A;ƚ;Latin Small Letter L with Bar
+U+019B;ƛ;Latin Small Letter Lambda with Stroke
+U+019C;Ɯ;Latin Capital Letter Turned M
+U+019D;Ɲ;Latin Capital Letter N with Left Hook
+U+019E;ƞ;Latin Small Letter N with Long Right Leg
+U+019F;Ɵ;Latin Capital Letter O with Middle Tilde
+U+01A0;Ơ;Latin Capital Letter O with Horn
+U+01A1;ơ;Latin Small Letter O with Horn
+U+01A2;Ƣ;Latin Capital Letter OI (= Latin Capital Letter Gha)
+U+01A3;ƣ;Latin Small Letter OI (= Latin Small Letter Gha)
+U+01A4;Ƥ;Latin Capital Letter P with Hook
+U+01A5;ƥ;Latin Small Letter P with Hook
+U+01A6;Ʀ;Latin Letter YR
+U+01A7;Ƨ;Latin Capital Letter Tone Two
+U+01A8;ƨ;Latin Small Letter Tone Two
+U+01A9;Ʃ;Latin Capital Letter Esh
+U+01AA;ƪ;Latin Letter Reversed Esh Loop
+U+01AB;ƫ;Latin Small Letter T with Palatal Hook
+U+01AC;Ƭ;Latin Capital Letter T with Hook
+U+01AD;ƭ;Latin Small Letter T with Hook
+U+01AE;Ʈ;Latin Capital Letter T with Retroflex Hook
+U+01AF;Ư;Latin Capital Letter U with Horn
+U+01B0;ư;Latin Small Letter U with Horn
+U+01B1;Ʊ;Latin Capital Letter Upsilon
+U+01B2;Ʋ;Latin Capital Letter V with Hook
+U+01B3;Ƴ;Latin Capital Letter Y with Hook
+U+01B4;ƴ;Latin Small Letter Y with Hook
+U+01B5;Ƶ;Latin Capital Letter Z with Stroke
+U+01B6;ƶ;Latin Small Letter Z with Stroke
+U+01B7;Ʒ;Latin Capital Letter Ezh
+U+01B8;Ƹ;Latin Capital Letter Ezh Reversed
+U+01B9;ƹ;Latin Small Letter Ezh Reversed
+U+01BA;ƺ;Latin Small Letter Ezh with Tail
+U+01BB;ƻ;Latin Letter Two with Stroke
+U+01BC;Ƽ;Latin Capital Letter Tone Five
+U+01BD;ƽ;Latin Small Letter Tone Five
+U+01BE;ƾ;Latin Letter Inverted Glottal Stop with Stroke
+U+01BF;ƿ;Latin Letter Wynn
+U+01C0;ǀ;Latin Letter Dental Click
+U+01C1;ǁ;Latin Letter Lateral Click
+U+01C2;ǂ;Latin Letter Alveolar Click
+U+01C3;ǃ;Latin Letter Retroflex Click
+U+01C4;Ǆ;Latin Capital Letter DZ with Caron
+U+01C5;ǅ;Latin Capital Letter D with Small Letter Z with Caron
+U+01C6;ǆ;Latin Small Letter DZ with Caron
+U+01C7;Ǉ;Latin Capital Letter LJ
+U+01C8;ǈ;Latin Capital Letter L with Small Letter J
+U+01C9;ǉ;Latin Small Letter LJ
+U+01CA;Ǌ;Latin Capital Letter NJ
+U+01CB;ǋ;Latin Capital Letter N with Small Letter J
+U+01CC;ǌ;Latin Small Letter NJ
+U+01CD;Ǎ;Latin Capital Letter A with Caron
+U+01CE;ǎ;Latin Small Letter A with Caron
+U+01CF;Ǐ;Latin Capital Letter I with Caron
+U+01D0;ǐ;Latin Small Letter I with Caron
+U+01D1;Ǒ;Latin Capital Letter O with Caron
+U+01D2;ǒ;Latin Small Letter O with Caron
+U+01D3;Ǔ;Latin Capital Letter U with Caron
+U+01D4;ǔ;Latin Small Letter U with Caron
+U+01D5;Ǖ;Latin Capital Letter U with Diaeresis and Macron
+U+01D6;ǖ;Latin Small Letter U with Diaeresis and Macron
+U+01D7;Ǘ;Latin Capital Letter U with Diaeresis and Acute
+U+01D8;ǘ;Latin Small Letter U with Diaeresis and Acute
+U+01D9;Ǚ;Latin Capital Letter U with Diaeresis and Caron
+U+01DA;ǚ;Latin Small Letter U with Diaeresis and Caron
+U+01DB;Ǜ;Latin Capital Letter U with Diaeresis and Grave
+U+01DC;ǜ;Latin Small Letter U with Diaeresis and Grave
+U+01DD;ǝ;Latin Small Letter Turned E
+U+01DE;Ǟ;Latin Capital Letter A with Diaeresis and Macron
+U+01DF;ǟ;Latin Small Letter A with Diaeresis and Macron
+U+01E0;Ǡ;Latin Capital Letter A with Dot Above and Macron
+U+01E1;ǡ;Latin Small Letter A with Dot Above and Macron
+U+01E2;Ǣ;Latin Capital Letter AE with Macron
+U+01E3;ǣ;Latin Small Letter AE with Macron
+U+01E4;Ǥ;Latin Capital Letter G with Stroke
+U+01E5;ǥ;Latin Small Letter G with Stroke
+U+01E6;Ǧ;Latin Capital Letter G with Caron
+U+01E7;ǧ;Latin Small Letter G with Caron
+U+01E8;Ǩ;Latin Capital Letter K with Caron
+U+01E9;ǩ;Latin Small Letter K with Caron
+U+01EA;Ǫ;Latin Capital Letter O with Ogonek
+U+01EB;ǫ;Latin Small Letter O with Ogonek
+U+01EC;Ǭ;Latin Capital Letter O with Ogonek and Macron
+U+01ED;ǭ;Latin Small Letter O with Ogonek and Macron
+U+01EE;Ǯ;Latin Capital Letter Ezh with Caron
+U+01EF;ǯ;Latin Small Letter Ezh with Caron
+U+01F0;ǰ;Latin Small Letter J with Caron
+U+01F1;Ǳ;Latin Capital Letter DZ
+U+01F2;ǲ;Latin Capital Letter D with Small Letter Z
+U+01F3;ǳ;Latin Small Letter DZ
+U+01F4;Ǵ;Latin Capital Letter G with Acute
+U+01F5;ǵ;Latin Small Letter G with Acute
+U+01F6;Ƕ;Latin Capital Letter Hwair
+U+01F7;Ƿ;Latin Capital Letter Wynn
+U+01F8;Ǹ;Latin Capital Letter N with Grave
+U+01F9;ǹ;Latin Small Letter N with Grave
+U+01FA;Ǻ;Latin Capital Letter A with Ring Above and Acute
+U+01FB;ǻ;Latin Small Letter A with Ring Above and Acute
+U+01FC;Ǽ;Latin Capital Letter AE with Acute
+U+01FD;ǽ;Latin Small Letter AE with Acute
+U+01FE;Ǿ;Latin Capital Letter O with Stroke and Acute
+U+01FF;ǿ;Latin Small Letter O with Stroke and Acute
+U+0200;Ȁ;Latin Capital Letter A with Double Grave
+U+0201;ȁ;Latin Small Letter A with Double Grave
+U+0202;Ȃ;Latin Capital Letter A with Inverted Breve
+U+0203;ȃ;Latin Small Letter A with Inverted Breve
+U+0204;Ȅ;Latin Capital Letter E with Double Grave
+U+0205;ȅ;Latin Small Letter E with Double Grave
+U+0206;Ȇ;Latin Capital Letter E with Inverted Breve
+U+0207;ȇ;Latin Small Letter E with Inverted Breve
+U+0208;Ȉ;Latin Capital Letter I with Double Grave
+U+0209;ȉ;Latin Small Letter I with Double Grave
+U+020A;Ȋ;Latin Capital Letter I with Inverted Breve
+U+020B;ȋ;Latin Small Letter I with Inverted Breve
+U+020C;Ȍ;Latin Capital Letter O with Double Grave
+U+020D;ȍ;Latin Small Letter O with Double Grave
+U+020E;Ȏ;Latin Capital Letter O with Inverted Breve
+U+020F;ȏ;Latin Small Letter O with Inverted Breve
+U+0210;Ȑ;Latin Capital Letter R with Double Grave
+U+0211;ȑ;Latin Small Letter R with Double Grave
+U+0212;Ȓ;Latin Capital Letter R with Inverted Breve
+U+0213;ȓ;Latin Small Letter R with Inverted Breve
+U+0214;Ȕ;Latin Capital Letter U with Double Grave
+U+0215;ȕ;Latin Small Letter U with Double Grave
+U+0216;Ȗ;Latin Capital Letter U with Inverted Breve
+U+0217;ȗ;Latin Small Letter U with Inverted Breve
+U+0218;Ș;Latin Capital Letter S with Comma Below
+U+0219;ș;Latin Small Letter S with Comma Below
+U+021A;Ț;Latin Capital Letter T with Comma Below
+U+021B;ț;Latin Small Letter T with Comma Below
+U+021C;Ȝ;Latin Capital Letter Yogh
+U+021D;ȝ;Latin Small Letter Yogh
+U+021E;Ȟ;Latin Capital Letter H with Caron
+U+021F;ȟ;Latin Small Letter H with Caron
+U+0220;Ƞ;Latin Capital Letter N with Long Right Leg
+U+0221;ȡ;Latin Small Letter D with Curl
+U+0222;Ȣ;Latin Capital Letter OU
+U+0223;ȣ;Latin Small Letter OU
+U+0224;Ȥ;Latin Capital Letter Z with Hook
+U+0225;ȥ;Latin Small Letter Z with Hook
+U+0226;Ȧ;Latin Capital Letter A with Dot Above
+U+0227;ȧ;Latin Small Letter A with Dot Above
+U+0228;Ȩ;Latin Capital Letter E with Cedilla
+U+0229;ȩ;Latin Small Letter E with Cedilla
+U+022A;Ȫ;Latin Capital Letter O with Diaeresis and Macron
+U+022B;ȫ;Latin Small Letter O with Diaeresis and Macron
+U+022C;Ȭ;Latin Capital Letter O with Tilde and Macron
+U+022D;ȭ;Latin Small Letter O with Tilde and Macron
+U+022E;Ȯ;Latin Capital Letter O with Dot Above
+U+022F;ȯ;Latin Small Letter O with Dot Above
+U+0230;Ȱ;Latin Capital Letter O with Dot Above and Macron
+U+0231;ȱ;Latin Small Letter O with Dot Above and Macron
+U+0232;Ȳ;Latin Capital Letter Y with Macron
+U+0233;ȳ;Latin Small Letter Y with Macron
+U+0234;ȴ;Latin Small Letter L with Curl
+U+0235;ȵ;Latin Small Letter N with Curl
+U+0236;ȶ;Latin Small Letter T with Curl
+U+0237;ȷ;Latin Small Letter Dotless J
+U+0238;ȸ;Latin Small Letter DB Digraph
+U+0239;ȹ;Latin Small Letter QP Digraph
+U+023A;Ⱥ;Latin Capital Letter A with Stroke
+U+023B;Ȼ;Latin Capital Letter C with Stroke
+U+023C;ȼ;Latin Small Letter C with Stroke
+U+023D;Ƚ;Latin Capital Letter L with Bar
+U+023E;Ⱦ;Latin Capital Letter T with Diagonal Stroke
+U+023F;ȿ;Latin Small Letter S with Swash Tail
+U+0240;ɀ;Latin Small Letter Z with Swash Tail
+U+0241;Ɂ;Latin Capital Letter Glottal Stop
+U+0242;ɂ;Latin Small Letter Glottal Stop
+U+0243;Ƀ;Latin Capital Letter B with Stroke
+U+0244;Ʉ;Latin Capital Letter U Bar
+U+0245;Ʌ;Latin Capital Letter Turned V
+U+0246;Ɇ;Latin Capital Letter E with Stroke
+U+0247;ɇ;Latin Small Letter E with Stroke
+U+0248;Ɉ;Latin Capital Letter J with Stroke
+U+0249;ɉ;Latin Small Letter J with Stroke
+U+024A;Ɋ;Latin Capital Letter Q with Hook Tail
+U+024B;ɋ;Latin Small Letter Q with Hook Tail
+U+024C;Ɍ;Latin Capital Letter R with stroke
+U+024D;ɍ;Latin Small Letter R with Stroke
+U+024E;Ɏ;Latin Capital Letter Y with Stroke
+U+024F;ɏ;Latin Small Letter Y with Stroke
+U+1E00;Ḁ;Latin Capital Letter A with ring below
+U+1E01;ḁ;Latin Small Letter A with ring below
+U+1E02;Ḃ;Latin Capital Letter B with dot above
+U+1E03;ḃ;Latin Small Letter B with dot above
+U+1E04;Ḅ;Latin Capital Letter B with dot below
+U+1E05;ḅ;Latin Small Letter B with dot below
+U+1E06;Ḇ;Latin Capital Letter B with line below
+U+1E07;ḇ;Latin Small Letter B with line below
+U+1E08;Ḉ;Latin Capital Letter C with cedilla and acute
+U+1E09;ḉ;Latin Small Letter C with cedilla and acute
+U+1E0A;Ḋ;Latin Capital Letter D with dot above
+U+1E0B;ḋ;Latin Small Letter D with dot above
+U+1E0C;Ḍ;Latin Capital Letter D with dot below
+U+1E0D;ḍ;Latin Small Letter D with dot below
+U+1E0E;Ḏ;Latin Capital Letter D with line below
+U+1E0F;ḏ;Latin Small Letter D with line below
+U+1E10;Ḑ;Latin Capital Letter D with cedilla
+U+1E11;ḑ;Latin Small Letter D with cedilla
+U+1E12;Ḓ;Latin Capital Letter D with circumflex below
+U+1E13;ḓ;Latin Small Letter D with circumflex below
+U+1E14;Ḕ;Latin Capital Letter E with macron and grave
+U+1E15;ḕ;Latin Small Letter E with macron and grave
+U+1E16;Ḗ;Latin Capital Letter E with macron and acute
+U+1E17;ḗ;Latin Small Letter E with macron and acute
+U+1E18;Ḙ;Latin Capital Letter E with circumflex below
+U+1E19;ḙ;Latin Small Letter E with circumflex below
+U+1E1A;Ḛ;Latin Capital Letter E with tilde below
+U+1E1B;ḛ;Latin Small Letter E with tilde below
+U+1E1C;Ḝ;Latin Capital Letter E with cedilla and breve
+U+1E1D;ḝ;Latin Small Letter E with cedilla and breve
+U+1E1E;Ḟ;Latin Capital Letter F with dot above
+U+1E1F;ḟ;Latin Small Letter F with dot above
+U+1E20;Ḡ;Latin Capital Letter G with macron
+U+1E21;ḡ;Latin Small Letter G with macron
+U+1E22;Ḣ;Latin Capital Letter H with dot above
+U+1E23;ḣ;Latin Small Letter H with dot above
+U+1E24;Ḥ;Latin Capital Letter H with dot below
+U+1E25;ḥ;Latin Small Letter H with dot below
+U+1E26;Ḧ;Latin Capital Letter H with diaeresis
+U+1E27;ḧ;Latin Small Letter H with diaeresis
+U+1E28;Ḩ;Latin Capital Letter H with cedilla
+U+1E29;ḩ;Latin Small Letter H with cedilla
+U+1E2A;Ḫ;Latin Capital Letter H with breve below
+U+1E2B;ḫ;Latin Small Letter H with breve below
+U+1E2C;Ḭ;Latin Capital Letter I with tilde below
+U+1E2D;ḭ;Latin Small Letter I with tilde below
+U+1E2E;Ḯ;Latin Capital Letter I with diaeresis and acute
+U+1E2F;ḯ;Latin Small Letter I with diaeresis and acute
+U+1E30;Ḱ;Latin Capital Letter K with acute
+U+1E31;ḱ;Latin Small Letter K with acute
+U+1E32;Ḳ;Latin Capital Letter K with dot below
+U+1E33;ḳ;Latin Small Letter K with dot below
+U+1E34;Ḵ;Latin Capital Letter K with line below
+U+1E35;ḵ;Latin Small Letter K with line below
+U+1E36;Ḷ;Latin Capital Letter L with dot below
+U+1E37;ḷ;Latin Small Letter L with dot below
+U+1E38;Ḹ;Latin Capital Letter L with dot below and macron
+U+1E39;ḹ;Latin Small Letter L with dot below and macron
+U+1E3A;Ḻ;Latin Capital Letter L with line below
+U+1E3B;ḻ;Latin Small Letter L with line below
+U+1E3C;Ḽ;Latin Capital Letter L with circumflex below
+U+1E3D;ḽ;Latin Small Letter L with circumflex below
+U+1E3E;Ḿ;Latin Capital Letter M with acute
+U+1E3F;ḿ;Latin Small Letter M with acute
+U+1E40;Ṁ;Latin Capital Letter M with dot above
+U+1E41;ṁ;Latin Small Letter M with dot above
+U+1E42;Ṃ;Latin Capital Letter M with dot below
+U+1E43;ṃ;Latin Small Letter M with dot below
+U+1E44;Ṅ;Latin Capital Letter N with dot above
+U+1E45;ṅ;Latin Small Letter N with dot above
+U+1E46;Ṇ;Latin Capital Letter N with dot below
+U+1E47;ṇ;Latin Small Letter N with dot below
+U+1E48;Ṉ;Latin Capital Letter N with line below
+U+1E49;ṉ;Latin Small Letter N with line below
+U+1E4A;Ṋ;Latin Capital Letter N with circumflex below
+U+1E4B;ṋ;Latin Small Letter N with circumflex below
+U+1E4C;Ṍ;Latin Capital Letter O with tilde and acute
+U+1E4D;ṍ;Latin Small Letter O with tilde and acute
+U+1E4E;Ṏ;Latin Capital Letter O with tilde and diaeresis
+U+1E4F;ṏ;Latin Small Letter O with tilde and diaeresis
+U+1E50;Ṑ;Latin Capital Letter O with macron and grave
+U+1E51;ṑ;Latin Small Letter O with macron and grave
+U+1E52;Ṓ;Latin Capital Letter O with macron and acute
+U+1E53;ṓ;Latin Small Letter O with macron and acute
+U+1E54;Ṕ;Latin Capital Letter P with acute
+U+1E55;ṕ;Latin Small Letter P with acute
+U+1E56;Ṗ;Latin Capital Letter P with dot above
+U+1E57;ṗ;Latin Small Letter P with dot above
+U+1E58;Ṙ;Latin Capital Letter R with dot above
+U+1E59;ṙ;Latin Small Letter R with dot above
+U+1E5A;Ṛ;Latin Capital Letter R with dot below
+U+1E5B;ṛ;Latin Small Letter R with dot below
+U+1E5C;Ṝ;Latin Capital Letter R with dot below and macron
+U+1E5D;ṝ;Latin Small Letter R with dot below and macron
+U+1E5E;Ṟ;Latin Capital Letter R with line below
+U+1E5F;ṟ;Latin Small Letter R with line below
+U+1E60;Ṡ;Latin Capital Letter S with dot above
+U+1E61;ṡ;Latin Small Letter S with dot above
+U+1E62;Ṣ;Latin Capital Letter S with dot below
+U+1E63;ṣ;Latin Small Letter S with dot below
+U+1E64;Ṥ;Latin Capital Letter S with acute and dot above
+U+1E65;ṥ;Latin Small Letter S with acute and dot above
+U+1E66;Ṧ;Latin Capital Letter S with caron and dot above
+U+1E67;ṧ;Latin Small Letter S with caron and dot above
+U+1E68;Ṩ;Latin Capital Letter S with dot below and dot above
+U+1E69;ṩ;Latin Small Letter S with dot below and dot above
+U+1E6A;Ṫ;Latin Capital Letter T with dot above
+U+1E6B;ṫ;Latin Small Letter T with dot above
+U+1E6C;Ṭ;Latin Capital Letter T with dot below
+U+1E6D;ṭ;Latin Small Letter T with dot below
+U+1E6E;Ṯ;Latin Capital Letter T with line below
+U+1E6F;ṯ;Latin Small Letter T with line below
+U+1E70;Ṱ;Latin Capital Letter T with circumflex below
+U+1E71;ṱ;Latin Small Letter T with circumflex below
+U+1E72;Ṳ;Latin Capital Letter U with diaeresis below
+U+1E73;ṳ;Latin Small Letter U with diaeresis below
+U+1E74;Ṵ;Latin Capital Letter U with tilde below
+U+1E75;ṵ;Latin Small Letter U with tilde below
+U+1E76;Ṷ;Latin Capital Letter U with circumflex below
+U+1E77;ṷ;Latin Small Letter U with circumflex below
+U+1E78;Ṹ;Latin Capital Letter U with tilde and acute
+U+1E79;ṹ;Latin Small Letter U with tilde and acute
+U+1E7A;Ṻ;Latin Capital Letter U with macron and diaeresis
+U+1E7B;ṻ;Latin Small Letter U with macron and diaeresis
+U+1E7C;Ṽ;Latin Capital Letter V with tilde
+U+1E7D;ṽ;Latin Small Letter V with tilde
+U+1E7E;Ṿ;Latin Capital Letter V with dot below
+U+1E7F;ṿ;Latin Small Letter V with dot below
+U+1E80;Ẁ;Latin Capital Letter W with grave
+U+1E81;ẁ;Latin Small Letter W with grave
+U+1E82;Ẃ;Latin Capital Letter W with acute
+U+1E83;ẃ;Latin Small Letter W with acute
+U+1E84;Ẅ;Latin Capital Letter W with diaeresis
+U+1E85;ẅ;Latin Small Letter W with diaeresis
+U+1E86;Ẇ;Latin Capital Letter W with dot above
+U+1E87;ẇ;Latin Small Letter W with dot above
+U+1E88;Ẉ;Latin Capital Letter W with dot below
+U+1E89;ẉ;Latin Small Letter W with dot below
+U+1E8A;Ẋ;Latin Capital Letter X with dot above
+U+1E8B;ẋ;Latin Small Letter X with dot above
+U+1E8C;Ẍ;Latin Capital Letter X with diaeresis
+U+1E8D;ẍ;Latin Small Letter X with diaeresis
+U+1E8E;Ẏ;Latin Capital Letter Y with dot above
+U+1E8F;ẏ;Latin Small Letter Y with dot above
+U+1E90;Ẑ;Latin Capital Letter Z with circumflex
+U+1E91;ẑ;Latin Small Letter Z with circumflex
+U+1E92;Ẓ;Latin Capital Letter Z with dot below
+U+1E93;ẓ;Latin Small Letter Z with dot below
+U+1E94;Ẕ;Latin Capital Letter Z with line below
+U+1E95;ẕ;Latin Small Letter Z with line below
+U+1E96;ẖ;Latin Small Letter H with line below
+U+1E97;ẗ;Latin Small Letter T with diaeresis
+U+1E98;ẘ;Latin Small Letter W with ring above
+U+1E99;ẙ;Latin Small Letter Y with ring above
+U+1E9A;ẚ;Latin Small Letter A with right half ring
+U+1E9B;ẛ;Latin Small Letter Long S with dot above
+U+1E9C;ẜ;Latin Small Letter Long S with diagonal stroke
+U+1E9D;ẝ;Latin Small Letter Long S with high stroke
+U+1E9E;ẞ;Latin Capital Letter Sharp S
+U+1E9F;ẟ;Latin Small Letter Delta
+U+1EA0;Ạ;Latin Capital Letter A with dot below
+U+1EA1;ạ;Latin Small Letter A with dot below
+U+1EA2;Ả;Latin Capital Letter A with hook above
+U+1EA3;ả;Latin Small Letter A with hook above
+U+1EA4;Ấ;Latin Capital Letter A with circumflex and acute
+U+1EA5;ấ;Latin Small Letter A with circumflex and acute
+U+1EA6;Ầ;Latin Capital Letter A with circumflex and grave
+U+1EA7;ầ;Latin Small Letter A with circumflex and grave
+U+1EA8;Ẩ;Latin Capital Letter A with circumflex and hook above
+U+1EA9;ẩ;Latin Small Letter A with circumflex and hook above
+U+1EAA;Ẫ;Latin Capital Letter A with circumflex and tilde
+U+1EAB;ẫ;Latin Small Letter A with circumflex and tilde
+U+1EAC;Ậ;Latin Capital Letter A with circumflex and dot below
+U+1EAD;ậ;Latin Small Letter A with circumflex and dot below
+U+1EAE;Ắ;Latin Capital Letter A with breve and acute
+U+1EAF;ắ;Latin Small Letter A with breve and acute
+U+1EB0;Ằ;Latin Capital Letter A with breve and grave
+U+1EB1;ằ;Latin Small Letter A with breve and grave
+U+1EB2;Ẳ;Latin Capital Letter A with breve and hook above
+U+1EB3;ẳ;Latin Small Letter A with breve and hook above
+U+1EB4;Ẵ;Latin Capital Letter A with breve and tilde
+U+1EB5;ẵ;Latin Small Letter A with breve and tilde
+U+1EB6;Ặ;Latin Capital Letter A with breve and dot below
+U+1EB7;ặ;Latin Small Letter A with breve and dot below
+U+1EB8;Ẹ;Latin Capital Letter E with dot below
+U+1EB9;ẹ;Latin Small Letter E with dot below
+U+1EBA;Ẻ;Latin Capital Letter E with hook above
+U+1EBB;ẻ;Latin Small Letter E with hook above
+U+1EBC;Ẽ;Latin Capital Letter E with tilde
+U+1EBD;ẽ;Latin Small Letter E with tilde
+U+1EBE;Ế;Latin Capital Letter E with circumflex and acute
+U+1EBF;ế;Latin Small Letter E with circumflex and acute
+U+1EC0;Ề;Latin Capital Letter E with circumflex and grave
+U+1EC1;ề;Latin Small Letter E with circumflex and grave
+U+1EC2;Ể;Latin Capital Letter E with circumflex and hook above
+U+1EC3;ể;Latin Small Letter E with circumflex and hook above
+U+1EC4;Ễ;Latin Capital Letter E with circumflex and tilde
+U+1EC5;ễ;Latin Small Letter E with circumflex and tilde
+U+1EC6;Ệ;Latin Capital Letter E with circumflex and dot below
+U+1EC7;ệ;Latin Small Letter E with circumflex and dot below
+U+1EC8;Ỉ;Latin Capital Letter I with hook above
+U+1EC9;ỉ;Latin Small Letter I with hook above
+U+1ECA;Ị;Latin Capital Letter I with dot below
+U+1ECB;ị;Latin Small Letter I with dot below
+U+1ECC;Ọ;Latin Capital Letter O with dot below
+U+1ECD;ọ;Latin Small Letter O with dot below
+U+1ECE;Ỏ;Latin Capital Letter O with hook above
+U+1ECF;ỏ;Latin Small Letter O with hook above
+U+1ED0;Ố;Latin Capital Letter O with circumflex and acute
+U+1ED1;ố;Latin Small Letter O with circumflex and acute
+U+1ED2;Ồ;Latin Capital Letter O with circumflex and grave
+U+1ED3;ồ;Latin Small Letter O with circumflex and grave
+U+1ED4;Ổ;Latin Capital Letter O with circumflex and hook above
+U+1ED5;ổ;Latin Small Letter O with circumflex and hook above
+U+1ED6;Ỗ;Latin Capital Letter O with circumflex and tilde
+U+1ED7;ỗ;Latin Small Letter O with circumflex and tilde
+U+1ED8;Ộ;Latin Capital Letter O with circumflex and dot below
+U+1ED9;ộ;Latin Small Letter O with circumflex and dot below
+U+1EDA;Ớ;Latin Capital Letter O with horn and acute
+U+1EDB;ớ;Latin Small Letter O with horn and acute
+U+1EDC;Ờ;Latin Capital Letter O with horn and grave
+U+1EDD;ờ;Latin Small Letter O with horn and grave
+U+1EDE;Ở;Latin Capital Letter O with horn and hook above
+U+1EDF;ở;Latin Small Letter O with horn and hook above
+U+1EE0;Ỡ;Latin Capital Letter O with horn and tilde
+U+1EE1;ỡ;Latin Small Letter O with horn and tilde
+U+1EE2;Ợ;Latin Capital Letter O with horn and dot below
+U+1EE3;ợ;Latin Small Letter O with horn and dot below
+U+1EE4;Ụ;Latin Capital Letter U with dot below
+U+1EE5;ụ;Latin Small Letter U with dot below
+U+1EE6;Ủ;Latin Capital Letter U with hook above
+U+1EE7;ủ;Latin Small Letter U with hook above
+U+1EE8;Ứ;Latin Capital Letter U with horn and acute
+U+1EE9;ứ;Latin Small Letter U with horn and acute
+U+1EEA;Ừ;Latin Capital Letter U with horn and grave
+U+1EEB;ừ;Latin Small Letter U with horn and grave
+U+1EEC;Ử;Latin Capital Letter U with horn and hook above
+U+1EED;ử;Latin Small Letter U with horn and hook above
+U+1EEE;Ữ;Latin Capital Letter U with horn and tilde
+U+1EEF;ữ;Latin Small Letter U with horn and tilde
+U+1EF0;Ự;Latin Capital Letter U with horn and dot below
+U+1EF1;ự;Latin Small Letter U with horn and dot below
+U+1EF2;Ỳ;Latin Capital Letter Y with grave
+U+1EF3;ỳ;Latin Small Letter Y with grave
+U+1EF4;Ỵ;Latin Capital Letter Y with dot below
+U+1EF5;ỵ;Latin Small Letter Y with dot below
+U+1EF6;Ỷ;Latin Capital Letter Y with hook above
+U+1EF7;ỷ;Latin Small Letter Y with hook above
+U+1EF8;Ỹ;Latin Capital Letter Y with tilde
+U+1EF9;ỹ;Latin Small Letter Y with tilde
+U+1EFA;Ỻ;Latin Capital Letter Middle-Welsh LL
+U+1EFB;ỻ;Latin Small Letter Middle-Welsh LL
+U+1EFC;Ỽ;Latin Capital Letter Middle-Welsh V
+U+1EFD;ỽ;Latin Small Letter Middle-Welsh V
+U+1EFE;Ỿ;Latin Capital Letter Y with loop
+U+1EFF;ỿ;Latin Small Letter Y with loop

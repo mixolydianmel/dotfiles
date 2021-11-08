@@ -1,0 +1,19 @@
+#!/bin/sh
+
+FILE=$1
+NAME="${FILE%.*}"
+EXTENSION="${FILE##*.}"
+
+case $EXTENSION in
+    ms)
+        groff -ept -ms $FILE -Tps -U | ps2pdfwr - $NAME.pdf
+        ;;
+    cc)
+        g++ -Wall -g -o a.out $FILE && gdb a.out
+        ;;
+    rmd)
+        echo "require(rmarkdown); render('$FILE', 'pdf_document')" | R --vanilla
+        ;;
+    *)
+        ;;
+esac

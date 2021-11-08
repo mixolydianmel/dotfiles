@@ -1,0 +1,5 @@
+#!/bin/sh
+
+killall feh
+wget -O /home/caden/Pictures/photo.jpg https://picsum.photos/3840/2160
+feh --bg-scale '/home/caden/Pictures/photo.jpg'

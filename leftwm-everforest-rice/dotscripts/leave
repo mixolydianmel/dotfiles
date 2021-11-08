@@ -1,0 +1,28 @@
+#!/bin/sh
+
+CHOICE=$(echo -ne "Shutdown\nReboot\nLogout\nSuspend" | dmenu -i -p "Choose Leave Option: ")
+
+if [ "$CHOICE" == "" ]; then
+    exit
+fi
+
+AFFIRM=$(echo -ne "Yes\nNo" | dmenu -i -p "Are you sure you want to ${CHOICE}? ")
+
+if [ $AFFIRM == "Yes" ]; then
+    case $CHOICE in
+        "Shutdown")
+            sudo poweroff
+            ;;
+        "Reboot")
+            sudo reboot
+            ;;
+        "Logout")
+            killall Xorg
+            ;;
+        "Suspend")
+            sus
+            ;;
+        *)
+            ;;
+    esac
+fi

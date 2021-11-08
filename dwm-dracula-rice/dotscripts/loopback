@@ -1,0 +1,7 @@
+#!/bin/sh
+
+pactl load-module module-loopback latency_msec=1
+
+read -n 1 -s -r -p "Press any key to exit"
+
+pactl unload-module module-loopback

@@ -1,0 +1,36 @@
+#!/bin/sh
+
+AMOUNT=$(cat /sys/class/power_supply/BAT0/capacity)
+PERCENT=$(printf "%s%%\n" $AMOUNT)
+LEVEL=$(cat /sys/class/power_supply/BAT0/capacity_level)
+STATUS=$(cat /sys/class/power_supply/BAT0/status)
+
+if [ $STATUS == "Charging" ]; then
+    if [ $LEVEL == "Full" ]; then
+        printf " %s\n" "Full"
+    else
+        printf " %s\n" $PERCENT
+    fi
+else
+    CLOSEST=$(($AMOUNT * 5 / 100))
+    case $CLOSEST in
+        0)
+            printf "  "
+            ;;
+        1)
+            printf "  "
+            ;;
+        2)
+            printf "  "
+            ;;
+        3)
+            printf "  "
+            ;;
+        4)
+            printf "  "
+    esac
+    printf "%s\n" $PERCENT
+    echo $(upower -i /org/freedesktop/UPower/devices/battery_BAT0 |
+        grep "time to empty" |
+        awk '{ print $4,$5 }') to empty.
+fi
