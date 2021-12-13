@@ -1,12 +1,7 @@
-/*
- * github like style
- * https://github.com/iamcco/markdown.css/blob/master/dest/github/markdown.css
- */
-
 @import url("https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/serif.css");
 
 body {
-    --secondary-background-color: #fdf6e3;
+    --secondary-background-color: #fff;
 }
 
 #page-ctn {
@@ -19,20 +14,20 @@ body {
 }
 
 :root {
-    --color-text-primary: #5c6a72;
+    --color-text-primary: #000;
     --color-text-tertiary: #666;
     --color-text-link: #4078c0;
-    --color-bg-primary: #fdf6e3;
-    --color-bg-secondary: #fff9e8;
-    --color-bg-tertiary: #f8f0dc;
-    --color-border-primary: #5c6a72;
-    --color-border-secondary: #dfddc8;
-    --color-border-tertiary: #d1d5da;
-    --color-kbd-foreground: #5c6a72;
-    --color-markdown-blockquote-border: #dfddc8;
-    --color-markdown-table-border: #dfddc8;
-    --color-markdown-table-tr-border: #c6cbd1;
-    --color-markdown-code-bg: #dfddc8;
+    --color-bg-primary: #fff;
+    --color-bg-secondary: #fff;
+    --color-bg-tertiary: #fff;
+    --color-border-primary: #fff;
+    --color-border-secondary: #eee;
+    --color-border-tertiary: #eee;
+    --color-kbd-foreground: #fff;
+    --color-markdown-blockquote-border: #eee;
+    --color-markdown-table-border: #eee;
+    --color-markdown-table-tr-border: #aaa;
+    --color-markdown-code-bg: #eee;
 }
 
 [data-theme="dark"] {

@@ -1,0 +1,276 @@
+global !p
+def math():
+    synlist = vim.eval("""map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')""")
+
+    for syngroup in synlist:
+        if 'Equation' in syngroup:
+            return True
+
+    return False
+endglobal  
+
+snippet fm "Front Matter" bA
+.na
+.nr PS 12
+.nr PD 0v
+.ds CH
+.ds RH Henrich %
+.P1
+.nr HY 0
+.EQ
+delim $$
+.EN
+endsnippet
+
+snippet hdr "Header" bA
+.TL
+$1
+${3:.AU
+$2}
+${5:.AI
+$4}
+${6:.2C}
+$0
+endsnippet
+
+snippet np "New Problem" bA
+.SH
+$1
+.LP
+$0
+endsnippet
+
+snippet ip "Unordered Point" bA
+.IP $1
+$0
+endsnippet
+
+snippet dm "Display Math" bA
+.EQ
+$1
+.EN$0
+endsnippet
+
+snippet dlm "Display Left Math" bA
+.EQ L
+$1
+.EN$0
+endsnippet
+
+snippet mk "Inline Math" wA
+$$1$$0
+endsnippet
+
+snippet today "Date"
+`dat +%F`
+endsnippet
+
+context "math()"
+snippet sr "Squared" iA
+sup 2
+endsnippet
+
+context "math()"
+snippet cb "Cubed" iA
+sup 3
+endsnippet
+
+context "math()"
+snippet compl "Compliment" iA
+sup {c}
+endsnippet
+
+context "math()"
+snippet td "Superscript" iA
+sup { $1 }$0
+endsnippet
+
+context "math()"
+snippet // "Fraction" iA
+{ $1 } over { $2 }$0
+endsnippet
+
+context "math()"
+snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)/' "Fraction" wrA
+{ `!p snip.rv = match.group(1)` } over { $1 }$0
+endsnippet
+
+context "math()"
+priority 1000
+snippet '^.*\)/' "() Fraction" wrA
+`!p
+stripped = match.string[:-1]
+depth = 0
+i = len(stripped) - 1
+while True:
+	if stripped[i] == ')': depth += 1
+	if stripped[i] == '(': depth -= 1
+	if depth == 0: break;
+	i -= 1
+snip.rv = stripped[0:i] + "{ " + stripped[i+1:-1] + " }"
+` over { $1 }$0
+endsnippet
+
+context "math()"
+snippet pm "Plus or Minus" iA
++-
+endsnippet
+
+context "math()"
+snippet sq "Square Root" wA
+sqrt { $1 }$0
+endsnippet
+
+context "math()"
+snippet ** "Center Dot" iA
+cdot
+endsnippet
+
+context "math()"
+snippet and "Logical And" wA
+\\(AN
+endsnippet
+
+context "math()"
+snippet or "Logical Or" wA
+\\(OR
+endsnippet
+
+context "math()"
+snippet tx "Roman Text" iA
+roman { $1 }$0
+endsnippet
+
+context "math()"
+snippet impl "Implies" iA
+\\(rA
+endsnippet
+
+context "math()"
+snippet all "For All" wA
+\\(fa
+endsnippet
+
+context "math()"
+snippet exi "There Exists" iA
+\\(te
+endsnippet
+
+context "math()"
+snippet cap "Intersection" iA
+inter
+endsnippet
+
+context "math()"
+snippet cup "Union" iA
+union
+endsnippet
+
+context "math()"
+snippet in "Element Of" wA
+\\(mo
+endsnippet
+
+context "math()"
+snippet nin "Element Of" iA
+\\(nm
+endsnippet
+
+context "math()"
+snippet {} "Bracket Pair" w
+left \{ $1 right \}$0
+endsnippet
+
+context "math()"
+snippet tf "Therefore" iA
+\\(tf
+endsnippet
+
+context "math()"
+snippet ps "Powerset" iA
+\\(wp
+endsnippet
+
+# context "math()"
+# snippet ceil "Ceiling Area" iA
+# left \lceil $1 \right \rceil$0
+# endsnippet
+
+context "math()"
+snippet () "Parentheses Pair" w
+left ( $1 right )$0
+endsnippet
+
+# context "math()"
+# snippet fl "Floor Pair" w
+# \left\lfloor $1 \right\rfloor$0
+# endsnippet
+
+context "math()"
+snippet ~~ "Approximately" iA
+approx
+endsnippet
+
+# context "math()"
+# snippet ncr "Choose" iA
+# \{$1 \\choose $2\}$0
+# endsnippet
+
+context "math()"
+snippet sum "Summation Notation" iA
+sum from { ${3:${1:n} = ${2:1}} }${5: to {${4:\infty}}}$0
+endsnippet
+
+context "math()"
+snippet sl "Slash" iA
+/
+endsnippet
+
+snippet pe "Python Eval"
+`!p snip.rv=eval(snip.v.text)`
+endsnippet
+
+# context "math()"
+# snippet hl "Horizontal Line" wA
+# \hline
+# endsnippet
+
+# context "math()"
+# snippet ... "Dots" wA
+# \dots
+# endsnippet
+
+context "math()"
+snippet m= "Mark Equal" wA
+mark =
+endsnippet
+
+context "math()"
+snippet l= "Lineup Equal" wA
+lineup =
+endsnippet
+
+snippet ts "Table Start" bA
+.TS
+tab(@)$1;
+$2 .
+$3
+.TE$0
+endsnippet
+
+snippet vop "Vertical Operation" bA
+.TS
+tab(@);
+r l r
+r l r 
+- s s
+r l r .
+$1
+.TE$0
+endsnippet
+
+snippet pc "Pic block" bA
+.PS
+$1
+.PE$0
+endsnippet

@@ -9,6 +9,7 @@ Plug 'sainnhe/everforest'
 Plug 'neoclide/coc.nvim'
 Plug 'voldikss/vim-floaterm'
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'nvim-treesitter/playground'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'blackcauldron7/surround.nvim'
@@ -26,13 +27,16 @@ Plug 'ervandew/supertab'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
-Plug 'jiangmiao/auto-pairs'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'easymotion/vim-easymotion'
 Plug 'preservim/nerdcommenter'
 Plug 'OmniSharp/omnisharp-vim'
+Plug 'willchao612/vim-diagon'
+Plug 'jiangmiao/auto-pairs'
+Plug 'jbyuki/ntangle.nvim'
+Plug 'lervag/vimtex'
 
 call plug#end()
 
@@ -68,8 +72,8 @@ nnoremap <leader>ft <cmd>FloatermToggle<cr>
 nnoremap <leader>go <cmd>Goyo<cr>
 
 " Nabla :bindings
-nnoremap <F5> <cmd>silent lua require("nabla").action()<CR>
-nnoremap <leader>p <cmd>silent lua require("nabla").popup()<CR>
+nnoremap <silent><F5> :lua require("nabla").action()<CR>
+nnoremap <silent><leader>p :lua require("nabla").popup({border = rounded})<CR>
 
 " Coc :bindings
 source ~/.config/nvim/coc-conf.vim
@@ -84,20 +88,61 @@ augroup Markdown
     autocmd BufRead *.md nnoremap <leader>tm <cmd>TableModeToggle<cr>
 augroup END
 
+" Vimtex :bindings
+augroup Vimtex
+    autocmd!
+    autocmd BufRead *.tex VimtexCompile
+    autocmd BufRead *.tex nnoremap <leader>nv <cmd>VimtexView<cr>
+augroup END
+
+" Groff :bindings
+augroup Groff
+    autocmd!
+    autocmd BufRead *.ms silent set filetype=nroff
+    autocmd BufRead *.ms nnoremap <silent><leader>nv <cmd>silent !zathura %:r.pdf &<cr>
+    autocmd BufWritePost *.ms silent !compile %
+    autocmd BufUnload *.ms silent !killall zathura
+    autocmd BufRead *.ms nnoremap <silent><c-f> <cmd>silent exe "normal 0\"fy$I.PSPIC figures/"
+                \ <bar> silent exe "normal A.eps"
+                \ <bar> silent exe "!mkdir -p figures &&
+                \ cp ~/.config/inkscape/templates/groff.svg figures/" . @f .
+                \ ".svg && inkscape figures/" . @f . ".svg && inkscape figures/" . @f . 
+                \ ".svg -o figures/" . @f . ".eps 
+                \ --export-ps-level=3 --export-area-drawing"<cr>
+augroup END
+
 """"""""""""""""""
 " Plugin Config "
 """""""""""""""""
 
 " Treesitter :config
-" lua <<EOF
-" require'nvim-treesitter.configs'.setup {
-    " ensure_installed = "maintained",
-    " highlight = {
-    " enable = true,
-    " additional_vim_regex_highlighting = true,
-    " },
-" }
-" EOF
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+    ensure_installed = "maintained",
+    highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = true,
+    },
+    playground = {
+        enable = true,
+        disable = {},
+        updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
+        persist_queries = false, -- Whether the query persists across vim sessions
+        keybindings = {
+          toggle_query_editor = 'o',
+          toggle_hl_groups = 'i',
+          toggle_injected_languages = 't',
+          toggle_anonymous_nodes = 'a',
+          toggle_language_display = 'I',
+          focus_language = 'f',
+          unfocus_language = 'F',
+          update = 'R',
+          goto_node = '<cr>',
+          show_help = '?',
+        },
+    }
+}
+EOF
 
 " Floaterm :config
 let g:floaterm_keymap_toggle = '<Leader>ft'
@@ -105,7 +150,18 @@ let g:floaterm_keymap_toggle = '<Leader>ft'
 " Markdown Preview :config
 let g:mkdp_auto_start = 0
 let g:mkdp_auto_close = 1
-let g:mkdp_browser = 'surf'
+
+function MkdpBrowserCommand(address)
+    execute "silent" "!surf" a:address "&"
+endfunction
+let g:mkdp_browserfunc='MkdpBrowserCommand'
+
+let g:mkdp_markdown_css = '/home/caden/.config/nvim/markdown.css'
+let g:mkdp_page_title = '${name}'
+let g:mkdp_port = '8675'
+let g:mkdp_preview_options = {
+    \ 'katex': {'fleqn': 'true'},
+    \ }
 
 " Surround :config
 lua require'surround'.setup{}
@@ -154,10 +210,6 @@ let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_json_frontmatter = 1
 let g:vim_markdown_toml_frontmatter = 1
 
-let g:mkdp_markdown_css = '/home/caden/.config/nvim/markdown.css'
-let g:mkdp_page_title = '${name}'
-let g:mkdp_port = '8675'
-
 augroup pandoc_syntax
     autocmd!
     autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
@@ -177,16 +229,33 @@ let g:NERDSpaceDelims = 1
 " GitGutter :config
 set signcolumn=auto
 
-augroup FGP
-    autocmd!
-    autocmd BufRead *.txt nnoremap <Leader>fgp
-                \ iThe fitnessgram pacer test is a multi-stage aerobic capacity test<esc>0
-augroup END
-
 " OmniSharp :config
 let g:OmniSharp_server_use_mono = 1
 
-" Nabla :config
+" NvimTree :config
+lua <<EOF
+    require'nvim-tree'.setup {}
+EOF
+
+" Vimtex :config
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+let g:vimtex_syntax_conceal = {
+      \ 'accents': 1,
+      \ 'cites': 1,
+      \ 'fancy': 1,
+      \ 'greek': 1,
+      \ 'math_bounds': 1,
+      \ 'math_delimiters': 1,
+      \ 'math_fracs': 1,
+      \ 'math_super_sub': 1,
+      \ 'math_symbols': 1,
+      \ 'sections': 0,
+      \ 'styles': 1,
+      \}
 
 """""""""""""""""
 " Other Config "
@@ -195,10 +264,10 @@ let g:OmniSharp_server_use_mono = 1
 " Colorscheme
 colorscheme everforest
 if has('termguicolors')
-	set termguicolors
+      set termguicolors
 endif
 set background=dark
-let g:everforest_background='soft'
+let g:everforest_background='hard'
 
 " Highlights
 hi Normal guibg=NONE ctermbg=NONE

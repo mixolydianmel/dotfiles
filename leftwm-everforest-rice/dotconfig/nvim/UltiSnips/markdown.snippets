@@ -139,7 +139,7 @@ snippet pm "Plus or Minus" iA
 endsnippet
 
 context "math()"
-snippet sq "Square Root" iA
+snippet sq "Square Root" wA
 \sqrt{$1}$0
 endsnippet
 
@@ -154,17 +154,17 @@ snippet -> "Right Arrow" iA
 endsnippet
 
 context "math()"
-snippet and "Logical and" iA
+snippet and "Logical and" wA
 \land
 endsnippet
 
 context "math()"
-snippet or "Logical or" iA
+snippet or "Logical or" wA
 \lor
 endsnippet
 
 context "math()"
-snippet not "Logical not" iA
+snippet not "Logical not" wA
 \lnot
 endsnippet
 
@@ -191,7 +191,7 @@ $3
 endsnippet
 
 context "math()"
-snippet all "For All" iA
+snippet all "For All" wA
 \forall
 endsnippet
 
@@ -211,7 +211,7 @@ snippet cup "Union" iA
 endsnippet
 
 context "math()"
-snippet in "Element Of" iA
+snippet in "Element Of" wA
 \in
 endsnippet
 
@@ -226,7 +226,7 @@ snippet bb "Double-Struck Letters" iA
 endsnippet
 
 context "math()"
-snippet lr{} "Bracket Pair" iA
+snippet {} "Bracket Pair" w
 \\\{ $1 \\\}$0
 endsnippet
 
@@ -251,12 +251,12 @@ snippet ceil "Ceiling Area" iA
 endsnippet
 
 context "math()"
-snippet () "Parentheses Pair" iA
+snippet () "Parentheses Pair" w
 \left( $1 \right)$0
 endsnippet
 
 context "math()"
-snippet lrfl "Floor Pair" iA
+snippet fl "Floor Pair" w
 \left\lfloor $1 \right\rfloor$0
 endsnippet
 
@@ -272,7 +272,7 @@ endsnippet
 
 context "math()"
 snippet sum "Summation Notation" iA
-\sum_{${3:${1:n} = ${2:1}}}^{${4:\infty}}$0
+\sum_{${3:${1:n} = ${2:1}}}${5:^{${4:\infty}}}$0
 endsnippet
 
 context "math()"
@@ -287,4 +287,14 @@ endsnippet
 
 snippet pe "Python Eval"
 `!p snip.rv=eval(snip.v.text)`
+endsnippet
+
+context "math()"
+snippet hl "Horizontal Line" wA
+\hline
+endsnippet
+
+context "math()"
+snippet ... "Dots" wA
+\dots
 endsnippet
