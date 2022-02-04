@@ -7,9 +7,47 @@ def math():
             return True
 
     return False
+
+# from https://github.com/SirVer/ultisnips/blob/master/doc/examples/tabstop-generation/README.md
+def create_matrix_placeholders(snip):
+	# Create anonymous snippet body
+	anon_snippet_body = ""
+
+	# Get start and end line number of expanded snippet
+	start = snip.snippet_start[0]
+	end = snip.snippet_end[0]
+
+  # Append current line into anonymous snippet
+	for i in range(start, end + 1):
+		anon_snippet_body += snip.buffer[i]
+		anon_snippet_body += "" if i == end else "\n"
+
+	# Delete expanded snippet line till second to last line
+	for i in range(start, end):
+		del snip.buffer[start]
+
+	# Empty last expanded snippet line while preserving the line
+	snip.buffer[start] = ''
+
+	# Expand anonymous snippet
+	snip.expand_anon(anon_snippet_body)
+
+def create_matrix(cols, rows):
+	res = ""
+	placeholder = 0
+	for col in range(0, int(cols)):
+		res += "    ccol {\n        "
+		placeholder = col + 1;
+		res += f"${placeholder}"
+		for row in range(0, int(rows) - 1):
+			placeholder = int(cols) * (row + 1) + col + 1;
+			res += f" above ${placeholder}"
+		res += "\n    }\n"
+	return res[:-1]
 endglobal  
 
 snippet fm "Front Matter" bA
+.fam CM
 .na
 .nr PS 12
 .nr PD 0v
@@ -19,6 +57,7 @@ snippet fm "Front Matter" bA
 .nr HY 0
 .EQ
 delim $$
+define comp \`type "binary" size 7 fat \(ci\`
 .EN
 endsnippet
 
@@ -29,7 +68,7 @@ ${3:.AU
 $2}
 ${5:.AI
 $4}
-${6:.2C}
+${6:.LP}
 $0
 endsnippet
 
@@ -137,8 +176,8 @@ snippet or "Logical Or" wA
 endsnippet
 
 context "math()"
-snippet tx "Roman Text" iA
-roman { $1 }$0
+snippet tt "Roman Text" iA
+roman { "$1" }$0
 endsnippet
 
 context "math()"
@@ -147,12 +186,12 @@ snippet impl "Implies" iA
 endsnippet
 
 context "math()"
-snippet all "For All" wA
+snippet AA "For All" wA
 \\(fa
 endsnippet
 
 context "math()"
-snippet exi "There Exists" iA
+snippet EE "There Exists" iA
 \\(te
 endsnippet
 
@@ -167,12 +206,12 @@ union
 endsnippet
 
 context "math()"
-snippet in "Element Of" wA
-\\(mo
+snippet 'in\ ' "Element Of" wrA
+\\(mo $0
 endsnippet
 
 context "math()"
-snippet nin "Element Of" iA
+snippet nin "Not Element Of" iA
 \\(nm
 endsnippet
 
@@ -191,20 +230,20 @@ snippet ps "Powerset" iA
 \\(wp
 endsnippet
 
-# context "math()"
-# snippet ceil "Ceiling Area" iA
-# left \lceil $1 \right \rceil$0
-# endsnippet
+context "math()"
+snippet ceil "Ceiling Area" iA
+left ceiling $1 right ceiling$0
+endsnippet
 
 context "math()"
 snippet () "Parentheses Pair" w
 left ( $1 right )$0
 endsnippet
 
-# context "math()"
-# snippet fl "Floor Pair" w
-# \left\lfloor $1 \right\rfloor$0
-# endsnippet
+context "math()"
+snippet fl "Floor Pair" w
+left floor $1 right floor$0
+endsnippet
 
 context "math()"
 snippet ~~ "Approximately" iA
@@ -274,3 +313,176 @@ snippet pc "Pic block" bA
 $1
 .PE$0
 endsnippet
+
+context "math()"
+snippet mtr "Matrix" wA
+matrix {
+    $1
+}$0
+endsnippet
+
+context "math()"
+snippet lcl "Left Column" wA
+lcol {
+    $1
+}$0
+endsnippet
+
+context "math()"
+snippet rcl "Right Column" wA
+rcol {
+    $1
+}$0
+endsnippet
+
+context "math()"
+snippet ccl "Center Column" wA
+ccol {
+    $1
+}$0
+endsnippet
+
+snippet bl "Bullet" bA
+.IP \(bu 2
+$0
+endsnippet
+
+snippet ibl "Indented Bullet" bA
+.RS
+.IP \(bu 2
+$1
+.RE$0
+endsnippet
+
+snippet idt "Indent" bA
+.RS
+$1
+.RE$0
+endsnippet
+
+snippet [] "Bracket Pair" w
+left [ $1 right ]$0
+endsnippet
+
+snippet {} "Brace Pair" w
+left { $1 right }$0
+endsnippet
+
+snippet lpl "Left Pile" wA
+lpile {
+    $1
+}$0
+endsnippet
+
+snippet rpl "Right Pile" wA
+rpile {
+    $1
+}$0
+endsnippet
+
+snippet ppl "Pile" wA
+pile {
+    $1
+}$0
+endsnippet
+
+snippet || "Bar Pair" w
+left | $1 right |$0
+endsnippet
+
+context "math()"
+snippet '([A-Za-z])(\d)' "auto subscript" wrA
+`!p snip.rv = match.group(1)` sub `!p snip.rv = match.group(2)`
+endsnippet
+
+context "math()"
+snippet '([A-Za-z])\ sub\ (\d\d)' "auto subscript2" wrA
+`!p snip.rv = match.group(1)` sub { `!p snip.rv = match.group(2)` }
+endsnippet
+
+context "math()"
+snippet RR "All Reals" wA
+fat roman R
+endsnippet
+
+context "math()"
+snippet cvec "Column Vector" wA
+left [ pile {
+    $1
+} right ]$0
+endsnippet
+
+post_jump "create_matrix_placeholders(snip)"
+snippet 'mat\ (\d+),(\d+)' "Matrix with Dimensions" wr
+left [ matrix {
+`!p
+snip.rv = create_matrix(match.group(2), match.group(1))
+`$0
+} right ]
+endsnippet
+
+snippet a= "Mark Equals" wA
+mark = $0
+endsnippet
+
+snippet e= "Lineup Equals" wA
+lineup = $0
+endsnippet
+
+snippet lim "Limit" wA
+limit from { ${1:n} } to { ${2:inf} }
+endsnippet
+
+snippet prod "Product" wA
+prod from { ${1:n=${2:1}} } to { ${3:inf} } ${4:${VISUAL}} $0
+endsnippet
+
+snippet ooo "Infinity" wA
+inf
+endsnippet
+
+snippet __ "Subscript" iA
+ sub { $1 }$0
+endsnippet
+
+snippet xnn "xn" iA
+x sub n
+endsnippet
+
+snippet xmm "xm" iA
+x sub m
+endsnippet
+
+snippet xii "xi" iA
+x sub i
+endsnippet
+
+snippet xjj "xj" iA
+x sub j
+endsnippet
+
+snippet R0+ "R0+" iA
+R sub 0 sup +
+endsnippet
+
+snippet xx "Cross" iA
+times
+endsnippet
+
+snippet norm "Normalized" iA
+\| $1 \|$0
+endsnippet
+
+snippet len "Length" iA
+\|\| $1 \|\|$0
+endsnippet
+
+snippet dint "Integral" wA
+int from { ${1:- inf} } to { ${2:inf} } ${3:${VISUAL}} $0
+endsnippet
+
+snippet invs "Inverse" iA
+sup { -1 }
+endsnippet
+
+
