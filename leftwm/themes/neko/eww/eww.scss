@@ -1,0 +1,174 @@
+$rosewater: #f5e0dc;
+$flamingo:  #f2cdcd;
+$pink:      #f5c2e7;
+$mauve:     #cba6f7;
+$red:       #f38ba8;
+$maroon:    #eba0ac;
+$peach:     #fab387;
+$yellow:    #f9e2af;
+$green:     #a6e3a1;
+$teal:      #94e2d5;
+$sky:       #89dceb;
+$sapphire:  #74c7ec;
+$blue:      #89b4fa;
+$lavender:  #b4befe;
+$text:      #cdd6f4;
+$subtext1:  #bac2de;
+$subtext0:  #a6adc8;
+$overlay2:  #9399b2;
+$overlay1:  #7f849c;
+$overlay0:  #6c7086;
+$surface2:  #585b70;
+$surface1:  #45475a;
+$surface0:  #313244;
+$base:      #1e1e2e;
+$mantle:    #181825;
+$crust:     #11111b;
+
+* {
+  all: unset;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav {
+  background-color: $base;
+}
+
+.top {
+  margin-top: 2rem;
+}
+
+.bottom {
+  margin-bottom: 2rem;
+}
+
+.icon {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.desktop {
+  font-size: 24pt;
+}
+
+.focused {
+  font-size: 32pt;
+  color: $pink;
+  font-weight: bold;
+}
+
+.busy {
+  color: $overlay0;
+  font-weight: 500;
+}
+
+.empty {
+  color: $surface1;
+}
+
+.network_module {
+  margin-right: 2rem;
+}
+
+.network_module label {
+  margin-left: 2rem;
+}
+
+.netup_none {
+  color: $surface1;
+}
+
+.netdn_none {
+  color: $surface1;
+}
+
+.netup_some {
+  color: $green;
+}
+
+.netdn_some {
+  color: $red;
+}
+
+.sysinfo {
+  font-size: 5rem;
+}
+
+.ram_module {
+  color: $peach;
+}
+
+.ram_label {
+  font-size: 24pt;
+}
+
+.cpu_module {
+  color: $mauve;
+}
+
+.cpu_label {
+  font-size: 24pt;
+}
+
+.disk_module {
+  color: $blue;
+}
+
+.disk_label {
+  font-size: 24pt;
+}
+
+.bat_module {
+  font-size: 32pt;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.bat_label {
+  margin-left: 2rem;
+}
+
+.bat_scale {
+  margin-left: 3rem;
+}
+
+scale trough {
+  all: unset;
+  background-color: $surface1;
+  border-radius: 5px;
+  min-height: 80px;
+  min-width: 15px;
+}
+
+.bat_scale trough highlight {
+  background-color: $yellow;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.bat_label {
+  color: $yellow;
+}
+
+.timedate_module {
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.time {
+  margin-left: 2rem;
+  margin-right: 0px;
+  padding-right: 0px;
+  font-size: 18pt;
+  font-weight: 900;
+}
+
+.date label {
+  margin-left: 2rem;
+  margin-right: 0px;
+  padding-right: 0px;
+  font-size: 18pt;
+  font-weight: 900;
+}

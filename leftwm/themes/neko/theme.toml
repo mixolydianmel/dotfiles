@@ -1,0 +1,11 @@
+border_width = 5
+margin = 24
+
+default_border_color = '#1e1e2e'
+floating_border_color = '#1e1e2e'
+focused_border_color = '#1e1e2e'
+# focused_border_color = '#313244'
+
+# [[gutter]]
+# side = "Top"
+# value = 82

@@ -1,0 +1,118 @@
+* {
+    all: unset;
+}
+
+window {
+    background-color: #1E1E2E;
+    color: #D9E0EE;
+    border-bottom: 4px solid #C9CBFF;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 18pt;
+    // border-radius: 15px;
+}
+
+.divider {
+    color: #C9CBFF;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 4px;
+}
+
+.emoji {
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-right: 1.25rem;
+    min-height: 1em;
+    color: #F5E0DC;
+}
+
+.slider-vol scale trough highlight {
+    all: unset;
+    background-color: #C9CBFF;
+    color: #302D41;
+    border-radius: 10px;
+    min-width: 1em;
+}
+
+.slider-vol scale trough {
+    all: unset;
+    background-color: #302D41;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-ram scale trough highlight {
+    all: unset;
+    background-color: #C9CBFF;
+    color: #302D41;
+    border-radius: 10px;
+}
+
+.slider-ram scale trough {
+    all: unset;
+    background-color: #302D41;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-power scale trough highlight {
+    all: unset;
+    background-color: #C9CBFF;
+    color: #302D41;
+    border-radius: 10px;
+}
+
+.slider-power scale trough {
+    all: unset;
+    background-color: #302D41;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-cpu scale trough highlight {
+    all: unset;
+    background-color: #C9CBFF;
+    color: #302D41;
+    border-radius: 10px;
+}
+
+.slider-cpu scale trough {
+    all: unset;
+    background-color: #302D41;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-vol {
+    padding-left: 10px;
+}
+
+.workspaces button {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.ws-button-mine {
+    color: #C9CBFF;
+}
+
+.ws-layout {
+    margin-left: 25px;
+    padding-right: 25px;
+}
+
+.time {
+    margin-right: 25px;
+}

@@ -1,0 +1,98 @@
+* {
+    all: unset;
+}
+
+window {
+    background-color: #323d43;
+    color: #d8cacc;
+    border: 3px solid #a7c080;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 16pt;
+}
+
+
+.slider-vol scale trough highlight {
+    all: unset;
+    background-color: #a7c080;
+    color: #525c62;
+    border-radius: 10px;
+}
+
+.slider-vol scale trough {
+    all: unset;
+    background-color: #525c62;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-ram scale trough highlight {
+    all: unset;
+    background-color: #a7c080;
+    color: #525c62;
+    border-radius: 10px;
+}
+
+.slider-ram scale trough {
+    all: unset;
+    background-color: #525c62;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-power scale trough highlight {
+    all: unset;
+    background-color: #a7c080;
+    color: #525c62;
+    border-radius: 10px;
+}
+
+.slider-power scale trough {
+    all: unset;
+    background-color: #525c62;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-cpu scale trough highlight {
+    all: unset;
+    background-color: #a7c080;
+    color: #525c62;
+    border-radius: 10px;
+}
+
+.slider-cpu scale trough {
+    all: unset;
+    background-color: #525c62;
+    border-radius: 50px;
+    min-height: 0.5em;
+    min-width: 4em;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.slider-vol {
+    padding-left: 10px;
+}
+
+.workspaces button {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.ws-button-mine {
+    color: #a7c080;
+}
+
+.ws-layout {
+    margin-left: 25px;
+    padding-right: 25px;
+}

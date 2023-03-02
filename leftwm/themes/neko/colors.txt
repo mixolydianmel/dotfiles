@@ -1,0 +1,43 @@
+foreground            #D9E0EE
+background            #1E1E2E
+selection_foreground  #D9E0EE
+selection_background  #575268
+url_color             #F5E0DC
+cursor                #F5E0DC
+cursor_text           #1E1E2E
+
+# black
+color0   #6E6C7E
+color8   #988BA2
+
+# red
+color1   #F28FAD
+color9   #F28FAD
+
+# green
+color2   #ABE9B3
+color10  #ABE9B3
+
+# yellow
+color3   #FAE3B0
+color11  #FAE3B0
+
+# blue
+color4  #96CDFB
+color12 #96CDFB
+
+# magenta
+color5   #F5C2E7
+color13  #F5C2E7
+
+# cyan
+color6   #89DCEB
+color14  #89DCEB
+
+# white
+color7   #C3BAC6
+color15  #D9E0EE
+
+# extra
+color16  #C9CBFF            -- Lavender
+color17  #F5E0DC            -- Rosewater

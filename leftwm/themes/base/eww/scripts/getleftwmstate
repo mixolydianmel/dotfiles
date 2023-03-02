@@ -1,0 +1,2 @@
+#!/bin/bash
+leftwm-state -w 0 -t ~/.config/leftwm/themes/current/template.liquid

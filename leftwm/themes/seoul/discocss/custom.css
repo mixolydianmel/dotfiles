@@ -1,0 +1,235 @@
+/**
+ * @name seoul256
+ * @author cadenhenrich
+ * @version 0.0.1
+ * @description A simple implementation of the seoul256 hash algorithm.
+ * @source https://github.com/junegunn/seoul256.vim
+ **/
+
+:root {
+	--foreground:       #d8d8d8;
+	--background:       #4b4b4b;
+	--black:            #606060;
+	--red:              #df9a98;
+	--green:            #719672;
+	--yellow:           #e0bb71;
+	--blue:             #96bbdc;
+	--magenta:          #dfbdbc;
+	--cyan:             #97bcbc;
+	--white:            #d8d8d8;
+	--brightblack:      #757575;
+	--brightred:        #e07798;
+	--brightgreen:      #97bb98;
+	--brightyellow:     #ffdd98;
+	--brightblue:       #badcfb;
+	--brightmagenta:    #ffbebc;
+	--brightcyan:       #96ddde;
+	--brightwhite:      #e9e9e9;
+}
+
+.theme-dark {
+	--header-primary: var(--white) !important;
+	--header-secondary: var(--magenta) !important;
+	--background-primary: var(--background) !important;
+	--background-primary-alt: var(--black) !important;
+	--background-mobile-primary: var(--background) !important;
+	--background-secondary: var(--black) !important;
+	--background-secondary-alt: var(--brightblack) !important;
+	--background-mobile-secondary: var(--black) !important;
+	--background-tertiary: var(--brightblack) !important;
+	--background-floating: var(--background) !important;
+	--background-mentioned: var(--black) !important;
+	--background-mentioned-hover: var(--brightyellow) !important;
+	--background-accent: var(--brightblack) !important;
+	--background-modifier-selected: var(--background) !important;
+	--background-modifier-accent: var(--background) !important;
+	--background-modifier-hover: var(--black) !important;
+	--text-normal: var(--foreground) !important;
+	--text-muted: var(--brightblack) !important;
+	--text-link: var(--blue) !important;
+	--text-mentioned: var(--background) !important;
+	--channels-default: var(--foreground) !important;
+	--channeltextarea-background: var(--black) !important;
+	--activity-card-background: var(--background) !important;
+	--interactive-normal: var(--foreground) !important;
+	--interactive-muted: var(--brightblack) !important;
+	--interactive-hover: var(--red) !important;
+	--interactive-active: var(--red) !important;
+	--scrollbar-thin-thumb: var(--black) !important;
+	--scrollbar-thin-track: transparent !important;
+	--scrollbar-auto-thumb: var(--black) !important;
+	--scrollbar-auto-track: var(--brightblack) !important;
+	--scrollbar-auto-scrollbar-color-thumb: var(--brightblack) !important;
+	--scrollbar-auto-scrollbar-color-track: var(--brightblack) !important;
+	--deprecated-store-bg: var(--black) !important;
+}
+
+/* Mentions */
+.mentioned-Tre-dv .mention.interactive {
+	color: var(--foreground) !important;
+}
+
+.mentioned-Tre-dv::before {
+	background-color: var(--foreground) !important;
+}
+
+/* Home */
+.container-2cd8Mz {
+	background-color: var(--background) !important;
+}
+
+/* Autocomplete popup */
+.autocomplete-3NRXG8 {
+	background-color: var(--background) !important;
+}
+
+.wrapper-1NNaWG.categoryHeader-OpJ1Ly {
+	background-color: var(--background) !important;
+}
+
+.autocomplete-3NRXG8 {
+	background-color: var(--background) !important;
+}
+
+/* Autocomplete popup selection */
+.selected-3H3-RC {
+	background-color: var(--black) !important;
+}
+
+/* Search: Items */
+.container-2McqkF {
+	background-color: var(--brightblack) !important;
+}
+
+.searchOption-351dTI:hover {
+	background-color: var(--black) !important;
+}
+
+/* Search: No shadows */
+.option-ayUoaq:after {
+	background: none !important;
+}
+
+/* Search: in-section */
+.queryContainer-ZunrLZ {
+	background-color: var(--brightblack) !important;
+}
+
+/* Search: History */
+.option-ayUoaq:hover {
+	background-color: var(--black) !important;
+}
+
+/* IN ORDER: New-Unreads-Btn,jumpToPresentBar,CTRL+K,searchFilterOption */
+.bar-2eAyLE,.jumpToPresentBar-1cEnH0,.input-3r5zZY,.searchFilter-2UfsDk {
+	background-color: var(--brightblack) !important;
+}
+
+/* New Message Bar */
+.newMessagesBar-1hF-9G:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: var(--brightblack) !important;
+	border-radius:0 0 3px 3px;
+}
+
+/* New Messages Flag */
+.isUnread-3Lojb- {
+	border-color: var(--brightblack) !important;
+}
+
+.unreadPill-3nEWYM {
+	background-color: var(--brightblack) !important;
+}
+
+.unreadPillCapStroke-1nE1Q8 {
+	fill: var(--brightblack) !important;
+	color: var(--brightblack) !important;
+}
+
+.isUnread-3Lojb- .content-3spvdd {
+	color: var(--brightblack) !important;
+}
+
+/* Server Modals */
+.root-g14mjS,
+.separator-2lLxgC {
+	background-color: var(--background) !important;
+}
+
+.footer-31IekZ {
+	background-color: var(--background) !important;
+}
+
+/* Boost Page */
+.perksModal-CLcR1c {
+	background-color: var(--background) !important;
+}
+
+.tierMarkerBackground-G8FoN4 {
+	background-color: var(--background) !important;
+}
+
+/* Emoji Popout */
+.popoutContainer-2wbmiM {
+	background-color: var(--background) !important;
+}
+
+/* Presence Buttons */
+.lookFilled-yCfaCM.colorGrey-2iAG-B,
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+	background-color: var(--black) !important;
+}
+
+/* Primary Card */
+.cardPrimary-3qRT__ {
+	background-color: var(--brightblack) !important;
+}
+
+/* Payment Page Boxes */
+.paymentPane-ut5qKZ,
+.paginator-1eqD2g,
+.payment-2bOh4k,
+.codeRedemptionRedirect-3SBiCp {
+	background-color: var(--brightblack) !important;
+}
+
+.bottomDivider-ZmTm-j {
+	border-bottom-color: var(--background) !important;
+}
+
+/* Selection */
+::-moz-selection {
+	color: var(--foreground) !important;
+	background: var(--brightblack) !important;
+}
+
+::selection {
+	color: var(--foreground) !important;
+	background: var(--brightblack) !important;
+}
+
+/**
+* Uncomment to change the home button to a GIF of a cat popping
+div[aria-label = "Home"] > div:hover {
+	background-image: url("https://raw.githubusercontent.com/catppuccin/discord/master/assets/popcat.gif");
+	background-blend-mode: normal;
+	background-size: contain;
+}
+
+div[aria-label = "Home"] > div:hover > svg {
+	transition: opacity 1s ease-in-out;
+	opacity: 0;
+}
+
+div[aria-label = "Home"] > div > svg {
+	color: white;
+	stroke: black;
+	stroke-width: 0.3px;
+}
+**/
+

@@ -1,0 +1,104 @@
+<eww>
+    <definitions>
+        <def name="barleft">
+            <box orientation="h" halign="end">
+                <workspaces/>
+            </box>
+        </def>
+        <def name="barright">
+            <box space-evenly="false" spacing="10" orientation="h" halign="end" hexpand="true">
+                <volume/>
+                <ram/>
+                <cpu/>
+                <power/>
+                <date/>
+                <time/>
+            </box>
+        </def>
+
+        <def name="workspaces">
+            <box orientation="h" class="workspaces" space-evenly="false" halign="center" valign="center">
+                <label text="" class="emoji"/>
+                <literal valign="center" content='{{wm-tags}}' />
+                <literal valign="center" content='{{workspace-layout}}' />
+            </box>
+        </def>
+        <def name="workspace-window">
+            <!-- We use 'class="music"' here to make the snippet instant compatible with the `eww.scss` in the example bar -->
+            <box orientation="h" class="music" halign="start" space-evenly="false">
+                <box></box>
+                <box>{{workspace-window}}</box>
+            </box>
+        </def>
+        <def name="volume">
+            <box orientation="h" class="slider-vol" space-evenly="false">
+                <box class="label-vol">ﱘ</box>
+                <scale min="0" max="101" value="{{volume}}" onchange="amixer -D pulse sset Master {}%"/>
+            </box>
+        </def>
+        <def name="ram">
+            <box orientation="h" class="slider-ram" space-evenly="false">
+                <box class="label-ram"></box>
+                <scale min="0" active="false" max="101" value="{{ram-used}}"/>
+            </box>
+        </def>
+        <def name="time">
+            <box class="time"> {{hour}}:{{min}}</box>
+        </def>
+        <def name="date">
+            <box class="date"> {{day_name}}, {{number_day}} {{month}} {{year_full}}</box>
+        </def>
+        <def name="power">
+            <box orientation="h" class="slider-power" space-evenly="false">
+                <box class="label-power">{{label-power}}</box>
+                <scale min="0" active="false" max="101" value="{{power-remaining}}"/>
+            </box>
+        </def>
+        <def name="cpu">
+            <box orientation="h" class="slider-cpu" space-evenly="false">
+                <box class="label-cpu">﬙</box>
+                <scale min="0" active="false" max="101" value="{{cpu-used}}"/>
+            </box>
+        </def>
+    </definitions>
+
+    <variables>
+        <script-var name="volume" interval="16ms">amixer -D pulse sget Master | rg 'Left:' | awk -F'[][]' '{ print $2 }' | tr -d '%'</script-var>
+
+        <script-var name="day_name" interval="5h">date "+%a"</script-var>
+        <script-var name="number_day" interval="5h">date "+%d"</script-var>
+        <script-var name="month" interval="10h">date "+%b"</script-var>
+        <script-var name="min" interval="10s">date "+%M"</script-var>
+        <script-var name="hour" interval="1m">date "+%H"</script-var>
+        <script-var name="year_full" interval="15h">date "+%Y"</script-var>
+
+        <script-var name="ram-used" interval="1s">printf "%.0f\n" $(free -m | rg Mem | awk '{print ($3/$2)*100}')</script-var>
+
+        <script-var name="cpu-used" interval="1s">top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}' | sed "s/\..*//g"</script-var>
+
+        <script-var name="power-remaining" interval="2m">cat /sys/class/power_supply/BAT0/capacity</script-var>
+
+        <script-var name="label-power" interval="5s">cat /sys/class/power_supply/BAT0/status | rg D >/dev/null && echo -n "" || echo -n "ﮣ"</script-var>
+
+        <script-var name="wm-tags">~/.config/eww/scripts/getleftwmstate</script-var>
+        <script-var name="workspace-layout">~/.config/eww/scripts/getleftwmlayout</script-var>
+        <script-var name="workspace-window" interval="5s">leftwm-state -w 0 -q -s "{{ window_title }}"</script-var>
+    </variables>
+
+    <windows>
+        <window name="barleft" screen="0">
+            <geometry x="26px" y="26px" width="1%" height="58px"/>
+            <reserve side="top" distance="4%"/>
+            <widget>
+                <barleft/>
+            </widget>
+        </window>
+        <window name="barright" screen="0">
+            <geometry anchor="top right" x="-26px" y="26px" width="1%" height="58px"/>
+            <reserve side="left" distance="20px"/>
+            <widget>
+                <barright/>
+            </widget>
+        </window>
+    </windows>
+</eww>

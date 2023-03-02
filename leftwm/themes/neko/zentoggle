@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+(eww windows | rg "\*" >/dev/null) &&
+  (leftwm-command "SetMarginMultiplier 0"; eww close-all) ||
+  (leftwm-command "SetMarginMultiplier 1"; eww open nav)

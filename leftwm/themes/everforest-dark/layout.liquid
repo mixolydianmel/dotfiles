@@ -1,0 +1,28 @@
+{% assign open = '<label class="ws-layout" text="' %}
+{% assign close = '"/>' %}
+{% case workspace.layout %}
+{% when "MainAndVertStack" %}
+{{open}}{{ "ײַ" }}{{close}}
+{% when "MainAndHorizontalStack" %}
+{{open}}{{ "ﬠ" }}{{close}}
+{% when "MainAndDeck" %}
+{{open}}{{ "﬷" }}{{close}}
+{% when "GridHorizontal" %}
+{{open}}{{ "ﱖ" }}{{close}}
+{% when "EvenHorizontal" %}
+{{open}}{{ "יִ" }}{{close}}
+{% when "EvenVertical" %}
+{{open}}{{ "ﬡ" }}{{close}}
+{% when "Fibonacci" %}
+{{open}}{{ "" }}{{close}}
+{% when "CenterMain" %}
+{{open}}{{ "" }}{{close}}
+{% when "CenterMainBalanced" %}
+{{open}}{{ "𢡄" }}{{close}}
+{% when "Monocle" %}
+{{open}}{{ "" }}{{close}}
+{% when "RightWiderLeftStack" %}
+{{open}}{{ "ﯼ" }}{{close}}
+{% when "LeftWiderRightStack" %}
+{{open}}{{ "ﯻ" }}{{close}}
+{% endcase %}

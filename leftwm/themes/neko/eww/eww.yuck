@@ -1,0 +1,154 @@
+(deflisten leftwm :initial ""
+  `leftwm state`)
+(defpoll dow :interval "1s"
+              :initial "Monday"
+  `date "+%A"`)
+(defpoll day :interval "1s"
+              :initial "1"
+  `date "+%d"`)
+(defpoll month :interval "1s"
+              :initial "January"
+  `date "+%B"`)
+(defpoll year :interval "1s"
+              :initial "1970"
+  `date "+%Y"`)
+(defpoll time :interval "1s"
+              :initial "00:00"
+  `date "+%H:%M"`)
+(defvar radial-thickness 15)
+
+(defwindow nav
+           :monitor 0
+           :geometry (geometry :x "1%"
+                               :y "0px"
+                               :width "5%"
+                               :height "96%"
+                               :anchor "center left")
+           :stacking "fg"
+           :reserve (struts :distance "6%" :side "left")
+           :windowtype "dock"
+           :wm-ignore false
+  (box :orientation "v"
+       :vexpand false
+       :hexpand false
+       :spacing 100
+    (box :class "top" :orientation "v" :space-evenly false :hexpand false
+         :spacing 50 :valign "start"
+     (icon)
+     (desktop))
+    (box :class "bottom" :orientation "v" :space-evenly false
+         :valign "end" :spacing 10 :hexpand false
+      (sysinfo)
+      (bat)
+      (timedate))))
+
+(defwidget icon []
+  (box :orientation "v"
+       :class "icon"
+       :vexpand false
+       :hexpand false
+       :space-evenly false
+    (label :text "ね")
+    (label :text "こ")))
+
+
+(defwidget desktop []
+  (box :class "desktop"
+       :orientation "v"
+       :vexpand false :hexpand false
+       :space-evenly false
+   (label :text "1" :class {leftwm.workspaces[0].tags[0].focused ? "focused" :
+                            leftwm.workspaces[0].tags[0].busy ? "busy" : "empty"})
+   (label :text "2" :class {leftwm.workspaces[0].tags[1].focused ? "focused" :
+                            leftwm.workspaces[0].tags[1].busy ? "busy" : "empty"})
+   (label :text "3" :class {leftwm.workspaces[0].tags[2].focused ? "focused" :
+                            leftwm.workspaces[0].tags[2].busy ? "busy" : "empty"})
+   (label :text "4" :class {leftwm.workspaces[0].tags[3].focused ? "focused" :
+                            leftwm.workspaces[0].tags[3].busy ? "busy" : "empty"})
+   (label :text "5" :class {leftwm.workspaces[0].tags[4].focused ? "focused" :
+                            leftwm.workspaces[0].tags[4].busy ? "busy" : "empty"})
+   (label :text "6" :class {leftwm.workspaces[0].tags[5].focused ? "focused" :
+                            leftwm.workspaces[0].tags[5].busy ? "busy" : "empty"})
+   (label :text "7" :class {leftwm.workspaces[0].tags[6].focused ? "focused" :
+                            leftwm.workspaces[0].tags[6].busy ? "busy" : "empty"})
+   (label :text "8" :class {leftwm.workspaces[0].tags[7].focused ? "focused" :
+                            leftwm.workspaces[0].tags[7].busy ? "busy" : "empty"})
+   (label :text "9" :class {leftwm.workspaces[0].tags[8].focused ? "focused" :
+                            leftwm.workspaces[0].tags[8].busy ? "busy" : "empty"})))
+
+(defwidget sysinfo []
+  (box :class "sysinfo"
+       :hexpand false
+       :orientation "v"
+       :spacing 10
+       :valign "end"
+    (cpu)
+    (ram)
+    (disk)
+    (net)))
+
+(defwidget ram []
+  (overlay :class "ram_module"
+    (circular-progress :value {EWW_RAM.used_mem_perc / 2}
+                       :start-at 50
+                       :thickness radial-thickness
+                       :clockwise true)
+    (label :class "ram_label" :text "" :xalign 0.48673)))
+ 
+(defwidget cpu []
+  (overlay :class "cpu_module"
+    (circular-progress :value {EWW_CPU.avg / 2}
+                       :start-at 50
+                       :thickness radial-thickness
+                       :clockwise true)
+    (label :class "cpu_label" :text "" :xalign 0.48673)))
+
+(defwidget disk []
+  (overlay :class "disk_module"
+    (circular-progress :value {EWW_DISK["/"].used_perc / 2}
+                       :start-at 50
+                       :thickness radial-thickness
+                       :clockwise true)
+    (label :class "disk_label" :text "" :xalign 0.48673)))
+
+(defwidget net []
+  (box :class "network_module"
+       :vexpand false
+       :hexpand false
+       :orientation "h"
+       :space-evenly true
+       :halign "center"
+    (label :class {EWW_NET["wlan0"].NET_UP <= 1000 ? "netup_none" : "netup_some"}
+           :text "ﰵ"
+           :halign "start")
+    (label :class {EWW_NET["wlan0"].NET_DOWN <= 1000 ? "netdn_none" : "netdn_some"}
+           :text "ﰬ"
+           :halign "end")))
+
+(defwidget bat []
+  (box :class "bat_module"
+       :vexpand false :hexpand false :space-evenly true
+       :orientation "h"
+       :halign "center"
+    (label :class "bat_label" :valign "center" :halign "start"
+           :text {EWW_BATTERY["BAT0"].status == "Discharging" ?  "" : "ﮣ"})
+    (scale :orientation "v" :class "bat_scale" :halign "end"
+           :min 0 :max 100
+           :active false
+           :onchange ""
+           :value {EWW_BATTERY["BAT0"].capacity}
+           :flipped true)))
+
+(defwidget timedate []
+  (box :class "timedate_module" :orientation "v"
+       :hexpand false :vexpand false :halign "center"
+       :space-evenly false :spacing 10
+    (label :class "time" :text "${time}"
+           :halign "start" :hexpand false)
+    (box :class "date"
+         :orientation "v"
+         :halign "start" :hexpand false :vexpand false :space-evenly false
+      (label :class "dow" :halign "start" :text "${dow}")
+      (label :class "day" :halign "start" :text "${day}")
+      (label :class "month" :halign "start" :text "${month}")
+      (label :class "year" :halign "start" :text "${year}"))))
